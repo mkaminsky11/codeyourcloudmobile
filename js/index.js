@@ -242,10 +242,18 @@ function send_save(){
 }
 
 function send_new(){
-  sendData({
-    type: "new",
-    folder: current_folder_open
-  });
+  if($(".shared-with-me-check").css("display") === "none"){
+    sendData({
+      type: "new",
+      folder: current_folder_open
+    });
+  }
+  else{
+    sendData({
+      type: "new",
+      folder: root_folder
+    });
+  }
 }
 
 function send_text(val){
@@ -354,9 +362,7 @@ function deleteUser(id){
 }
 
 function insertChat(name, message, photo){
-  var old = Number($(".badge").html())
 
-  $(".badge").html((old + 1) + "");
 
   var img = "<img src='" + photo + "'>";
   if(img.indexOf("https://") === -1){

@@ -154,3 +154,11 @@
 .card{
 	width:calc(100% - 20px);
 }
+.about-content{
+	background-color:white;
+	text-align:center;
+	padding: 10px;
+}
+.about-content h4{
+	color: #34495E;
+}

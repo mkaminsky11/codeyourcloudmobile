@@ -108,7 +108,6 @@
                 <ion-item nav-clear menu-close ng-click="showChatModal()" class="item-icon-left chat-elem ripple-button">
                   <i class="icon ion-ios7-people-outline"></i>
                   Chat
-                  <span class="badge badge-assertive">0</span>
                 </ion-item>
                 <ion-item nav-clear menu-close ng-click="showColorModal()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-analytics"></i>
@@ -129,6 +128,10 @@
                 <ion-item nav-clear menu-close ng-click="showOptionModal()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-cog-outline"></i>
                   Options
+                </ion-item>
+                <ion-item nav-clear menu-close ng-click="showAboutModal()" class="item-icon-left ripple-button">
+                  <i class="icon ion-ios7-information-outline"></i>
+                  About
                 </ion-item>
                 <ion-item nav-clear menu-close ng-click="signOut()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-close-outline"></i>
@@ -437,6 +440,30 @@
               </label>
 
             </div>
+          </div>
+        </div>
+
+        <div class="new-modal about-modal hide">
+
+          <div class="bar bar-header bar-light">
+            <h1 class="title">About</h1>
+            <button class="button button-clear button-assertive icon ion-ios7-close-outline button-icon" ng-click="hideAboutModal()"></button>
+          </div>
+
+
+          <div class="new-modal-content about-content content">
+              <br/>
+              <h4>A port of the Code Your Cloud editor</h4>
+              <br/>
+              <img src="img/icon_128.png" style="margin-left:calc('50% - 32px')" width="64px">
+              <br/>
+              <h4>Made with Apache Cordova/Phonegap and the Ionic Framework</h4>
+              <br/>
+              <img src="img/ionic.png" style="margin-left:calc('50% - 32px')" width="64px">
+              <br/>
+              <h4>Developed by Michael Kaminsky</h4>
+
+          </div>
           </div>
         </div>
 

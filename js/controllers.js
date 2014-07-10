@@ -176,7 +176,6 @@ angular.module('starter.controllers', [])
 
   $scope.showChatModal = function(){
     slideIn(".chat-modal");
-    $(".badge").html("0");
 
     var d = $('#chat-list');
     d.scrollTop(d.prop("scrollHeight"));
@@ -184,6 +183,15 @@ angular.module('starter.controllers', [])
 
   $scope.hideChatModal = function(){
     slideOut(".chat-modal");
+  };
+
+  $scope.showAboutModal = function(){
+    slideIn(".about-modal");
+
+  };
+
+  $scope.hideAboutModal = function(){
+    slideOut(".about-modal");
   };
 
   $scope.showPreviewModal = function(){
