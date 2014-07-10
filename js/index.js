@@ -410,3 +410,13 @@ function ask_saveas(){
     save_as_dest = "";
     $("#saveas-input").val("Untitled.txt");
 }
+
+function check_shared(){
+  if($('#is_shared').prop('checked')){
+    //shared
+    show_shared_with_me()
+  }
+  else{
+    show_my_drive();
+  }
+}

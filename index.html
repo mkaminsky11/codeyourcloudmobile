@@ -159,18 +159,17 @@
 
           </div>
 
-          <div class="bar bar-subheader item-input-inset" style="padding:0;border-bottom:solid thin #ECF0F1">
-            <div class="my-drive" onclick="show_my_drive()">
-              <i class="icon ion-ios7-checkmark my-drive-check"></i>
-              My Drive
-            </div>
-            <div class="shared-with-me" onclick="show_shared_with_me()">
-              <i class="icon ion-ios7-checkmark shared-with-me-check"></i>
-              Shared
-              </div>
+          <div class="bar bar-subheader">
+              <span style="margin-left:5px;font-size:18px;position: absolute;bottom: 12px;">Shared with me</span>
+              <label class="toggle toggle-positive" style="float:right;right:10px;position:absolute;">
+                <input type="checkbox" id="is_shared" onchange="check_shared()">
+                <div class="track">
+                  <div class="handle"></div>
+                </div>
+              </label>
           </div>
 
-          <div class="new-modal-content content-with-subheader">
+          <div class="new-modal-content content-with-subheader" style="margin-top:100px">
             <div class="nothing" id="open-nothing" style="display:none">
               <h6>This Folder</h6>
               <h6><i class="icon ion-compass"></i></h6>
