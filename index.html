@@ -20,6 +20,11 @@
     <script src="js/global.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
+
+    <!--link rel="stylesheet" href="ripple/ripple.css"-->
+
+    <!--script src="components/platform/platform.js"></script>
+    <link rel="import" href="components/paper-checkbox/paper-checkbox.html"-->
   </head>
 
   <body ng-app="starter" ng-controller="AppCtrl">
@@ -48,10 +53,10 @@
                 <button class="button button-clear button-positive icon ion-navicon button-icon float-left" ng-click="toggleLeft()"></button>
 
                 <div class="button-bar main-button-bar">
-                  <button class="button button-clear button-positive icon ion-ios7-folder-outline button-icon" ng-click="showOpenModal()"></button>
-                  <button class="button button-clear button-positive icon ion-ios7-box-outline button-icon save-elem" ng-click="save()"></button>
-                  <button class="button button-clear button-positive icon ion-ios7-undo-outline button-icon" ng-click="undo()"></button>
-                  <button class="button button-clear button-positive icon ion-ios7-redo-outline button-icon" ng-click="redo()"></button>
+                  <button class="button ripple-button button-clear button-positive icon ion-ios7-folder-outline button-icon" ng-click="showOpenModal()"></button>
+                  <button class="button ripple-button button-clear button-positive icon ion-ios7-box-outline button-icon save-elem" ng-click="save()"></button>
+                  <button class="button ripple-button button-clear button-positive icon ion-ios7-undo-outline button-icon" ng-click="undo()"></button>
+                  <button class="button ripple-button button-clear button-positive icon ion-ios7-redo-outline button-icon" ng-click="redo()"></button>
                 </div>
               </div>
             <textarea id="editor" style="height: 100%"></textarea>
@@ -72,52 +77,60 @@
                   <button ng-click="okRename()" class="button button-small button-clear button-outline button-balanced icon ion-ios7-checkmark-empty"></button>
                   <button ng-click="noRename()" class="button button-small button-clear button-outline button-assertive icon ion-ios7-close-empty"></button>
                 </div>
-                <ion-item nav-clear menu-close ng-click="home()" class = "item-icon-left">
+                <ion-item nav-clear menu-close ng-click="home()" class = "item-icon-left ripple-button">
                   <i class="icon ion-ios7-home-outline"></i>
                   Home
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showOpenModal()" class="item-icon-left">
+                <ion-item nav-clear menu-close ng-click="showOpenModal()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-folder-outline"></i>
                   Open
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="save()" class="item-icon-left save-elem">
+                <ion-item nav-clear menu-close ng-click="save()" class="item-icon-left save-elem ripple-button">
                   <i class="icon ion-ios7-box-outline"></i>
                   Save
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="new()" class="item-icon-left">
+                <ion-item nav-clear menu-close ng-click="showSaveAsModal()" class="item-icon-left ripple-button">
+                  <i class="icon ion-ios7-box-outline"></i>
+                  Save As
+                </ion-item>
+                <ion-item nav-clear menu-close ng-click="new()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-plus-outline"></i>
                   New
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="share()" class="item-icon-left share-elem">
+                <ion-item nav-clear menu-close ng-click="share()" class="item-icon-left share-elem ripple-button">
                   <i class="icon ion-ios7-personadd-outline"></i>
                   Share
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showColModal()" class="item-icon-left col-elem">
+                <ion-item nav-clear menu-close ng-click="showColModal()" class="item-icon-left col-elem ripple-button">
                   <i class="icon ion-ios7-people-outline"></i>
                   Collaborators
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showChatModal()" class="item-icon-left chat-elem">
+                <ion-item nav-clear menu-close ng-click="showChatModal()" class="item-icon-left chat-elem ripple-button">
                   <i class="icon ion-ios7-people-outline"></i>
                   Chat
                   <span class="badge badge-assertive">0</span>
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showColorModal()" class="item-icon-left">
-                  <i class="icon ion-contrast"></i>
+                <ion-item nav-clear menu-close ng-click="showColorModal()" class="item-icon-left ripple-button">
+                  <i class="icon ion-ios7-analytics"></i>
                   Color
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showModeModal()" class="item-icon-left">
+                <ion-item nav-clear menu-close ng-click="showPreviewModal()" class="item-icon-left ripple-button">
+                  <i class="icon ion-ios7-eye-outline"></i>
+                  Preview
+                </ion-item>
+                <ion-item nav-clear menu-close ng-click="showModeModal()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-browsers-outline"></i>
                   Language
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showThemeModal()" class="item-icon-left">
-                  <i class="icon ion-ios7-analytics"></i>
+                <ion-item nav-clear menu-close ng-click="showThemeModal()" class="item-icon-left ripple-button">
+                  <i class="icon ion-ios7-settings"></i>
                   Theme
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="showOptionModal()" class="item-icon-left">
+                <ion-item nav-clear menu-close ng-click="showOptionModal()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-cog-outline"></i>
                   Options
                 </ion-item>
-                <ion-item nav-clear menu-close ng-click="signOut()" class="item-icon-left">
+                <ion-item nav-clear menu-close ng-click="signOut()" class="item-icon-left ripple-button">
                   <i class="icon ion-ios7-close-outline"></i>
                   Sign out
                 </ion-item>
@@ -143,28 +156,94 @@
 
           </div>
 
-          <div class="bar bar-subheader item-input-inset" style="padding:0">
+          <div class="bar bar-subheader item-input-inset" style="padding:0;border-bottom:solid thin #ECF0F1">
             <div class="my-drive" onclick="show_my_drive()">
-              <i class="icon ion-ios7-checkmark-empty my-drive-check"></i>
+              <i class="icon ion-ios7-checkmark my-drive-check"></i>
               My Drive
             </div>
             <div class="shared-with-me" onclick="show_shared_with_me()">
-              <i class="icon ion-ios7-checkmark-empty shared-with-me-check"></i>
+              <i class="icon ion-ios7-checkmark shared-with-me-check"></i>
               Shared
               </div>
           </div>
 
           <div class="new-modal-content content-with-subheader">
+            <div class="nothing" id="open-nothing" style="display:none">
+              <h6>This Folder</h6>
+              <h6><i class="icon ion-compass"></i></h6>
+              <h6>Is Empty</h6>
+            </div>
             <div class="list" id="open-list">
 
             </div>
 
-            <div class="list" id="shared-with-me-list" style="display:none">
-
-            </div>
           </div>
         </div>
 
+
+
+        <div class="new-modal saveas-modal hide">
+
+
+          <div class="bar bar-header bar-light">
+
+              <a class="my-drive-back button button-clear icon-left ion-ios7-arrow-thin-left button-positive" ng-click="goBack()"></a>
+
+              <a class="my-drive-new button button-outline button-positive" ng-click="saveas()" style="margin-left:10px">NEXT</a>
+
+              <h1 class="title" id="open-title">Destination</h1>
+
+
+              <button class="button button-clear button-assertive icon ion-ios7-close-outline button-icon" ng-click="hideSaveAsModal()"></button>
+
+          </div>
+
+          <div class="new-modal-content content-with-subheader">
+            <div class="nothing" id="saveas-nothing" style="display:none">
+              <h6>This Folder</h6>
+              <h6><i class="icon ion-compass"></i></h6>
+              <h6>Is Empty</h6>
+            </div>
+            <div class="list" id="saveas-list" style="display:none">
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="new-modal input-modal hide">
+          <div class="bar bar-header bar-light">
+              <h1 class="title" id="open-title">Save As</h1>
+              <button class="button button-clear button-assertive icon ion-ios7-close-outline button-icon" ng-click="clearSaveAs()"></button>
+          </div>
+
+          <div class="new-modal-content">
+            <div class="list">
+              <label class="item item-input">
+                <input type="text" placeholder="File Name" value="Untitled.txt" id="saveas-input">
+              </label>
+            </div>
+            <div class="padding">
+              <button class="button button-block button-positive" ng-click="ok_saveas()">OK</button>
+            </div>
+          </div>
+
+          </div>
+        </div>
+
+        <div class="new-modal preview-modal hide">
+          <div class="bar bar-header bar-light">
+              <h1 class="title" id="open-title">Preview</h1>
+              <button class="button button-clear button-assertive icon ion-ios7-close-outline button-icon" ng-click="hidePreviewModal()"></button>
+          </div>
+
+          <div class="new-modal-content">
+            <iframe id="preview" style="width:100%;height:100%"></iframe>
+          </div>
+
+          </div>
+        </div>
 
 
         <div class="new-modal mode-modal hide">
@@ -182,6 +261,11 @@
           </div>
 
           <div class="new-modal-content content-with-subheader">
+            <div class="nothing" id="mode-nothing" style="display:none">
+              <h6>No Languages Found</h6>
+              <h6><i class="icon ion-compass"></i></h6>
+              <h6>For This Input</h6>
+            </div>
             <div class="list" id="mode-list">
 
             </div>
@@ -204,6 +288,11 @@
           </div>
 
           <div class="new-modal-content content-with-subheader">
+            <div class="nothing" id="theme-nothing" style="display:none">
+              <h6>No Themes Found</h6>
+              <h6><i class="icon ion-compass"></i></h6>
+              <h6>For This Input</h6>
+            </div>
             <div class="list" id="theme-list">
 
             </div>
@@ -244,6 +333,7 @@
 
 
           <div class="new-modal-content">
+
             <div class="list" id="col-list">
 
             </div>
@@ -259,14 +349,13 @@
           </div>
 
 
-          <div class="new-modal-content">
-            <div class="list" id="chat-list">
+          <div class="new-modal-content" style="width:100%">
+            <div class="list" id="chat-list" style="width:100%">
 
             </div>
-            <textarea id="chat-input" placeholder="Send message..."></textarea>
+            <textarea id="chat-input" placeholder="Send message..." class="item item-input"></textarea>
           </div>
         </div>
-
 
         <div class="new-modal option-modal hide">
 
@@ -288,6 +377,7 @@
                  </label>
               </li>
 
+
               <li class="item item-toggle">
                  Line Wrap
                  <label class="toggle toggle-positive">
@@ -303,9 +393,7 @@
               </div>
 
               <div class="item range range-positive">
-                <i class="icon ion-minus-round"></i>
                 <input type="range" name="volume" min="8" max="30" value="14" id="font">
-                <i class="icon ion-plus-round"></i>
               </div>
 
             </div>
@@ -329,22 +417,16 @@
               </li>
 
               <div class="item range range-assertive">
-                <i class="icon ion-ios7-lightbulb-outline"></i>
                 <input class="color-input" id="red" type="range" name="color-red" min="0" max="255" value="55">
-                <i class="icon ion-ios7-lightbulb"></i>
               </div>
 
               <div class="item range range-balanced">
-                <i class="icon ion-ios7-lightbulb-outline"></i>
                 <input class="color-input" id="green" type="range" name="color-green" min="0" max="255" value="55">
-                <i class="icon ion-ios7-lightbulb"></i>
               </div>
 
               <div class="item range range-positive">
-                <i class="icon ion-ios7-lightbulb-outline"></i>
                 <input class="color-input"
                 id="blue" type="range" name="color-blue" min="0" max="255" value="55">
-                <i class="icon ion-ios7-lightbulb"></i>
               </div>
 
               <div class="item item-divider">
@@ -386,7 +468,9 @@
 		<script src="codemirror/addon/lint/json-lint.js"></script>
 		<link rel='stylesheet' type='text/css' href="codemirror/addon/lint/lint.css">
 
-  <script src="js/flip.js"></script>
+    <!--script src="ripple/ripple.js"></script-->
+
+    <script src="js/flip.js"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
     <script src="js/visual.js"></script>

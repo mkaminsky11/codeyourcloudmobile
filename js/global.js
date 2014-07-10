@@ -140,3 +140,5 @@ var my_sessionid = "";
 var my_photo = "";
 var my_name = "";
 var my_color = "";
+
+var save_as_dest = "";

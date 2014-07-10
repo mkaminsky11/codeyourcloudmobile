@@ -90,32 +90,29 @@ function file(){
 
 function show_my_drive(){
 
-	$(".my-drive").css("background-color","white");
-	$(".my-drive").css("color","black");
 
-	$(".shared-with-me").css("background-color","#95A5A6");
-	$(".shared-with-me").css("color","white");
 
 	$(".shared-with-me-check").css("display","none");
 	$(".my-drive-check").css("display","block");
 
 	$("#open-list").slideUp();
+	$("#saveas-list").slideUp();
 
 	show_picker(root_folder);
 }
 
 function show_shared_with_me(){
 
-	$(".shared-with-me").css("background-color","white");
-	$(".shared-with-me").css("color","black");
-
-	$(".my-drive").css("background-color","#95A5A6");
-	$(".my-drive").css("color","white");
 
 	$(".my-drive-check").css("display","none");
 	$(".shared-with-me-check").css("display","block");
 
 	$("#open-list").slideUp();
+	$("#saveas-list").slideUp();
 
 	ask_for_shared();
+}
+
+function all_ripple(){
+
 }

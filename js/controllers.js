@@ -143,6 +143,33 @@ angular.module('starter.controllers', [])
     slideIn(".col-modal");
   };
 
+  $scope.showSaveAsModal = function(){
+    slideIn(".saveas-modal");
+    show_picker(root_folder);
+  };
+
+  $scope.saveas = function(){
+    saveAs();
+  }
+
+  $scope.hideSaveAsModal = function(){
+    slideOut(".saveas-modal");
+    slideOut(".open-modal");
+
+    save_as_dest = "";
+  };
+
+  $scope.ok_saveas = function(){
+    slideOut(".input-modal");
+    ask_saveas();
+  };
+
+  $scope.clearSaveAs = function(){
+    slideOut(".input-modal");
+    save_as_dest = "";
+    $("#saveas-input").val("Untitled.txt");
+  };
+
   $scope.hideColModal = function(){
     slideOut(".col-modal");
   };
@@ -157,6 +184,24 @@ angular.module('starter.controllers', [])
 
   $scope.hideChatModal = function(){
     slideOut(".chat-modal");
+  };
+
+  $scope.showPreviewModal = function(){
+    var previewFrame = document.getElementById('preview');
+		var preview =  previewFrame.contentDocument ||  previewFrame.contentWindow.document;
+		preview.open();
+		var c = editor.getValue();
+		//if(editor.getOption("mode") === "text/x-markdown" || editor.getOption("mode") === "gfm"){
+			//c = converter.makeHtml(c);
+		//}
+		preview.write(c);
+		preview.close();
+
+    slideIn(".preview-modal");
+  };
+
+  $scope.hidePreviewModal = function(){
+    slideOut(".preview-modal");
   };
 
   $scope.share = function(){

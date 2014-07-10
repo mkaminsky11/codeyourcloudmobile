@@ -14,10 +14,12 @@ for(var i = 0; i < modes.length; i++){
 
 function checkModeSearch(){
   var query = $("#mode-search").val().toLowerCase();
+  $("#mode-nothing").css("display","block");
   $(".mode-item").each(function(index){
     var the_name = $(this).attr("data-name").toLowerCase();
     if(query.indexOf(the_name) !== -1 || the_name.indexOf(query) !== -1){
       $(this).removeClass("hide");
+      $("#mode-nothing").css("display","none");
     }
     else{
       $(this).addClass("hide");
@@ -35,10 +37,12 @@ $('#theme-search').keyup(function(e){
 
 function checkThemeSearch(){
   var query = $("#theme-search").val().toLowerCase();
+  $("#theme-nothing").css("display","block");
   $(".theme-item").each(function(index){
     var the_name = $(this).attr("data-name").toLowerCase();
     if(query.indexOf(the_name) !== -1 || the_name.indexOf(query) !== -1){
       $(this).removeClass("hide");
+      $("#theme-nothing").css("display","none");
     }
     else{
       $(this).addClass("hide");

@@ -122,8 +122,16 @@ function show_picker(id){
 }//ion-loading-c
 
 function display_picker(folder){
+  $("#saveas-nothing").css("display","block");
+  if(folder.length === 0){
+    $("#open-nothing").css("display","block");
+  }
+  else{
+    $("#open-nothing").css("display","none");
+  }
   //put the stuff you need
   $("#open-list").html("");
+  $("#saveas-list").html("");
   for(var a = 0; a < folder.length; a++){
     var name = folder[a].name;
     var f = folder[a].folder;
@@ -135,11 +143,16 @@ function display_picker(folder){
     if(f === true){
       icon = "<i class=\"icon ion-ios7-folder-outline\"></i>";
       right = " item-icon-right";
-      icon_right = "<i class=\"icon ion-ios7-arrow-right\"></i>";
+      icon_right = "<i class=\"icon ion-ios7-arrow-right\" style=\"left:calc(100% - 20px)\"></i>";
     }
 
-    var push = "<a class=\"item item-icon-left" + right +" open-item\" data-folder=\""+ f +"\" data-id=\""+id+"\" data-name=\""+name+"\">" + icon + trim(name) + icon_right + "</a>";
+    var push = "<a class=\"item item-icon-left ripple-button" + right +" open-item\" data-folder=\""+ f +"\" data-id=\""+id+"\" data-name=\""+name+"\">" + icon + trim(name) + icon_right + "</a>";
     $("#open-list").html( $("#open-list").html() + push);
+
+    if(f === true){
+      $("#saveas-list").html( $("#saveas-list").html() + push);
+      $("#saveas-nothing").css("display","none");
+    }
   }
 
   $(".open-item").each(function(index){
@@ -150,6 +163,7 @@ function display_picker(folder){
 
       if(folder === "true"){
         $("#open-list").slideUp();
+        $("#saveas-list").slideUp();
         current_folder_open = id;
         show_picker(id);
       }
@@ -159,8 +173,10 @@ function display_picker(folder){
     });
   });
   $("#open-list").slideDown();
+  $("#saveas-list").slideDown();
   //if you need to, show the picker, set the open html
   slideIn(".open-modal");
+  all_ripple();
 }
 
 function open_item(item){
@@ -191,6 +207,7 @@ function open_file(id){
 function go_back(){
   if(current_folder_open !== root_folder){
     $("#open-list").slideUp();
+    $("#saveas-list").slideUp();
     sendData({
       type: "back",
       folder: current_folder_open
@@ -345,9 +362,45 @@ function insertChat(name, message, photo){
   if(img.indexOf("https://") === -1){
     img = "<img src='https:" + photo + "'>";
   }
-  var to_push = "<a class='item item-avatar'>" + img + "<h2>" + name + "</h2><p>"+message+"</p></a>";
-  $("#chat-list").html($("#chat-list").html() + to_push);
+
+  var card = "<div class=\"card\">";
+  /*
+  <div class="card">
+  <div class="item item-text-wrap">
+    This is a basic Card with some text.
+  </div>
+  <div class="item item-divider">
+    I'm a Footer in a Card!
+  </div>
+</div>
+  */
+  var to_push = "<div class='item item-avatar'>" + img + "<h2>" + name + "</h2></div>";
+
+  card = card + to_push + "<div class=\"item item-text-wrap\">" + message + "</div></div>"
+
+  $("#chat-list").html($("#chat-list").html() + card);
 
   var d = $('#chat-list');
   d.scrollTop(d.prop("scrollHeight"));
+}
+
+function saveAs(){
+  slideOut(".saveas-modal");
+  slideOut(".open-modal");
+
+  save_as_dest = current_folder_open;
+
+  slideIn(".input-modal");
+}
+
+function ask_saveas(){
+    sendData({
+      type: "save_as",
+      data: editor.getValue(),
+      title: $("#saveas-input").val(),
+      folder: save_as_dest
+    });
+
+    save_as_dest = "";
+    $("#saveas-input").val("Untitled.txt");
 }

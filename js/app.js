@@ -29,6 +29,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     $(".CodeMirror").css("height","100%");
     $(".CodeMirror").css("line-height", "1");
     editor.refresh();
+
+    all_ripple();
     /*========
     =========*/
 
