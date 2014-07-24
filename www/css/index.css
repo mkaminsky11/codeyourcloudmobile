@@ -1,0 +1,379 @@
+body{
+  font-family: 'Roboto';
+}
+.open-container{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 0;
+}
+
+.file-container{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  padding: 0;
+  z-index: 12;
+}
+.open-header{
+  width: 100%;
+  height: 60px;
+  position:absolute;
+  top: 0;
+  background-color:#009688;
+  z-index: 3;
+}
+
+.file-header{
+  width: 100%;
+  height: 60px;
+  position:absolute;
+  top: 0;
+  background-color:#00897b;
+  z-index: 5;
+}
+
+.open-header paper-icon-button{
+  color:white;
+}
+
+.file-header paper-icon-button{
+  color:white;
+}
+
+.open-header-container{
+  width: calc(100%  - 10px);
+  height: calc(100% - 10px);
+  top: 15px;
+  left: 5px;
+  position: absolute;
+}
+
+.file-header-container{
+  width: calc(100%  - 10px);
+  height: calc(100% - 10px);
+  top: 15px;
+  left: 5px;
+  position: absolute;
+}
+
+
+.open-content{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 62px);
+  background-color: white;
+}
+
+.file-content{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+  background-color: #f5f5f5;
+}
+
+body{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+#open-back{
+  position:absolute;
+  left: 5px;
+}
+#open-menu{
+  position:absolute;
+  right: 5px;
+}
+#file-back{
+  position:absolute;
+  left: 5px;
+}
+#file-menu{
+  position:absolute;
+  right: 5px;
+}
+.open-list{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  bottom:0;
+}
+
+#open-1{
+  background-color: white;
+  border: 1px solid #F2EDED;
+}
+#open-2{
+  background-color:white;
+  border: 1px solid #F2EDED;
+}
+
+.open-item{
+  font-family: "Roboto";
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding: 5px 0px 5px 5px;
+  border-bottom: 1px solid #F2EDED;
+  color: red;
+}
+.open-item paper-ripple{
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  left: 0px;
+  padding: 5px;
+  margin-top: -5px;
+}
+.open-item .img-div{
+  width: 40px;
+  float: left;
+}
+.open-item img{
+  margin-top: 5px;
+  height: 40px;
+}
+.open-item .desc-div{
+  float:right;
+  width: calc(100% - 50px);
+  padding: 5px 5px 5px 5px;
+}
+.open-item h4{
+  margin: 0px 0px 7px;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #607D8B;
+  font-family: "Roboto-Light";
+}
+.open-item h6{
+  margin: 0px;
+  color: #808080;
+}
+.bottom-sheet{
+  left: 0;
+  width: 100%;
+  height: 200px;
+  position:absolute;
+  bottom:0;
+  z-index: 10;
+  background-color: white;
+  border-top: 1px solid #F2EDED;
+}
+.black-sheet-detect{
+  left: 0px;
+  background-color: black;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 9;
+}
+.sheet-item{
+  color: #72d572;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  margin-top: -1px;
+  padding: 5px;
+}
+.sheet-item h4{
+  margin: 5px 0px 0px 5px;
+  font-family: 'Roboto-Light';
+  color: rgb(55, 71, 79);
+  float: left;
+}
+.sheet-item core-icon{
+  margin-right: 5px;
+}
+.sheet-item paper-ripple{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  margin-top: -4px;
+}
+.sheet-item paper-toggle-button{
+  float: right;
+}
+.screen{
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  background-color: #00bfa5;
+  text-align: center;
+  color: #FFF;
+  z-index: 100;
+}
+.screen h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.screen h2{
+  font-family: "Lobster";
+  margin-top: 5px;
+}
+.screen paper-button{
+  background-color: rgba(255,255,255,0.4);
+}
+
+.about-modal{
+  background-color: #4db6ac;
+  color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+.about-modal paper-button{
+  color: #FFF;
+  background-color: #E84E40;
+  display: block;
+  width: 100px;
+  position: absolute;
+  left: calc(50% - 50px);
+  margin-top: 10px;
+  bottom: 50px;
+}
+
+.nothing{
+  text-align:center;
+  text-transform: uppercase;
+  font-size:20px;
+  font-family:'Roboto-Black';
+  color: #bdbdbd;
+}
+
+#new_fab{
+  background-color:#eefd40;
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  right: 10px;
+}
+
+.CodeMirror{
+  height: 100%;
+}
+
+#side{
+  z-index: 14;
+  position: absolute;
+  width: 85%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#side-detect{
+  z-index: 13;
+  left: 0px;
+  background-color: black;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.side-item{
+  font-family: "Roboto";
+  width: 100%;
+  height: 35px;
+  display: flex;
+  padding: 10px 5px 5px;
+  color: red;
+  font-size: 20px;
+}
+.side-item paper-ripple{
+  width: calc(100% - 10px);
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  padding: 5px;
+  margin-top: -10px;
+}
+.side-item core-icon{
+  margin-right: 10px;
+  color: #607D8B;
+}
+.side-item h4{
+  margin: 0px 0px 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #607D8B;
+  font-family: "Roboto-Light";
+  position:absolute;
+  left:40px;
+  margin-top:-23px
+}
+.hidden-icon{
+  color: white !important;
+}
+.side-sep{
+  border-bottom: 1px solid #F2EDED;
+}
+.side-header{
+  height: 40px;
+  width: calc(100% - 10px);
+  background-color: #E0E0E0;
+}
+.side-header paper-icon-button{
+  color: white;
+  position: absolute;
+  right: 10px;
+  background-color: #5677fc;
+  border-radius: 50%;
+  top:10px
+}
+.side-header paper-icon-button core-icon{
+  color: white;
+}
+
+.side-header h4{
+  position: absolute;
+  left: 30px;
+  font-size: 22px;
+  margin-top: 5px;
+  width: calc(100% - 100px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#rename-input{
+  padding: 5px;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 40px;
+  outline: medium none !important;
+  font-size: 20px;
+  font-family: "Roboto-Thin";
+  border: medium none;
+  border-bottom: 1px solid #F2EDED;
+}
+
+.hide{
+  display: none;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/paper.css" />
+        <link rel="stylesheet" type="text/css" href="css/modal.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <title>Code Your Cloud</title>
+
+        <script src="poly/platform/platform.js"></script>
+
+        <link rel="import" href="poly/polymer/polymer.html">
+        <link rel="import" href="poly/core-collapse/core-collapse.html">
+        <link rel="import" href="poly/core-drawer-panel/core-drawer-panel.html">
+        <link rel="import" href="poly/core-header-panel/core-header-panel.html">
+        <link rel="import" href="poly/core-icon-button/core-icon-button.html">
+        <link rel="import" href="poly/core-icons/core-icons.html">
+        <link rel="import" href="poly/core-input/core-input.html">
+        <link rel="import" href="poly/core-item/core-item.html">
+        <link rel="import" href="poly/core-meta/core-meta.html">
+        <link rel="import" href="poly/core-overlay/core-overlay.html">
+        <link rel="import" href="poly/core-scaffold/core-scaffold.html">
+        <link rel="import" href="poly/core-scroll-header-panel/core-scroll-header-panel.html">
+        <link rel="import" href="poly/core-toolbar/core-toolbar.html">
+
+        <link rel="import" href="poly/polymer/polymer.html">
+
+        <link rel="stylesheet" href="fonts/font.css">
+
+        <link rel="import" href="poly/paper-button/paper-button.html">
+        <link rel="import" href="poly/paper-checkbox/paper-checkbox.html">
+        <link rel="import" href="poly/paper-dialog/paper-dialog.html">
+        <link rel="import" href="poly/paper-fab/paper-fab.html">
+        <link rel="import" href="poly/paper-icon-button/paper-icon-button.html">
+        <link rel="import" href="poly/paper-input/paper-input.html">
+        <link rel="import" href="poly/paper-menu-button/paper-menu-button.html">
+        <link rel="import" href="poly/paper-progress/paper-progress.html">
+        <link rel="import" href="poly/paper-radio-button/paper-radio-button.html">
+        <link rel="import" href="poly/paper-radio-group/paper-radio-group.html">
+        <link rel="import" href="poly/paper-ripple/paper-ripple.html">
+        <link rel="import" href="poly/paper-shadow/paper-shadow.html">
+        <link rel="import" href="poly/paper-slider/paper-slider.html">
+        <link rel="import" href="poly/paper-tabs/paper-tabs.html">
+        <link rel="import" href="poly/paper-toast/paper-toast.html">
+        <link rel="import" href="poly/paper-toggle-button/paper-toggle-button.html">
+
+        <link href="css/font.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+
+
+    </head>
+    <body>
+
+        <div class="about-modal" style="display: block; top: 0%; text-align: center; display:none">
+          <br/><h3 style="font-family: 'Roboto-Black';">Made By Michael Kaminsky</h3>
+          <h5 style="font-family: 'Roboto-Light';">Using:</h5>
+          <h3 style="font-family: 'Roboto-Black';">Apache Cordova</h3>
+          <h5 style="font-family: 'Roboto-Light';">And</h5>
+          <h3 style="font-family: 'Roboto-Black';">Polymer</h3>
+          <img src="img/poly.svg" width="100px">
+          <paper-button label="Close" onclick="about_out()"></paper-button>
+        </div>
+
+
+        <div class="screen">
+          <h1>Code Your Cloud</h1>
+          <h2 style="font-family:'Lobster'">Mobile</h2>
+          <paper-button label="Sign In" id="on"></paper-button>
+          <h6 id="info">Version 1.0</h6>
+
+          <div class="spinner" style="display:none">
+            <div class="spinner-container container1">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+              <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container2">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+              <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container3">
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+              <div class="circle3"></div>
+              <div class="circle4"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--
+        START MODALS
+        -->
+        <div class="side-modal" id="lang-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <input type="text" id="mode-input" placeholder="Search Modes..." class="header-input">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('lang')"><paper-shadow z="3"></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <paper-radio-group selected="Text" id="mode-list">
+            </paper-radio-group>
+          </div>
+        </div>
+          
+        
+        <div class="side-modal" id="theme-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <input type="text" id="theme-input" placeholder="Search Themes..." class="header-input">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('theme')"><paper-shadow z="3"></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <paper-radio-group selected="code-your-cloud" id="theme-list">
+            </paper-radio-group>
+          </div>
+        </div>
+
+        <div class="side-modal" id="option-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('option')"><paper-shadow z="3"></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <div>
+              <!--wrap-->
+              <h4>Line Wrap</h4>
+              <paper-toggle-button id="wrap-toggle" checked></paper-toggle-button>
+            </div>
+            <div>
+              <!--numbers-->
+              <h4>Line Numbers</h4>
+              <paper-toggle-button id="num-toggle" checked></paper-toggle-button>
+            </div>
+            <div style="height:60px">
+              <!--font size-->
+              <h4>Font Size</h4>
+              <paper-slider pin snaps id="font-slider" value="12" max="30" step="1" style="width:100%;margin-top:30px"></paper-slider>
+            </div>
+          </div>
+        </div>
+
+      
+      
+      
+        <div class="side-modal" id="chat-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('chat')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <div id="chat-list">
+            
+            </div>
+            <div id="chat-footer">
+              <textarea id="chat-text" placeholder="Type something"></textarea>
+              <paper-icon-button icon="send" id="send-button" onclick="sendChat()"><paper-shadow z="2"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+        </div>
+          
+        <div class="side-modal" id="col-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('col')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <div id="col-list">
+              
+            </div>
+          </div>
+        </div>
+          
+        <div class="side-modal" id="preview-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('preview')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <iframe id="preview"></iframe>
+          </div>
+        </div>
+          
+        <div class="side-modal" id="lorem-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <input type="text" id="lorem-input" placeholder="Enter a Number" class="header-input" onchange="goLorem()" value="6">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('lorem')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <div id="lorem"></div>
+          </div>
+        </div>
+          
+        <div class="side-modal" id="color-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('color')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            
+            <div id="color-preview"></div>
+            
+            <div center horizontal layout>
+              <div>R</div>
+              <paper-slider min="0" max="255" value="100" id="red" editable></paper-slider>
+            </div>
+            
+            <div center horizontal layout>
+              <div>G</div>
+              <paper-slider min="0" max="255" value="100" id="green" editable></paper-slider>
+            </div>
+            
+            <div center horizontal layout>
+              <div>B</div>
+              <paper-slider min="0" max="255" value="100" id="blue" editable></paper-slider>
+            </div>
+            <br/>
+            <input type="text" onchange="adjustColorHex()" value="#646464" placeholder="A hex color" id="color-hex">
+          </div>
+        </div>
+          
+          
+        <div class="side-modal" id="share-modal" style="display:none">
+          <div class="side-modal-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="side-modal-header-container">
+              <input type="text" id="share-input" placeholder="Email to add..." class="header-input" onchange="addP()" autocomplete="off">
+              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('share')"><paper-shadow z="3"></paper-icon-button>
+            </div>
+          </div>
+          <div class="side-modal-content">
+            <div id="share-list">
+            </div>
+            <paper-fab id="new_fab" icon="refresh" onclick="checkP()"></paper-fab>
+          </div>
+        </div>
+        
+        <!--
+        END MODALS
+        -->
+      
+        <div class="open-container">
+          <div class="open-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="open-header-container">
+              <paper-icon-button icon="arrow-back" id="open-back" style="display:none" onclick="go_back()"></paper-icon-button>
+              <paper-icon-button icon="more-vert" id="open-menu" onclick="slide_up('#open-sheet')"></paper-icon-button>
+            </div>
+          </div>
+          <div class="open-content">
+
+            <div class="open-list" id="open-1">
+            </div>
+            <div class="open-list" id="open-2" style="display:none">
+            </div>
+            <paper-fab id="new_fab" icon="add" onclick="newFile()"></paper-fab>
+          </div>
+        </div>
+
+        <div class="file-container" style="display:none">
+          <div id="side" style="display:none">
+
+
+            <div class="side-item side-header">
+              <h4 id="title-elem">Title</h4>
+              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()"><paper-shadow z="1"></paper-shadow></paper-icon-button>
+            </div>
+            <input type="text" id="rename-input" value="title" style="display:none" onchange="okRename()">
+            <div class="side-item" onclick="save()">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="save"></core-icon>
+              <h4>Save</h4>
+            </div>
+            <div class="side-item" onclick="show_modal('chat')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="send" style="color:#42BD41"></core-icon>
+              <h4>Chat</h4>
+            </div>
+            <div class="side-item side-sep" onclick="show_modal('col')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="account-circle" style="color:#5677FC"></core-icon>
+              <h4>Collaborators</h4>
+            </div>
+            <div class="side-item" onclick="checkP()">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="folder-shared" class="hidden-icon"></core-icon>
+              <h4>Share</h4>
+            </div>
+            <div class="side-item" onclick="updatePreview();show_modal('preview')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="visibility" class="hidden-icon"></core-icon>
+              <h4>Preview</h4>
+            </div>
+            <div class="side-item" onclick="show_modal('lorem')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="text-format" class="hidden-icon"></core-icon>
+              <h4>Lorem</h4>
+            </div>
+            <div class="side-item side-sep" onclick="show_modal('color')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="invert-colors" class="hidden-icon"></core-icon>
+              <h4>Color</h4>
+            </div>
+
+            <div class="side-item" onclick="show_modal('lang')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="settings" class="hidden-icon"></core-icon>
+              <h4>Languages</h4>
+            </div>
+
+            <div class="side-item" onclick="show_modal('theme')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="settings" class="hidden-icon"></core-icon>
+              <h4>Themes</h4>
+            </div>
+
+            <div class="side-item" onclick="show_modal('option')">
+              <paper-ripple></paper-ripple>
+              <core-icon icon="settings"></core-icon>
+              <h4>Options</h4>
+            </div>
+
+          </div>
+          <div id="side-detect" style="display:none" onclick="hide_side()"></div>
+
+          <div class="file-header">
+            <paper-shadow z="1"></paper-shadow>
+            <div class="file-header-container">
+              <paper-icon-button icon="arrow-back" id="file-back" onclick="go_file_back()"></paper-icon-button>
+
+
+              <paper-icon-button icon="rotate-left" style="position:absolute;right:200px" onclick="editor.getDoc().undo()"></paper-icon-button>
+              <paper-icon-button icon="rotate-right" style="position:absolute;right:150px" onclick="editor.getDoc().redo();"></paper-icon-button>
+              <paper-icon-button icon="save" style="position:absolute;right:100px" onclick="save()"></paper-icon-button>
+              <paper-icon-button icon="send" style="position:absolute;right:50px" onclick="show_modal('chat')"></paper-icon-button>
+
+              <paper-icon-button icon="more-vert" id="file-menu" onclick="show_side()"></paper-icon-button>
+            </div>
+          </div>
+          <div class="file-content" id="editor">
+
+          </div>
+        </div>
+
+        <div class="black-sheet-detect" style="display:none" id="open-sheet-detect"></div>
+        <div class="bottom-sheet" style="display:none" id="open-sheet">
+          <div class="sheet-item" onclick="signOut()">
+            <h4><core-icon icon="exit-to-app"></core-icon> Sign Out</h4>
+          </div>
+          <div class="sheet-item">
+            <h4><core-icon icon="folder-shared"></core-icon> Shared With Me</h4>
+            <paper-toggle-button id="share_toggle" onchange="shared_change()" style="float:right;margin-right:10px;margin-top:10px"></paper-toggle-button>
+          </div>
+          <div class="sheet-item" onclick="about_in()">
+            <h4><core-icon icon="info"></core-icon> About</h4>
+          </div>
+        </div>
+
+        <iframe src="https://codeyourcloud.com/mobile/mobile.html" id="iframe" style="display:none"></iframe>
+
+        <script src="codemirror/lib/codemirror.js"></script>
+    		<link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    		<script src = 'codemirror/mode/css/css.js'></script>
+    		<script src = "codemirror/mode/mode.js"></script>
+    		<script src = "codemirror/mode/swift.js"></script>
+    		<link rel='stylesheet' type='text/css' href='codemirror/theme/theme.css'>
+    		<link rel='stylesheet' type='text/css' href='codemirror/theme/code-your-cloud.css'>
+        <link rel="stylesheet" href="codemirror/addon/dialog/dialog.css" >
+    		<script src="codemirror/addon/comment/comment.js" ></script>
+    		<script src="codemirror/addon/dialog/dialog.js" ></script>
+    		<script src="codemirror/addon/search/search.all.js" ></script>
+    		<script src="codemirror/addon/edit/edit.min.js"></script>
+    		<script src="codemirror/addon/lint/lint.js"></script>
+    		<script src="codemirror/addon/lint/coffeescript-lint.js"></script>
+    		<script src="codemirror/addon/lint/css-lint.js"></script>
+    		<script src="codemirror/addon/lint/javascript-lint.js"></script>
+    		<script src="codemirror/addon/lint/json-lint.js"></script>
+    		<link rel='stylesheet' type='text/css' href="codemirror/addon/lint/lint.css">
+
+      <script src="lib/lorem.js"></script>
+          
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/com.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/file.js"></script>
+        <script type="text/javascript" src="js/animate.js"></script>
+        <script type="text/javascript" src="js/visual.js"></script>
+    </body>
+</html>
