@@ -26,7 +26,7 @@ body{
   height: 60px;
   position:absolute;
   top: 0;
-  background-color:#009688;
+  background-color:#00bcd4;
   z-index: 3;
 }
 
@@ -35,7 +35,7 @@ body{
   height: 60px;
   position:absolute;
   top: 0;
-  background-color:#00897b;
+  background-color:#00bcd4;
   z-index: 5;
 }
 
@@ -91,7 +91,7 @@ body{
 }
 #open-menu{
   position:absolute;
-  right: 5px;
+  right: 35px;
 }
 #file-back{
   position:absolute;
@@ -166,7 +166,7 @@ body{
 .bottom-sheet{
   left: 0;
   width: 100%;
-  height: 200px;
+  height: 180px;
   position:absolute;
   bottom:0;
   z-index: 10;
@@ -189,7 +189,8 @@ body{
   height: 40px;
   font-size: 15px;
   margin-top: -1px;
-  padding: 5px;
+  padding: 10px;
+  border-bottom: solid thin #eeeeee;
 }
 .sheet-item h4{
   margin: 5px 0px 0px 5px;
@@ -216,7 +217,7 @@ body{
   position:absolute;
   top: 0;
   left: 0;
-  background-color: #00bfa5;
+  background-color: #00acc1;
   text-align: center;
   color: #FFF;
   z-index: 100;
@@ -340,7 +341,7 @@ body{
   background-color: #E0E0E0;
 }
 .side-header paper-icon-button{
-  color: white;
+  color: black;
   position: absolute;
   right: 10px;
   background-color: #5677fc;
@@ -348,7 +349,7 @@ body{
   top:10px
 }
 .side-header paper-icon-button core-icon{
-  color: white;
+  color: black;
 }
 
 .side-header h4{
@@ -376,4 +377,22 @@ body{
 
 .hide{
   display: none;
+}
+
+#profile_pic{
+  float:right;
+  margin-right:5px;
+  border-radius:20px;
+  border:solid thin white;
+  margin-top: 7px;
+}
+
+.topbar{
+  width: 100%;
+  position: fixed;
+  height: 20px;
+  background-color: rgba(255,255,255,0.3);
+  top: 0;
+  left: 0;
+  z-index:14;
 }

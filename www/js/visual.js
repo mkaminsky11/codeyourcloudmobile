@@ -310,7 +310,7 @@ function addShareUser(name, email, photo,i){
   
 
   if(email !== my_mail){
-    icon = "<paper-icon-button icon=\"remove\" class=\"remove-share\" onclick=\"deleteP('"+i+"')\"><paper-shadow z='1'></paper-shadow></paper-icon-button>";
+    icon = "<paper-icon-button icon=\"remove\" class=\"remove-share\" onclick=\"deleteP('"+i+"')\"></paper-icon-button>";
   }
   
   var message = "<div class=\"message-item\"><pre>" + email + "</pre></div>";
@@ -320,7 +320,7 @@ function addShareUser(name, email, photo,i){
   
   var push = "<div class=\"share-item\" data-p=\""+i+"\"><paper-shadow z=\"1\"></paper-shadow>";
   push = push + "<div class=\"header-item\">";
-  push = push + "<img height=\"50px\" width=\"50px\" src=\""+ temp_p +"\">";
+  push = push + "<img height=\"51px\" width=\"50px\" src=\""+ temp_p +"\">";
   push = push + "<h4>" + name + "</h4>"+icon+"</div>";
   push = push + message + "</div>";
 

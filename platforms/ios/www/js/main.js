@@ -92,7 +92,7 @@ function insert_item(item, dest){
         icon = "file";
       }
       else{
-        var e = exten(the_title);
+        var e = exten(the_title).toLowerCase();
         if(e === "js"){
           icon = "js";
         }
@@ -101,6 +101,15 @@ function insert_item(item, dest){
         }
         else if(e === "css"){
           icon = "css";
+        }
+        else if(e === "jpg" || e === "tiff" || e === "gif" || e === "svg" || e === "png"){
+          icon = "img"; 
+        }
+        else if(e === "zip" || e === "tar" || e === "gz"){
+          icon = "zip";
+        }
+        else if(e === "coffee"){
+          icon = "coffee"; 
         }
         else{
           icon = "file";
@@ -190,6 +199,7 @@ function signOut(){
       lower_screen();
       slide_down("#open-sheet");
       $("#on").attr("onclick","signIn()");
+      $("#profile_pic").attr("src","");
     }, 1000);
   });
 }
@@ -203,7 +213,7 @@ function reload_iframe(){
 
 function offline(){
   //if in online mode
-  if($(".screen").css("background-color") === "rgb(0, 191, 165)"){
+  if($(".screen").css("background-color") === "rgb(0, 172, 193)"){
     lower_screen();
     $("#on").attr("onclick","");
     $("#info").html("You Are Offline");
@@ -223,7 +233,7 @@ function offline(){
 
 function online(){
   if($(".screen").css("background-color","rgb(229, 28, 35)")){
-    $(".screen").css("background-color","rgb(0, 191, 165)");
+    $(".screen").css("background-color","rgb(0, 172, 193)");
     $("#on").attr("onclick","signIn()")
     $("#info").html("Version 1.0");
 

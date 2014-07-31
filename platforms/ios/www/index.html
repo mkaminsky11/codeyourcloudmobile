@@ -53,7 +53,8 @@
 
     </head>
     <body>
-
+        <div class="topbar"></div>
+      
         <div class="about-modal" style="display: block; top: 0%; text-align: center; display:none">
           <br/><h3 style="font-family: 'Roboto-Black';">Made By Michael Kaminsky</h3>
           <h5 style="font-family: 'Roboto-Light';">Using:</h5>
@@ -126,13 +127,8 @@
         </div>
 
         <div class="side-modal" id="option-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('option')"><paper-shadow z="3"></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
+          <paper-fab class="fab-bottom" icon="close" onclick="hide_modal('option')"></paper-fab>
+          <div class="side-modal-content side-modal-content-no-header">
             <div>
               <!--wrap-->
               <h4>Line Wrap</h4>
@@ -155,13 +151,8 @@
       
       
         <div class="side-modal" id="chat-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('chat')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
+          <paper-fab class="fab-top" icon="close" onclick="hide_modal('chat')"></paper-fab>
+          <div class="side-modal-content side-modal-content-no-header">
             <div id="chat-list">
             
             </div>
@@ -173,13 +164,8 @@
         </div>
           
         <div class="side-modal" id="col-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('col')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
+          <paper-fab class="fab-top" icon="close" onclick="hide_modal('col')"></paper-fab>
+          <div class="side-modal-content side-modal-content-no-header">
             <div id="col-list">
               
             </div>
@@ -187,16 +173,12 @@
         </div>
           
         <div class="side-modal" id="preview-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('preview')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
+          <paper-fab class="fab-top" icon="close" onclick="hide_modal('preview')"></paper-fab>
+          <div class="side-modal-content side-modal-content-no-header">
             <iframe id="preview"></iframe>
           </div>
         </div>
+          
           
         <div class="side-modal" id="lorem-modal" style="display:none">
           <div class="side-modal-header">
@@ -212,13 +194,8 @@
         </div>
           
         <div class="side-modal" id="color-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('color')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
+          <paper-fab class="fab-bottom" icon="close" onclick="hide_modal('color')"></paper-fab>
+          <div class="side-modal-content side-modal-content-no-header">
             
             <div id="color-preview"></div>
             
@@ -267,6 +244,7 @@
             <div class="open-header-container">
               <paper-icon-button icon="arrow-back" id="open-back" style="display:none" onclick="go_back()"></paper-icon-button>
               <paper-icon-button icon="more-vert" id="open-menu" onclick="slide_up('#open-sheet')"></paper-icon-button>
+              <img id="profile_pic" src="" height="30px" width="30px">
             </div>
           </div>
           <div class="open-content">
@@ -285,7 +263,7 @@
 
             <div class="side-item side-header">
               <h4 id="title-elem">Title</h4>
-              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()"><paper-shadow z="1"></paper-shadow></paper-icon-button>
+              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()" style="color:black !important;background-color:#eefd40"><paper-shadow z="1"></paper-shadow></paper-icon-button>
             </div>
             <input type="text" id="rename-input" value="title" style="display:none" onchange="okRename()">
             <div class="side-item" onclick="save()">

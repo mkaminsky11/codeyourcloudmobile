@@ -35,7 +35,14 @@ function receiveMessage(event){
       my_root_folder = json.folder;
       my_mail = json.mail;
       my_name = json.name;
+      
       my_photo = json.photo;
+      if(my_photo.indexOf("https://") === -1){
+        my_photo = "https:" + my_photo;
+      }
+      
+      $("#profile_pic").attr("src", my_photo);
+      
       my_user_id = json.id;
 
       if(!file_open){
