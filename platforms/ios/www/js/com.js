@@ -2,7 +2,8 @@ window.addEventListener("message", receiveMessage, false);
 function receiveMessage(event){
   if(event.data !== "!_{h:''}"){
   	var json = JSON.parse(event.data);
-  	console.log(json);
+    
+    console.log(json);
 
     if(json.type === "welcome"){
 
@@ -36,9 +37,18 @@ function receiveMessage(event){
       my_mail = json.mail;
       my_name = json.name;
       
-      my_photo = json.photo;
-      if(my_photo.indexOf("https://") === -1){
-        my_photo = "https:" + my_photo;
+      try{ 
+        my_photo = json.photo;
+        if(my_photo.indexOf("https://") === -1){
+          my_photo = "https:" + my_photo;
+        }
+        
+        if(typeof my_photo === 'undefined'){
+          my_photo = "https://codeyourcloud.com/images/none.jpg";
+        }
+      }
+      catch(e){
+        my_photo = "https://codeyourcloud.com/images/none.jpg";
       }
       
       $("#profile_pic").attr("src", my_photo);
@@ -91,9 +101,11 @@ function receiveMessage(event){
         editor.setValue(json.value);
     }
     else if(json.type === "insert_text"){
+      ignore = true;
       editor.replaceRange(json.text, editor.posFromIndex(json.point));
   	}
   	else if(json.type === "delete_text"){
+      ignore= true;
       editor.replaceRange("",editor.posFromIndex(json.back),editor.posFromIndex(json.front));
   	}
     else if(json.type === "new"){

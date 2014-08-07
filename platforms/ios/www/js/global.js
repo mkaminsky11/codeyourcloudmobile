@@ -149,3 +149,5 @@ var themes = [
 var local_load_nums = false;
 var local_load_wrap = false;
 var local_load_font = false;
+
+var ignore = false;

@@ -55,7 +55,8 @@ function insert_all(folder, d){
     $(this).click(function(){
       var f = $(this).attr("data-folder");
       var i = $(this).attr("data-id");
-      open_touch(f,i);
+      var t = $(this).attr("data-title");
+      open_touch(f,i,t);
     });
   });
 
@@ -77,7 +78,12 @@ function insert_item(item, dest){
   var mime = item.mime
 
   var icon = "folder";
-  if(!the_folder){
+  if(the_folder){
+    if(the_title.indexOf(".git") !== -1){
+      icon =  "git_folder";
+    }
+  }
+  else{
     if(mime === "application/vnd.google-apps.presentation"){
       icon = "pres";
     }
@@ -111,13 +117,28 @@ function insert_item(item, dest){
         else if(e === "coffee"){
           icon = "coffee"; 
         }
+        else if( e === "git"){
+          icon =  "git";
+        }
+        else if(e === "ru" || e === "rb"){
+          icon = "ruby";
+        }
+        else if(e === "php" || e === "phtml"){
+          icon = "php";
+        }
+        else if(e === "swift"){
+          icon = "swift";
+        }
+        else if(e === "pem" || e === "csr" || e === "key"){
+          icon = "key";
+        }
         else{
           icon = "file";
         }
       }
     }
   }
-  var build = "<div data-id=\""+the_id+"\" data-folder=\""+the_folder+"\" class=\"open-item\"><paper-ripple></paper-ripple><div class=\"img-div\">";
+  var build = "<div data-id=\""+the_id+"\" data-folder=\""+the_folder+"\" class=\"open-item\" data-title=\""+the_title+"\"><paper-ripple></paper-ripple><div class=\"img-div\">";
   var img = "<img height=\"40px\" src=\"img/drive/" + icon + ".png\">";
   build = build + img + "</div><div class=\"desc-div\"><h4>";
   build = build + the_title + "</h4><h6>" + the_date + "</h6></div></div>";
@@ -137,23 +158,25 @@ function exten(string){
   return ext;
 }
 
-function open_touch(folder, id){
-  if(!waiting){
-    waiting = true;
-    if(folder === "true"){
-      next_open = "next";
-      sendData({
-        type: "folder",
-        id: id
-      });
+function open_touch(folder, id, title){
+    if(title.indexOf(".zip") === -1){
+      if(folder === "true"){
+        next_open = "next";
+        sendData({
+          type: "folder",
+          id: id
+        });
+      }
+      else{
+        //a file
+        file_open = true;
+        waiting = false;
+        set_id(id);
+      }
     }
     else{
-      //a file
-      file_open = true;
-      waiting = false;
-      set_id(id);
+      alert("Cannot open this type of file!"); 
     }
-  }
 }
 
 function go_back(){
@@ -242,7 +265,6 @@ function online(){
 }
 
 function shared_change(){
-  if(!waiting){
     waiting = true;
     $("#open-back").fadeOut();
     levels_above_root = 0;
@@ -262,11 +284,6 @@ function shared_change(){
         id: my_root_folder
       });
     }
-  }
-  else{
-    //if waiting, switch it back
-    //$("#share_toggle").prop("checked", !$("#share_toggle").prop("checked"));
-  }
 }
 
 function refresh_folder(){

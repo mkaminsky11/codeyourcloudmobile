@@ -11,7 +11,14 @@ $(".CodeMirror").css("line-height", "1");
 editor.refresh();
 
 editor.on("change", function(cm, change) {
-	send_text(editor.getValue());
+  
+  if(!ignore){
+	   send_text(editor.getValue());
+  }
+  else{
+    //ignore = true right now
+    ignore = false;
+  }
 });
 
 

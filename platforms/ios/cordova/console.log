@@ -1608,3 +1608,171 @@ Terminating in response to SpringBoard's termination.
 2014-07-31 13:09:37.840 Code Your Cloud[3190:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
 2014-07-31 13:09:37.841 Code Your Cloud[3190:70b] Resetting plugins due to page load.
 2014-07-31 13:09:38.159 Code Your Cloud[3190:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-07-31 17:55:30.676 Code Your Cloud[6193:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 17:55:30.711 Code Your Cloud[6193:70b] Unlimited access to network resources
+2014-07-31 17:55:30.737 Code Your Cloud[6193:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-31 17:55:30.737 Code Your Cloud[6193:70b] [CDVTimer][statusbar] 0.370979ms
+2014-07-31 17:55:30.738 Code Your Cloud[6193:70b] [CDVTimer][TotalPluginStartup] 0.757992ms
+2014-07-31 17:55:30.872 Code Your Cloud[6193:70b] Resetting plugins due to page load.
+2014-07-31 17:55:31.644 Code Your Cloud[6193:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-07-31 17:55:31.645 Code Your Cloud[6193:70b] Resetting plugins due to page load.
+2014-07-31 17:55:31.866 Code Your Cloud[6193:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:14:23.041 Code Your Cloud[7001:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 09:14:23.068 Code Your Cloud[7001:70b] Unlimited access to network resources
+2014-08-05 09:14:23.208 Code Your Cloud[7001:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 09:14:23.209 Code Your Cloud[7001:70b] [CDVTimer][statusbar] 0.726998ms
+2014-08-05 09:14:23.210 Code Your Cloud[7001:70b] [CDVTimer][TotalPluginStartup] 1.320958ms
+2014-08-05 09:14:23.461 Code Your Cloud[7001:70b] Resetting plugins due to page load.
+2014-08-05 09:14:24.415 Code Your Cloud[7001:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:14:24.416 Code Your Cloud[7001:70b] Resetting plugins due to page load.
+2014-08-05 09:14:24.656 Code Your Cloud[7001:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:35:24.029 Code Your Cloud[8278:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 09:35:24.037 Code Your Cloud[8278:70b] Unlimited access to network resources
+2014-08-05 09:35:24.060 Code Your Cloud[8278:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 09:35:24.060 Code Your Cloud[8278:70b] [CDVTimer][statusbar] 0.579953ms
+2014-08-05 09:35:24.060 Code Your Cloud[8278:70b] [CDVTimer][TotalPluginStartup] 1.004994ms
+2014-08-05 09:35:24.226 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:35:25.705 Code Your Cloud[8278:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:35:25.706 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:35:26.124 Code Your Cloud[8278:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:36:34.893 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:36:37.894 Code Your Cloud[8278:70b] THREAD WARNING: ['NetworkStatus'] took '18.200684' ms. Plugin should use a background thread.
+2014-08-05 09:36:37.897 Code Your Cloud[8278:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:36:37.898 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:36:38.353 Code Your Cloud[8278:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:38:32.855 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:38:36.489 Code Your Cloud[8278:70b] THREAD WARNING: ['NetworkStatus'] took '29.730957' ms. Plugin should use a background thread.
+2014-08-05 09:38:36.495 Code Your Cloud[8278:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:38:36.496 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:38:36.980 Code Your Cloud[8278:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:39:34.570 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:39:38.246 Code Your Cloud[8278:70b] THREAD WARNING: ['NetworkStatus'] took '20.750000' ms. Plugin should use a background thread.
+2014-08-05 09:39:38.249 Code Your Cloud[8278:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:39:38.250 Code Your Cloud[8278:70b] Resetting plugins due to page load.
+2014-08-05 09:39:38.805 Code Your Cloud[8278:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 09:54:34.501 Code Your Cloud[9543:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 09:54:34.514 Code Your Cloud[9543:70b] Unlimited access to network resources
+2014-08-05 09:54:34.541 Code Your Cloud[9543:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 09:54:34.541 Code Your Cloud[9543:70b] [CDVTimer][statusbar] 0.504017ms
+2014-08-05 09:54:34.542 Code Your Cloud[9543:70b] [CDVTimer][TotalPluginStartup] 0.950992ms
+2014-08-05 09:54:34.666 Code Your Cloud[9543:70b] Resetting plugins due to page load.
+2014-08-05 09:54:35.670 Code Your Cloud[9543:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 09:54:35.671 Code Your Cloud[9543:70b] Resetting plugins due to page load.
+2014-08-05 09:54:37.665 Code Your Cloud[9543:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 10:23:06.856 Code Your Cloud[11966:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 10:23:06.865 Code Your Cloud[11966:70b] Unlimited access to network resources
+2014-08-05 10:23:06.889 Code Your Cloud[11966:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 10:23:06.889 Code Your Cloud[11966:70b] [CDVTimer][statusbar] 0.389993ms
+2014-08-05 10:23:06.889 Code Your Cloud[11966:70b] [CDVTimer][TotalPluginStartup] 0.781000ms
+2014-08-05 10:23:06.937 Code Your Cloud[11966:70b] Resetting plugins due to page load.
+2014-08-05 10:23:08.152 Code Your Cloud[11966:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 10:23:08.153 Code Your Cloud[11966:70b] Resetting plugins due to page load.
+2014-08-05 10:23:08.395 Code Your Cloud[11966:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 10:24:40.922 Code Your Cloud[11966:70b] Resetting plugins due to page load.
+2014-08-05 10:24:44.324 Code Your Cloud[11966:70b] THREAD WARNING: ['NetworkStatus'] took '18.507812' ms. Plugin should use a background thread.
+2014-08-05 10:24:44.328 Code Your Cloud[11966:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 10:24:44.328 Code Your Cloud[11966:70b] Resetting plugins due to page load.
+2014-08-05 10:24:45.232 Code Your Cloud[11966:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 10:28:52.932 Code Your Cloud[14340:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 10:28:52.938 Code Your Cloud[14340:70b] Unlimited access to network resources
+2014-08-05 10:28:52.951 Code Your Cloud[14340:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 10:28:52.952 Code Your Cloud[14340:70b] [CDVTimer][statusbar] 0.445962ms
+2014-08-05 10:28:52.952 Code Your Cloud[14340:70b] [CDVTimer][TotalPluginStartup] 0.779986ms
+2014-08-05 10:28:52.985 Code Your Cloud[14340:70b] Resetting plugins due to page load.
+2014-08-05 10:28:53.567 Code Your Cloud[14340:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 10:28:53.567 Code Your Cloud[14340:70b] Resetting plugins due to page load.
+2014-08-05 10:28:54.878 Code Your Cloud[14340:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 12:34:56.117 Code Your Cloud[16202:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 12:34:56.164 Code Your Cloud[16202:70b] Unlimited access to network resources
+2014-08-05 12:34:56.339 Code Your Cloud[16202:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 12:34:56.340 Code Your Cloud[16202:70b] [CDVTimer][statusbar] 0.493944ms
+2014-08-05 12:34:56.340 Code Your Cloud[16202:70b] [CDVTimer][TotalPluginStartup] 0.904977ms
+2014-08-05 12:34:56.586 Code Your Cloud[16202:70b] Resetting plugins due to page load.
+2014-08-05 12:34:58.826 Code Your Cloud[16202:70b] THREAD WARNING: ['NetworkStatus'] took '11.662842' ms. Plugin should use a background thread.
+2014-08-05 12:34:58.840 Code Your Cloud[16202:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 12:34:58.840 Code Your Cloud[16202:70b] Resetting plugins due to page load.
+2014-08-05 12:34:59.461 Code Your Cloud[16202:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 14:06:46.417 Code Your Cloud[19110:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 14:06:46.474 Code Your Cloud[19110:70b] Unlimited access to network resources
+2014-08-05 14:06:46.674 Code Your Cloud[19110:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 14:06:46.674 Code Your Cloud[19110:70b] [CDVTimer][statusbar] 0.515997ms
+2014-08-05 14:06:46.675 Code Your Cloud[19110:70b] [CDVTimer][TotalPluginStartup] 1.089990ms
+2014-08-05 14:06:46.847 Code Your Cloud[19110:70b] Resetting plugins due to page load.
+2014-08-05 14:06:49.089 Code Your Cloud[19110:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 14:08:34.170 Code Your Cloud[19110:70b] Resetting plugins due to page load.
+2014-08-05 14:08:38.631 Code Your Cloud[19110:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-08-05 14:09:19.588 Code Your Cloud[21493:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 14:09:19.600 Code Your Cloud[21493:70b] Unlimited access to network resources
+2014-08-05 14:09:19.623 Code Your Cloud[21493:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 14:09:19.623 Code Your Cloud[21493:70b] [CDVTimer][statusbar] 0.483990ms
+2014-08-05 14:09:19.624 Code Your Cloud[21493:70b] [CDVTimer][TotalPluginStartup] 0.952005ms
+2014-08-05 14:09:19.791 Code Your Cloud[21493:70b] Resetting plugins due to page load.
+2014-08-05 14:09:20.950 Code Your Cloud[21493:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 14:09:20.950 Code Your Cloud[21493:70b] Resetting plugins due to page load.
+2014-08-05 14:09:21.217 Code Your Cloud[21493:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 19:21:58.045 Code Your Cloud[26057:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 19:21:58.089 Code Your Cloud[26057:70b] Unlimited access to network resources
+2014-08-05 19:21:58.256 Code Your Cloud[26057:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 19:21:58.257 Code Your Cloud[26057:70b] [CDVTimer][statusbar] 0.439048ms
+2014-08-05 19:21:58.257 Code Your Cloud[26057:70b] [CDVTimer][TotalPluginStartup] 0.825047ms
+2014-08-05 19:21:58.483 Code Your Cloud[26057:70b] Resetting plugins due to page load.
+2014-08-05 19:22:01.507 Code Your Cloud[26057:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 19:22:01.507 Code Your Cloud[26057:70b] Resetting plugins due to page load.
+2014-08-05 19:22:01.782 Code Your Cloud[26057:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 19:25:36.863 Code Your Cloud[28454:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 19:25:36.870 Code Your Cloud[28454:70b] Unlimited access to network resources
+2014-08-05 19:25:36.891 Code Your Cloud[28454:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 19:25:36.892 Code Your Cloud[28454:70b] [CDVTimer][statusbar] 1.456976ms
+2014-08-05 19:25:36.892 Code Your Cloud[28454:70b] [CDVTimer][TotalPluginStartup] 2.047002ms
+2014-08-05 19:25:37.048 Code Your Cloud[28454:70b] Resetting plugins due to page load.
+2014-08-05 19:25:37.797 Code Your Cloud[28454:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 19:25:37.797 Code Your Cloud[28454:70b] Resetting plugins due to page load.
+2014-08-05 19:25:38.062 Code Your Cloud[28454:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 19:27:24.499 Code Your Cloud[29658:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 19:27:24.506 Code Your Cloud[29658:70b] Unlimited access to network resources
+2014-08-05 19:27:24.520 Code Your Cloud[29658:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 19:27:24.521 Code Your Cloud[29658:70b] [CDVTimer][statusbar] 0.369012ms
+2014-08-05 19:27:24.521 Code Your Cloud[29658:70b] [CDVTimer][TotalPluginStartup] 0.702024ms
+2014-08-05 19:27:24.623 Code Your Cloud[29658:70b] Resetting plugins due to page load.
+2014-08-05 19:27:25.239 Code Your Cloud[29658:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 19:27:25.240 Code Your Cloud[29658:70b] Resetting plugins due to page load.
+2014-08-05 19:27:25.450 Code Your Cloud[29658:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 19:44:33.851 Code Your Cloud[35800:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 19:44:33.911 Code Your Cloud[35800:70b] Unlimited access to network resources
+2014-08-05 19:44:34.103 Code Your Cloud[35800:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 19:44:34.104 Code Your Cloud[35800:70b] [CDVTimer][statusbar] 0.486016ms
+2014-08-05 19:44:34.104 Code Your Cloud[35800:70b] [CDVTimer][TotalPluginStartup] 0.980973ms
+2014-08-05 19:44:34.261 Code Your Cloud[35800:70b] Resetting plugins due to page load.
+2014-08-05 19:44:35.916 Code Your Cloud[35800:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 19:44:35.916 Code Your Cloud[35800:70b] Resetting plugins due to page load.
+2014-08-05 19:44:36.168 Code Your Cloud[35800:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-08-05 21:15:56.488 Code Your Cloud[37325:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 21:15:56.534 Code Your Cloud[37325:70b] Unlimited access to network resources
+2014-08-05 21:15:56.691 Code Your Cloud[37325:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 21:15:56.692 Code Your Cloud[37325:70b] [CDVTimer][statusbar] 0.490963ms
+2014-08-05 21:15:56.692 Code Your Cloud[37325:70b] [CDVTimer][TotalPluginStartup] 0.919044ms
+2014-08-05 21:15:56.863 Code Your Cloud[37325:70b] Resetting plugins due to page load.
+2014-08-05 21:15:57.720 Code Your Cloud[37325:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 21:15:57.723 Code Your Cloud[37325:70b] Resetting plugins due to page load.
+2014-08-05 21:15:59.484 Code Your Cloud[37325:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-05 21:23:07.715 Code Your Cloud[39773:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-05 21:23:07.721 Code Your Cloud[39773:70b] Unlimited access to network resources
+2014-08-05 21:23:07.735 Code Your Cloud[39773:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-05 21:23:07.735 Code Your Cloud[39773:70b] [CDVTimer][statusbar] 0.361025ms
+2014-08-05 21:23:07.736 Code Your Cloud[39773:70b] [CDVTimer][TotalPluginStartup] 0.741005ms
+2014-08-05 21:23:07.910 Code Your Cloud[39773:70b] Resetting plugins due to page load.
+2014-08-05 21:23:08.690 Code Your Cloud[39773:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-05 21:23:08.690 Code Your Cloud[39773:70b] Resetting plugins due to page load.
+2014-08-05 21:23:08.984 Code Your Cloud[39773:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html
+2014-08-06 10:49:56.234 Code Your Cloud[42364:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-06 10:49:56.247 Code Your Cloud[42364:70b] Unlimited access to network resources
+2014-08-06 10:49:56.269 Code Your Cloud[42364:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-08-06 10:49:56.269 Code Your Cloud[42364:70b] [CDVTimer][statusbar] 0.512004ms
+2014-08-06 10:49:56.270 Code Your Cloud[42364:70b] [CDVTimer][TotalPluginStartup] 0.946045ms
+2014-08-06 10:49:56.403 Code Your Cloud[42364:70b] Resetting plugins due to page load.
+2014-08-06 10:49:57.640 Code Your Cloud[42364:70b] THREAD WARNING: ['NetworkStatus'] took '12.937988' ms. Plugin should use a background thread.
+2014-08-06 10:49:57.689 Code Your Cloud[42364:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-08-06 10:49:57.690 Code Your Cloud[42364:70b] Resetting plugins due to page load.
+2014-08-06 10:49:58.004 Code Your Cloud[42364:70b] Finished load of: file:///Users/kaminsky/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A0D2C3B6-9563-4B40-A7D3-8B6A34214362/Code%20Your%20Cloud.app/www/index.html

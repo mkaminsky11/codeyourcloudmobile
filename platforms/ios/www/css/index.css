@@ -366,7 +366,7 @@ body{
 #rename-input{
   padding: 5px;
   background-color: #F5F5F5;
-  width: 100%;
+  width: calc(100% - 10px);
   height: 40px;
   outline: medium none !important;
   font-size: 20px;
