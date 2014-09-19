@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <!--
 Copyright 2013 The Polymer Authors. All rights reserved.
 Use of this source code is governed by a BSD-style
@@ -9,7 +9,7 @@ license that can be found in the LICENSE file.
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
 
   <title>paper-button</title>
 
@@ -77,8 +77,8 @@ license that can be found in the LICENSE file.
 
     <paper-button label="button"></paper-button>
     <paper-button class="colored" label="colored"></paper-button>
-    <paper-button focused label="focused"></paper-button>
-    <paper-button disabled label="disabled"></paper-button>
+    <!-- <paper-button focused label="focused"></paper-button> -->
+    <paper-button disabled label="disabled" onclick="alert('should not be clickable');"></paper-button>
 
   </section>
 
@@ -90,8 +90,8 @@ license that can be found in the LICENSE file.
 
     <paper-button raisedButton label="button"></paper-button>
     <paper-button raisedButton class="colored" label="colored"></paper-button>
-    <paper-button raisedButton focused label="focused"></paper-button>
-    <paper-button raisedButton disabled label="disabled"></paper-button>
+    <!-- <paper-button raisedButton focused label="focused"></paper-button> -->
+    <paper-button raisedButton disabled label="disabled" onclick="alert('should not be clickable');"></paper-button>
 
   </section>
 

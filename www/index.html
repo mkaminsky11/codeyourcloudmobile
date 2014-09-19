@@ -2,8 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+      
+          <meta name="format-detection" content="telephone=no" />
+          <meta name="msapplication-tap-highlight" content="no" />
+          <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+          <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />  
+      
+      
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/paper.css" />
         <link rel="stylesheet" type="text/css" href="css/modal.css" />
@@ -29,6 +34,7 @@
         <link rel="import" href="poly/polymer/polymer.html">
 
         <link rel="stylesheet" href="fonts/font.css">
+        <link rel="stylesheet" href="fonts/devicons.css">f
 
         <link rel="import" href="poly/paper-button/paper-button.html">
         <link rel="import" href="poly/paper-checkbox/paper-checkbox.html">
@@ -46,6 +52,8 @@
         <link rel="import" href="poly/paper-tabs/paper-tabs.html">
         <link rel="import" href="poly/paper-toast/paper-toast.html">
         <link rel="import" href="poly/paper-toggle-button/paper-toggle-button.html">
+      
+        <link rel="import" href="poly/paper-spinner/paper-spinner.html">
 
         <link href="css/font.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
@@ -72,26 +80,9 @@
           <paper-button label="Sign In" id="on"></paper-button>
           <h6 id="info">Version 1.0</h6>
 
-          <div class="spinner" style="display:none">
-            <div class="spinner-container container1">
-              <div class="circle1"></div>
-              <div class="circle2"></div>
-              <div class="circle3"></div>
-              <div class="circle4"></div>
-            </div>
-            <div class="spinner-container container2">
-              <div class="circle1"></div>
-              <div class="circle2"></div>
-              <div class="circle3"></div>
-              <div class="circle4"></div>
-            </div>
-            <div class="spinner-container container3">
-              <div class="circle1"></div>
-              <div class="circle2"></div>
-              <div class="circle3"></div>
-              <div class="circle4"></div>
-            </div>
-          </div>
+          <paper-spinner active class="spinner" style="position:absolute;left:calc(50% - 14px);top:calc(50% - 14px);display:none"></paper-spinner>
+          
+          
         </div>
 
         <!--
@@ -240,10 +231,12 @@
       
         <div class="open-container">
           <div class="open-header">
-            <paper-shadow z="1"></paper-shadow>
             <div class="open-header-container">
               <paper-icon-button icon="arrow-back" id="open-back" style="display:none" onclick="go_back()"></paper-icon-button>
-              <paper-icon-button icon="more-vert" id="open-menu" onclick="slide_up('#open-sheet')"></paper-icon-button>
+              <paper-icon-button icon="more-vert" id="open-menu" onclick="showMoreDialog()"></paper-icon-button>
+              
+              <!--slide_up('#open-sheet')-->
+              
               <img id="profile_pic" src="" height="30px" width="30px">
             </div>
           </div>
@@ -253,78 +246,157 @@
             </div>
             <div class="open-list" id="open-2" style="display:none">
             </div>
-            <paper-fab id="new_fab" icon="add" onclick="newFile()"></paper-fab>
+            
+            <!--add actions-->
+            <paper-fab id="new_fab" class="add-file-fab" icon="add" onclick="showNewFile()"></paper-fab>
+            <!-- -->
+            
           </div>
         </div>
+          
+          
+          
+        <!--
+        text (Untitled.txt)
+        html (Untitled.html) [x]
+        js (Untitled.js) [x]
+        css (Untitled.css) [x]
+        php (Untitled.php)
 
+
+        exit
+
+        -->
+        <div class="black-sheet-detect" style="display:none" id="new-detect"></div>  
+          
+          
+        <div class="black-sheet-detect-item" id="new-detect-close" style="right: -1000px; bottom: -1000px;"> 
+            <paper-icon-button onclick="hideNewFile()" icon="close" style="color: #eee"></paper-icon-button>
+          
+        </div>  
+          
+          
+        <div class="black-sheet-detect-item" id="new-detect-javascript" style="left: 1000px;bottom: -1000px;">  
+            <button style="background-color:#e84e40" onclick="newFile('Untitled.js')"><i class="devicons devicons-javascript"></i></button>
+            <h4>Javascript</h4>
+        </div>  
+          
+        
+        <div class="black-sheet-detect-item" id="new-detect-html" style="left: 1000px;bottom: -1000px;">  
+            <button style="background-color:#4db6ac" onclick="newFile('Untitled.html')"><i class="devicons devicons-html5"></i></button>
+            <h4>Html</h4>
+        </div> 
+          
+        <div class="black-sheet-detect-item" id="new-detect-css" style="left: 1000px;bottom: -1000px;">  
+            <button style="background-color:#E67E22" onclick="newFile('Untitled.css')"><i class="devicons devicons-css3"></i></button>
+            <h4>CSS</h4>
+        </div> 
+          
+        <div class="black-sheet-detect-item" id="new-detect-php" style="left: 1000px;bottom: -1000px;">  
+            <button style="background-color:#9B59B6" onclick="newFile('Untitled.php')"><i class="devicons devicons-php"></i></button>
+            <h4>PHP</h4>
+        </div> 
+          
+        <div class="black-sheet-detect-item" id="new-detect-text" style="left: 1000px;bottom:-1000px;">
+            <button style="background-color:#F1C40F" onclick="newFile('Untitled.txt')"><i class="devicons devicons-opensource"></i></button>
+            <h4>Default</h4>
+          </div>
+          
+          
+        <div class="black-sheet-detect" style="display:none" id="more-detect"></div>
+          
+        <div class="black-sheet-detect-item" id="more-detect-about" style="left: 1000px;bottom: -1000px;">  
+          <paper-icon-button icon="info" style="background-color:#e84e40" onclick="about_in()"></paper-icon-button>
+          <h4>About</h4>
+        </div>
+          
+        <div class="black-sheet-detect-item" id="more-detect-sign-out" style="left: 1000px; bottom: -1000px;">  
+          <paper-icon-button onclick="signOut()" icon="exit-to-app" style="background-color:#4db6ac"></paper-icon-button>
+          <h4>Sign out</h4>
+        </div>
+          
+          
+        <div class="black-sheet-detect-item" id="more-detect-shared" style="left: 1000px; bottom: -1000px;"> 
+            <paper-toggle-button id="share_toggle" onchange="shared_change()" style="float:left"></paper-toggle-button>
+          
+            <h4>Shared with me</h4>
+          
+        </div>
+          
+        <div class="black-sheet-detect-item" id="more-detect-close" style="right: -1000px; bottom: -1000px;"> 
+            <paper-icon-button onclick="hideMoreDialog()" icon="close" style="color: #eee"></paper-icon-button>
+          
+        </div>
+
+          
+        <paper-icon-button onclick="hide_side()" icon="close" style="display:none;color: #eee" id="close_side_button"></paper-icon-button>
+          
         <div class="file-container" style="display:none">
           <div id="side" style="display:none">
 
 
             <div class="side-item side-header">
               <h4 id="title-elem">Title</h4>
-              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()" style="color:black !important;background-color:#eefd40"><paper-shadow z="1"></paper-shadow></paper-icon-button>
+              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()" style="color:black !important;background-color:#eefd40"></paper-icon-button>
             </div>
             <input type="text" id="rename-input" value="title" style="display:none" onchange="okRename()">
-            <div class="side-item" onclick="save()">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="save"></core-icon>
+            
+            
+            <div class="side-item">
+              <paper-icon-button onclick="save()" icon="save" style="background-color:#E74C3C"></paper-icon-button>
               <h4>Save</h4>
             </div>
-            <div class="side-item" onclick="show_modal('chat')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="send" style="color:#42BD41"></core-icon>
+            
+            <div class="side-item">
+              <paper-icon-button onclick="show_modal('chat')" icon="send" style="background-color:#3498DB"></paper-icon-button>
               <h4>Chat</h4>
             </div>
-            <div class="side-item side-sep" onclick="show_modal('col')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="account-circle" style="color:#5677FC"></core-icon>
+            
+            <div class="side-item side-sep">
+              <paper-icon-button onclick="show_modal('col')" icon="account-circle" style="background-color:#2ECC71"></paper-icon-button>
               <h4>Collaborators</h4>
             </div>
-            <div class="side-item" onclick="checkP()">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="folder-shared" class="hidden-icon"></core-icon>
+            
+            <div class="side-item">
+              <paper-icon-button onclick="checkP()" icon="folder-shared" style="background-color:#E67E22"></paper-icon-button>
               <h4>Share</h4>
             </div>
-            <div class="side-item" onclick="updatePreview();show_modal('preview')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="visibility" class="hidden-icon"></core-icon>
+            
+            <div class="side-item">
+              <paper-icon-button onclick="updatePreview();show_modal('preview')" icon="visibility" style="background-color:#9B59B6"></paper-icon-button>
               <h4>Preview</h4>
             </div>
-            <div class="side-item" onclick="show_modal('lorem')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="text-format" class="hidden-icon"></core-icon>
+            
+            <div class="side-item">
+              <paper-icon-button onclick="show_modal('lorem')" icon="text-format" style="background-color:#16A085"></paper-icon-button>
               <h4>Lorem</h4>
             </div>
-            <div class="side-item side-sep" onclick="show_modal('color')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="invert-colors" class="hidden-icon"></core-icon>
+            
+            <div class="side-item side-sep">
+              <paper-icon-button onclick="show_modal('color')" icon="invert-colors" style="background-color:#D35400"></paper-icon-button>
               <h4>Color</h4>
             </div>
 
-            <div class="side-item" onclick="show_modal('lang')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="settings" class="hidden-icon"></core-icon>
+            <div class="side-item">
+              <paper-icon-button onclick="show_modal('lang')" icon="translate" style="background-color:#2980B9"></paper-icon-button>
               <h4>Languages</h4>
             </div>
 
-            <div class="side-item" onclick="show_modal('theme')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="settings" class="hidden-icon"></core-icon>
+            <div class="side-item">
+              <paper-icon-button onclick="show_modal('theme')" icon="settings-display" style="background-color:#27AE60"></paper-icon-button>
               <h4>Themes</h4>
             </div>
 
-            <div class="side-item" onclick="show_modal('option')">
-              <paper-ripple></paper-ripple>
-              <core-icon icon="settings"></core-icon>
+            <div class="side-item">
+              <paper-icon-button onclick="show_modal('option')" icon="settings" style="background-color:#E74C3C"></paper-icon-button>
               <h4>Options</h4>
             </div>
 
           </div>
-          <div id="side-detect" style="display:none" onclick="hide_side()"></div>
+          <div id="side-detect" class="black-sheet-detect" style="display:none" onclick=""></div>
+          <!--hide_side()-->
 
           <div class="file-header">
-            <paper-shadow z="1"></paper-shadow>
             <div class="file-header-container">
               <paper-icon-button icon="arrow-back" id="file-back" onclick="go_file_back()"></paper-icon-button>
 
@@ -343,18 +415,6 @@
         </div>
 
         <div class="black-sheet-detect" style="display:none" id="open-sheet-detect"></div>
-        <div class="bottom-sheet" style="display:none" id="open-sheet">
-          <div class="sheet-item" onclick="signOut()">
-            <h4><core-icon icon="exit-to-app"></core-icon> Sign Out</h4>
-          </div>
-          <div class="sheet-item">
-            <h4><core-icon icon="folder-shared"></core-icon> Shared With Me</h4>
-            <paper-toggle-button id="share_toggle" onchange="shared_change()" style="float:right;margin-right:10px;margin-top:10px"></paper-toggle-button>
-          </div>
-          <div class="sheet-item" onclick="about_in()">
-            <h4><core-icon icon="info"></core-icon> About</h4>
-          </div>
-        </div>
 
         <iframe src="https://codeyourcloud.com/mobile/mobile.html" id="iframe" style="display:none"></iframe>
 
@@ -387,5 +447,7 @@
         <script type="text/javascript" src="js/file.js"></script>
         <script type="text/javascript" src="js/animate.js"></script>
         <script type="text/javascript" src="js/visual.js"></script>
+        <script type="text/javascript" src="js/interact.js"></script>
+        
     </body>
 </html>

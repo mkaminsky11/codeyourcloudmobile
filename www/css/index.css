@@ -1,5 +1,8 @@
 body{
   font-family: 'Roboto';
+  position: fixed;
+  top: -8px;
+  left: -8px;
 }
 .open-container{
   width: 100%;
@@ -14,12 +17,13 @@ body{
 .file-container{
   width: 100%;
   height: 100%;
-  position:absolute;
+  position:fixed;
   top: 0;
   left: 0;
   background-color: #f5f5f5;
   padding: 0;
   z-index: 12;
+  bottom: 0;
 }
 .open-header{
   width: 100%;
@@ -127,7 +131,7 @@ body{
   display: flex;
   padding: 5px 0px 5px 5px;
   border-bottom: 1px solid #F2EDED;
-  color: red;
+  color: #18ffff;
 }
 .open-item paper-ripple{
   width: 100%;
@@ -176,12 +180,12 @@ body{
 .black-sheet-detect{
   left: 0px;
   background-color: black;
-  opacity: 0.2;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
   position: absolute;
   bottom: 0;
-  z-index: 9;
+  z-index: 11;
 }
 .sheet-item{
   color: #72d572;
@@ -235,7 +239,7 @@ body{
 }
 
 .about-modal{
-  background-color: #4db6ac;
+  background-color: #00acc1;
   color: white;
   height: 100%;
   width: 100%;
@@ -279,66 +283,48 @@ body{
 #side{
   z-index: 14;
   position: absolute;
-  width: 85%;
+  width: 100%;
   left: 0;
   top: 0;
   height: 100%;
-  background-color: white;
+  background-color: transparent;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 #side-detect{
-  z-index: 13;
-  left: 0px;
-  background-color: black;
-  opacity: 0.2;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
+  z-index: 13 !important;
 }
 .side-item{
   font-family: "Roboto";
   width: 100%;
   height: 35px;
   display: flex;
-  padding: 10px 5px 5px;
-  color: red;
+  padding: 10px 5px 10px;
+  color: #18ffff;
   font-size: 20px;
 }
-.side-item paper-ripple{
-  width: calc(100% - 10px);
-  position: absolute;
-  height: 40px;
-  left: 0px;
-  padding: 5px;
-  margin-top: -10px;
-}
-.side-item core-icon{
-  margin-right: 10px;
-  color: #607D8B;
+.side-item paper-icon-button{
+  color: white;
+  margin-left: 10px;
+  border-radius: 50%;
 }
 .side-item h4{
-  margin: 0px 0px 7px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #607D8B;
+  color: #eee;
   font-family: "Roboto-Light";
   position:absolute;
-  left:40px;
-  margin-top:-23px
-}
-.hidden-icon{
-  color: white !important;
+  left:60px;
+  margin-top:-33px;
+  margin-left: 10px;
 }
 .side-sep{
-  border-bottom: 1px solid #F2EDED;
+  /*border-bottom: 1px solid rgba(255,255,255,0.2);*/
 }
 .side-header{
   height: 40px;
   width: calc(100% - 10px);
-  background-color: #E0E0E0;
 }
 .side-header paper-icon-button{
   color: black;
@@ -395,4 +381,48 @@ body{
   top: 0;
   left: 0;
   z-index:14;
+}
+
+.black-sheet-detect-item{
+  z-index: 12;
+  position: absolute;
+}
+.black-sheet-detect-item h4{
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+  float:right;
+}
+.black-sheet-detect-item paper-icon-button, .black-sheet-detect-item button{
+  float: left;
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.black-sheet-detect-item paper-toggle-button{
+  float: left;
+  margin-top: 10px;
+  margin-bottom:-90px;
+  margin-left: -24px;
+}
+
+.black-sheet-detect-item button{
+  width: 34px;
+  height: 34px;
+  padding:5px;
+  margin-top:5px;
+}
+
+.black-sheet-detect-item i{
+  font-size: 20px;
+  margin: 0;
+}
+
+#close_side_button{
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  z-index: 13;
 }

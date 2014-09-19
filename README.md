@@ -25,11 +25,12 @@ If communicates with the local html using <code>parent.postMessage()</code>.
 ###iOS8###
 There are some problems with iOS8 which I am trying to iron out.
 
-<b>1. Polymer woes</b>
+<b>1. Polymer woes</b> (FIXED)
 because of the way Apple build Safari (and webviews) for iOS8, polymer doesn't work,
 
 <a href="https://github.com/Polymer/platform/issues/66">More information</a>
 
-<b>2. InAppBrowser</b> Some actions (signing in, signing out) are accomplished using a plugin called <code>InAppBrowser</code>. Because of the switch from <code>UIWebView</code> to <code>WKWebView</code>, this doesn't work in iOS 8.
+<b>2. InAppBrowser</b> (FIXED)
+ Some actions (signing in, signing out) are accomplished using a plugin called <code>InAppBrowser</code>. Because of the switch from <code>UIWebView</code> to <code>WKWebView</code>, this doesn't work in iOS 8.
 
 <a href="http://ilee.co.uk/Cordova-PhoneGap-iOS-8-Beta/">More information</a>

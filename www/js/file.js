@@ -48,12 +48,15 @@ function save(){
   });
 }
 
-function newFile(){
+function newFile(the_new_file_title){
+  
+  hideNewFile();
+  
   if(current_folder_open !== "shared"){
     sendData({
       type: "save_as",
       data: "",
-      title: "Untitled.txt",
+      title: the_new_file_title,
       folder: current_folder_open
     });
   }
@@ -61,7 +64,7 @@ function newFile(){
     sendData({
       type: "save_as",
       data: "",
-      title: "Untitled.txt",
+      title: the_new_file_title,
       folder: my_root_folder
     });
   }

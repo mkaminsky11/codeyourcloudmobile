@@ -175,12 +175,26 @@ function hide_file(){
 function show_side(){
   if($("#side").css("display") === "none"){
     file_open = true;
-    $("#side").css("left","-85%");
+    $("#side").css("left","-100%");
     $("#side").css("display","block");
+    
+    $("#side-detect").fadeIn({
+      duration: 500,
+      queue: false
+    });
+    
+    $("#close_side_button").css("display","block");
+    $("#close_side_button").animate({
+      bottom: "20px",
+      right: "20px"
+    },{
+      queue: false,
+      duration: 500,
+    });
+    
     $("#side").animate({
       left: "0%"
     },500,function(){
-      $("#side-detect").fadeIn();
     });
   }
 }
@@ -188,8 +202,19 @@ function show_side(){
 function hide_side(){
   if($("#side").css("display") !== "none"){
     file_open = false;
+    $("#close_side_button").animate({
+      bottom: "-50px",
+      right: "-50px"
+    },{
+      queue: false,
+      duration: 500,
+      complete: function(){
+        $("#close_side_button").css("display","none"); 
+      }
+    });
+    
     $("#side").animate({
-      left: "-85%"
+      left: "-100%"
     },500,function(){
       $("#side").css("display","none");
       $("#side").css("left","0%");

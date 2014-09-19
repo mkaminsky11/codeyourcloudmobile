@@ -1,4 +1,9 @@
 @font-face{
+	font-family: 'Devicons';
+	src: url('devicons.woff') format('woff'), url('devicons.ttf') format('truetype');
+}
+
+@font-face{
 	font-family: 'Lobster';
 	src: url('Lobster.woff') format('woff'), url('Lobster.ttf') format('truetype');
 	font-weight: 400;

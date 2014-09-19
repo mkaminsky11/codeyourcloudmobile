@@ -132,6 +132,27 @@ function insert_item(item, dest){
         else if(e === "pem" || e === "csr" || e === "key"){
           icon = "key";
         }
+        else if(e === "ino"){
+          icon = "arduino"; 
+        }
+        else if(e === "c"){
+          icon = "c"; 
+        }
+        else if(e === "cpp"){
+          icon = "cpp"; 
+        }
+        else if(e === "dart"){
+          icon = "dart"; 
+        }
+        else if(e === "hs" || e === "lhs"){
+          icon = "haskell"; 
+        }
+        else if(e === "java"){
+          icon = "java"; 
+        }
+        else if(e === "py"){
+          icon = "python"; 
+        }
         else{
           icon = "file";
         }
