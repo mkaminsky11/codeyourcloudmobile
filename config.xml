@@ -7,6 +7,7 @@
     <author email="mkaminsky11@gmail.com" href="https://mkaminsky11.github.io">
         Michael Kaminsky
     </author>
+    <preference name="BackupWebStorage" value="none" />
     <content src="index.html" />
     <access origin="*" />
 </widget>

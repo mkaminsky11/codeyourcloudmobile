@@ -40,7 +40,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 #ink[checked] {
-  color: #0f9d58;
+  color: #7F8C8D;
 }
 
 #checkbox {
@@ -152,7 +152,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   border-left: none;
   border-right-width: 2px;
   border-bottom-width: 2px;
-  border-color: #0f9d58;
+  border-color: #7F8C8D;
 }
 
 /* checkbox unchecked animations */

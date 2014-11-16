@@ -7,15 +7,15 @@
         "files": {
             "framework": {
                 "parents": {
-                    "SystemConfiguration.framework": [
-                        {
-                            "xml": "true",
-                            "count": 1
-                        }
-                    ],
                     "CoreGraphics.framework": [
                         {
                             "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": "true",
                             "count": 1
                         }
                     ]
@@ -25,11 +25,11 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -38,10 +38,10 @@
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.network-information": {
+        "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.codeyourcloud"
         },
-        "org.apache.cordova.inappbrowser": {
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.codeyourcloud"
         }
     },

@@ -12,6 +12,8 @@ var app = {
       //get_prefs();
     },
     onOffline: function(){
+      sweetAlert("Whoa!", "Looks like you're offline", "error");
+      
       offline();
     },
     onOnline: function(){

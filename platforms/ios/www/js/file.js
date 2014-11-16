@@ -1,7 +1,7 @@
 editor = CodeMirror(document.getElementById("editor"),{
   lineNumbers: true,
   mode: "text",
-  theme: "code-your-cloud",
+  theme: "neo",
   lineWrapping: true,
   indentUnit: 4,
   indentWithTabs: true
@@ -85,6 +85,10 @@ function send_title(title){
 }
 
 function setMode(mode){
+  
+  if($("select").val() !== mode){
+    $("select").val(mode); 
+  }
 
   editor.setOption("extraKeys", {});
   editor.setOption("gutters",["CodeMirror-linenumbers"]);
@@ -137,10 +141,10 @@ function setMode(mode){
    }
 
    editor.setOption("mode", mode);
-  }
+}
 
 
-  function check_mode(fileName){
+function check_mode(fileName){
    var ext = "";
    if(fileName.charAt(0) === "."){
     ext = fileName.replace(".","");
@@ -175,14 +179,22 @@ function setMode(mode){
 }
 
 function insert_chat(message, you, photo, name){
-  var push = "<div class=\"chat-item\"><paper-shadow z=\"1\"></paper-shadow>";
+  /*var push = "<div class=\"chat-item\"><paper-shadow z=\"1\"></paper-shadow>";
   push = push + "<div class=\"header-item\">";
   push = push + "<img height=\"50px\" width=\"50px\" src=\""+ photo +"\">";
   push = push + "<h4>" + name + "</h4></div><div class=\"message-item\"><pre>";
-  push = push + message + "</pre></div></div>";
-  $("#chat-list").html($("#chat-list").html() + push);
+  push = push + message + "</pre></div></div>";*/
   
-  $("#chat-list").animate({ scrollTop: $('#chat-list')[0].scrollHeight}, 500);
+  var push = "<dd class='out'>" + message + "</dd>";
+  if(you){
+    var push = "<dd class='in'>" + message + "</dd>";
+  }
+
+  if(message.trim() !== ""){
+    $("#chat-list").html($("#chat-list").html() + push);
+
+    $("#chat-list").animate({ scrollTop: $('#chat-list')[0].scrollHeight}, 500);
+  }
 }
 
 document.addEventListener('polymer-ready', function() {

@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/paper.css" />
         <link rel="stylesheet" type="text/css" href="css/modal.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/grid.css" />
         <title>Code Your Cloud</title>
 
         <script src="poly/platform/platform.js"></script>
@@ -33,9 +34,6 @@
 
         <link rel="import" href="poly/polymer/polymer.html">
 
-        <link rel="stylesheet" href="fonts/font.css">
-        <link rel="stylesheet" href="fonts/devicons.css">f
-
         <link rel="import" href="poly/paper-button/paper-button.html">
         <link rel="import" href="poly/paper-checkbox/paper-checkbox.html">
         <link rel="import" href="poly/paper-dialog/paper-dialog.html">
@@ -52,27 +50,26 @@
         <link rel="import" href="poly/paper-tabs/paper-tabs.html">
         <link rel="import" href="poly/paper-toast/paper-toast.html">
         <link rel="import" href="poly/paper-toggle-button/paper-toggle-button.html">
+        <link rel="import" href="poly/paper-tabs/paper-tabs.html">
       
         <link rel="import" href="poly/paper-spinner/paper-spinner.html">
 
         <link href="css/font.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
+        <script src="js/jquery.event.move.js"></script>
+        <script src="js/jquery.event.swipe.js"></script>
+        <script src="js/jquery.taphold.js"></script>
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
 
-
+        <link rel="stylesheet" href="fonts/font.css">
+        <link rel="stylesheet" href="fonts/ionic.css">
+        <link rel="stylesheet" href="fonts/devicons.css">
+      
+        <link rel="stylesheet" href="fonts/css/material-design-iconic-font.min.css">
     </head>
     <body>
-        <div class="topbar"></div>
-      
-        <div class="about-modal" style="display: block; top: 0%; text-align: center; display:none">
-          <br/><h3 style="font-family: 'Roboto-Black';">Made By Michael Kaminsky</h3>
-          <h5 style="font-family: 'Roboto-Light';">Using:</h5>
-          <h3 style="font-family: 'Roboto-Black';">Apache Cordova</h3>
-          <h5 style="font-family: 'Roboto-Light';">And</h5>
-          <h3 style="font-family: 'Roboto-Black';">Polymer</h3>
-          <img src="img/poly.svg" width="100px">
-          <paper-button label="Close" onclick="about_out()"></paper-button>
-        </div>
-
+        <div class="topbar" style="display:none"></div>
 
         <div class="screen">
           <h1>Code Your Cloud</h1>
@@ -88,142 +85,11 @@
         <!--
         START MODALS
         -->
-        <div class="side-modal" id="lang-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <input type="text" id="mode-input" placeholder="Search Modes..." class="header-input">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('lang')"><paper-shadow z="3"></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
-            <paper-radio-group selected="Text" id="mode-list">
-            </paper-radio-group>
-          </div>
-        </div>
-          
-        
-        <div class="side-modal" id="theme-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <input type="text" id="theme-input" placeholder="Search Themes..." class="header-input">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('theme')"><paper-shadow z="3"></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
-            <paper-radio-group selected="code-your-cloud" id="theme-list">
-            </paper-radio-group>
-          </div>
-        </div>
 
-        <div class="side-modal" id="option-modal" style="display:none">
-          <paper-fab class="fab-bottom" icon="close" onclick="hide_modal('option')"></paper-fab>
-          <div class="side-modal-content side-modal-content-no-header">
-            <div>
-              <!--wrap-->
-              <h4>Line Wrap</h4>
-              <paper-toggle-button id="wrap-toggle" checked></paper-toggle-button>
-            </div>
-            <div>
-              <!--numbers-->
-              <h4>Line Numbers</h4>
-              <paper-toggle-button id="num-toggle" checked></paper-toggle-button>
-            </div>
-            <div style="height:60px">
-              <!--font size-->
-              <h4>Font Size</h4>
-              <paper-slider pin snaps id="font-slider" value="12" max="30" step="1" style="width:100%;margin-top:30px"></paper-slider>
-            </div>
-          </div>
-        </div>
 
       
       
       
-        <div class="side-modal" id="chat-modal" style="display:none">
-          <paper-fab class="fab-top" icon="close" onclick="hide_modal('chat')"></paper-fab>
-          <div class="side-modal-content side-modal-content-no-header">
-            <div id="chat-list">
-            
-            </div>
-            <div id="chat-footer">
-              <textarea id="chat-text" placeholder="Type something"></textarea>
-              <paper-icon-button icon="send" id="send-button" onclick="sendChat()"><paper-shadow z="2"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-        </div>
-          
-        <div class="side-modal" id="col-modal" style="display:none">
-          <paper-fab class="fab-top" icon="close" onclick="hide_modal('col')"></paper-fab>
-          <div class="side-modal-content side-modal-content-no-header">
-            <div id="col-list">
-              
-            </div>
-          </div>
-        </div>
-          
-        <div class="side-modal" id="preview-modal" style="display:none">
-          <paper-fab class="fab-top" icon="close" onclick="hide_modal('preview')"></paper-fab>
-          <div class="side-modal-content side-modal-content-no-header">
-            <iframe id="preview"></iframe>
-          </div>
-        </div>
-          
-          
-        <div class="side-modal" id="lorem-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <input type="text" id="lorem-input" placeholder="Enter a Number" class="header-input" onchange="goLorem()" value="6">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('lorem')"><paper-shadow z="3"></paper-shadow></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
-            <div id="lorem"></div>
-          </div>
-        </div>
-          
-        <div class="side-modal" id="color-modal" style="display:none">
-          <paper-fab class="fab-bottom" icon="close" onclick="hide_modal('color')"></paper-fab>
-          <div class="side-modal-content side-modal-content-no-header">
-            
-            <div id="color-preview"></div>
-            
-            <div center horizontal layout>
-              <div>R</div>
-              <paper-slider min="0" max="255" value="100" id="red" editable></paper-slider>
-            </div>
-            
-            <div center horizontal layout>
-              <div>G</div>
-              <paper-slider min="0" max="255" value="100" id="green" editable></paper-slider>
-            </div>
-            
-            <div center horizontal layout>
-              <div>B</div>
-              <paper-slider min="0" max="255" value="100" id="blue" editable></paper-slider>
-            </div>
-            <br/>
-            <input type="text" onchange="adjustColorHex()" value="#646464" placeholder="A hex color" id="color-hex">
-          </div>
-        </div>
-          
-          
-        <div class="side-modal" id="share-modal" style="display:none">
-          <div class="side-modal-header">
-            <paper-shadow z="1"></paper-shadow>
-            <div class="side-modal-header-container">
-              <input type="text" id="share-input" placeholder="Email to add..." class="header-input" onchange="addP()" autocomplete="off">
-              <paper-icon-button class="side-modal-close" icon="close" onclick="hide_modal('share')"><paper-shadow z="3"></paper-icon-button>
-            </div>
-          </div>
-          <div class="side-modal-content">
-            <div id="share-list">
-            </div>
-            <paper-fab id="new_fab" icon="refresh" onclick="checkP()"></paper-fab>
-          </div>
-        </div>
         
         <!--
         END MODALS
@@ -232,24 +98,21 @@
         <div class="open-container">
           <div class="open-header">
             <div class="open-header-container">
-              <paper-icon-button icon="arrow-back" id="open-back" style="display:none" onclick="go_back()"></paper-icon-button>
-              <paper-icon-button icon="more-vert" id="open-menu" onclick="showMoreDialog()"></paper-icon-button>
+              <span class="md md-chevron-left" id="open-back" style="display:none;color:white" onclick="go_back()"></span>
               
-              <!--slide_up('#open-sheet')-->
+              <span class="md md-people" id="share-menu" onclick="showMoreDialog()"></span>
+              <span class="md md-exit-to-app" onclick="signOut()" icon="exit-to-app" id="logout-menu"></span>
               
               <img id="profile_pic" src="" height="30px" width="30px">
             </div>
           </div>
           <div class="open-content">
+            <paper-fab icon="add" onclick="newFile('Untitled.txt')" color="white"></paper-fab>
 
             <div class="open-list" id="open-1">
             </div>
             <div class="open-list" id="open-2" style="display:none">
             </div>
-            
-            <!--add actions-->
-            <paper-fab id="new_fab" class="add-file-fab" icon="add" onclick="showNewFile()"></paper-fab>
-            <!-- -->
             
           </div>
         </div>
@@ -267,165 +130,188 @@
         exit
 
         -->
-        <div class="black-sheet-detect" style="display:none" id="new-detect"></div>  
           
-          
-        <div class="black-sheet-detect-item" id="new-detect-close" style="right: -1000px; bottom: -1000px;"> 
-            <paper-icon-button onclick="hideNewFile()" icon="close" style="color: #eee"></paper-icon-button>
-          
-        </div>  
-          
-          
-        <div class="black-sheet-detect-item" id="new-detect-javascript" style="left: 1000px;bottom: -1000px;">  
-            <button style="background-color:#e84e40" onclick="newFile('Untitled.js')"><i class="devicons devicons-javascript"></i></button>
-            <h4>Javascript</h4>
-        </div>  
-          
-        
-        <div class="black-sheet-detect-item" id="new-detect-html" style="left: 1000px;bottom: -1000px;">  
-            <button style="background-color:#4db6ac" onclick="newFile('Untitled.html')"><i class="devicons devicons-html5"></i></button>
-            <h4>Html</h4>
-        </div> 
-          
-        <div class="black-sheet-detect-item" id="new-detect-css" style="left: 1000px;bottom: -1000px;">  
-            <button style="background-color:#E67E22" onclick="newFile('Untitled.css')"><i class="devicons devicons-css3"></i></button>
-            <h4>CSS</h4>
-        </div> 
-          
-        <div class="black-sheet-detect-item" id="new-detect-php" style="left: 1000px;bottom: -1000px;">  
-            <button style="background-color:#9B59B6" onclick="newFile('Untitled.php')"><i class="devicons devicons-php"></i></button>
-            <h4>PHP</h4>
-        </div> 
-          
-        <div class="black-sheet-detect-item" id="new-detect-text" style="left: 1000px;bottom:-1000px;">
-            <button style="background-color:#F1C40F" onclick="newFile('Untitled.txt')"><i class="devicons devicons-opensource"></i></button>
-            <h4>Default</h4>
-          </div>
-          
-          
-        <div class="black-sheet-detect" style="display:none" id="more-detect"></div>
-          
-        <div class="black-sheet-detect-item" id="more-detect-about" style="left: 1000px;bottom: -1000px;">  
-          <paper-icon-button icon="info" style="background-color:#e84e40" onclick="about_in()"></paper-icon-button>
-          <h4>About</h4>
-        </div>
-          
-        <div class="black-sheet-detect-item" id="more-detect-sign-out" style="left: 1000px; bottom: -1000px;">  
-          <paper-icon-button onclick="signOut()" icon="exit-to-app" style="background-color:#4db6ac"></paper-icon-button>
-          <h4>Sign out</h4>
+        <div id="tab-modal-more" style="display:none">
+          <paper-shadow z="1"></paper-shadow>
+          <paper-checkbox id="share_toggle" onchange="shared_change()" style="float:left"></paper-checkbox>
+          <span style="float:left;margin-left: 10px;color:#8E8E93">Shared With Me</span>
+          <!--span onclick="hideMoreDialog()" style="float:right;color:#8E8E93"><core-icon icon="close"></core-icon></span-->
         </div>
           
           
-        <div class="black-sheet-detect-item" id="more-detect-shared" style="left: 1000px; bottom: -1000px;"> 
-            <paper-toggle-button id="share_toggle" onchange="shared_change()" style="float:left"></paper-toggle-button>
-          
-            <h4>Shared with me</h4>
-          
-        </div>
-          
-        <div class="black-sheet-detect-item" id="more-detect-close" style="right: -1000px; bottom: -1000px;"> 
-            <paper-icon-button onclick="hideMoreDialog()" icon="close" style="color: #eee"></paper-icon-button>
-          
-        </div>
 
           
         <paper-icon-button onclick="hide_side()" icon="close" style="display:none;color: #eee" id="close_side_button"></paper-icon-button>
           
         <div class="file-container" style="display:none">
-          <div id="side" style="display:none">
+          <div id="side" style="display:none;left:0;margin-left:0">
 
 
-            <div class="side-item side-header">
+            <div class="side-item side-header all-side-item">
               <h4 id="title-elem">Title</h4>
-              <paper-icon-button icon="create" onclick="$('#rename-input').slideToggle()" style="color:black !important;background-color:#eefd40"></paper-icon-button>
-            </div>
-            <input type="text" id="rename-input" value="title" style="display:none" onchange="okRename()">
-            
-            
-            <div class="side-item">
-              <paper-icon-button onclick="save()" icon="save" style="background-color:#E74C3C"></paper-icon-button>
-              <h4>Save</h4>
-            </div>
-            
-            <div class="side-item">
-              <paper-icon-button onclick="show_modal('chat')" icon="send" style="background-color:#3498DB"></paper-icon-button>
-              <h4>Chat</h4>
-            </div>
-            
-            <div class="side-item side-sep">
-              <paper-icon-button onclick="show_modal('col')" icon="account-circle" style="background-color:#2ECC71"></paper-icon-button>
-              <h4>Collaborators</h4>
-            </div>
-            
-            <div class="side-item">
-              <paper-icon-button onclick="checkP()" icon="folder-shared" style="background-color:#E67E22"></paper-icon-button>
-              <h4>Share</h4>
-            </div>
-            
-            <div class="side-item">
-              <paper-icon-button onclick="updatePreview();show_modal('preview')" icon="visibility" style="background-color:#9B59B6"></paper-icon-button>
-              <h4>Preview</h4>
-            </div>
-            
-            <div class="side-item">
-              <paper-icon-button onclick="show_modal('lorem')" icon="text-format" style="background-color:#16A085"></paper-icon-button>
-              <h4>Lorem</h4>
-            </div>
-            
-            <div class="side-item side-sep">
-              <paper-icon-button onclick="show_modal('color')" icon="invert-colors" style="background-color:#D35400"></paper-icon-button>
-              <h4>Color</h4>
-            </div>
-
-            <div class="side-item">
-              <paper-icon-button onclick="show_modal('lang')" icon="translate" style="background-color:#2980B9"></paper-icon-button>
-              <h4>Languages</h4>
-            </div>
-
-            <div class="side-item">
-              <paper-icon-button onclick="show_modal('theme')" icon="settings-display" style="background-color:#27AE60"></paper-icon-button>
-              <h4>Themes</h4>
-            </div>
-
-            <div class="side-item">
-              <paper-icon-button onclick="show_modal('option')" icon="settings" style="background-color:#E74C3C"></paper-icon-button>
-              <h4>Options</h4>
             </div>
 
           </div>
-          <div id="side-detect" class="black-sheet-detect" style="display:none" onclick=""></div>
+          
+          
           <!--hide_side()-->
 
           <div class="file-header">
             <div class="file-header-container">
-              <paper-icon-button icon="arrow-back" id="file-back" onclick="go_file_back()"></paper-icon-button>
+              <span class="md md-done" id="file-back" onclick="go_file_back()" style="color:white"></span>
 
 
-              <paper-icon-button icon="rotate-left" style="position:absolute;right:200px" onclick="editor.getDoc().undo()"></paper-icon-button>
-              <paper-icon-button icon="rotate-right" style="position:absolute;right:150px" onclick="editor.getDoc().redo();"></paper-icon-button>
-              <paper-icon-button icon="save" style="position:absolute;right:100px" onclick="save()"></paper-icon-button>
-              <paper-icon-button icon="send" style="position:absolute;right:50px" onclick="show_modal('chat')"></paper-icon-button>
+              <span class="md md-undo" style="position:absolute;right:130px" onclick="editor.getDoc().undo()"></span>
+              <span class="md md-redo" style="position:absolute;right:90px" onclick="editor.getDoc().redo();"></span>
+              <span class="md md-save" style="position:absolute;right:50px" onclick="save()"></span>
 
-              <paper-icon-button icon="more-vert" id="file-menu" onclick="show_side()"></paper-icon-button>
+              <span class="md md-more-vert" style="right: 10px" id="file-menu" onclick="show_side()"></span>
             </div>
           </div>
           <div class="file-content" id="editor">
+            <!--
+preview
+share x 
+collaborators x
+chat x
+lorem x
+color x
+options x
+close x
+            -->
+          </div>
+        </div>
+          
+          
+        <div id="tab-modal-side" class="tab-modal" style="display:none">
+          
+          
+          <paper-tabs selected="0" id="tabs_tabs_tabs">
+            <paper-tab onclick="modal_side_options()">
+              <span class="md md-settings" style="font-size:26px;"></span>
+            </paper-tab>
+            
+            <paper-tab onclick="modal_side_color()">
+              <span class="md md-invert-colors-on" style="font-size:26px;"></span>
+            </paper-tab>
+            
+            <paper-tab onclick="modal_side_preview()">
+              <span class="md md-remove-red-eye" style="font-size:26px;"></span>
+            </paper-tab>
+            
+            <paper-tab onclick="modal_side_share()">
+              <span class="md md-person-add" style="font-size:26px;"></span>
+            </paper-tab>
+            
+            <paper-tab onclick="modal_side_chat()">
+              <span class="md md-chat" style="font-size:26px;"></span>
+            </paper-tab>
+            
+            <paper-tab onclick="modal_side_options();hide_side();document.getElementById('tab_tab_tab').selected=0">
+              <span style="font-size:26px" class="md md-done" style="color: white"></span>
+            </paper-tab>
+            
+          </paper-tabs>
 
+          <div class="tab-container">
+            <div id="modal_side_options_div" class="tab-container-active">
+              <br/>
+              <div class="option-modal-div">
+                  <!--wrap-->
+                  <h4>Line Wrap</h4>
+                  <paper-toggle-button id="wrap-toggle" checked></paper-toggle-button>
+              </div>
+              <div class="option-modal-div">
+                  <!--numbers-->
+                  <h4>Line Numbers</h4>
+                  <paper-toggle-button id="num-toggle" checked></paper-toggle-button>
+              </div>
+              
+              <select id="mode-select" class="paper-input" onchange="setMode($('select').val())">
+                    
+                    <option value="text">Text</option><option value="text/javascript">Javascript</option><option value="text/apl">APL</option><option value="text/x-asterisk">Asterisk</option><option value="text/x-csrc">C</option><option value="text/x-c++src">C++</option><option value="text/x-csharp">C#</option><option value="text/x-java">Java</option><option value="text/x-clojure">Clojure</option><option value="cobol">Cobol</option><option value="text/x-coffeescript">CoffeeScript</option><option value="text/x-common-lisp">Common Lisp</option><option value="text/css">CSS</option><option value="text/x-scss">SCSS</option><option value="text/x-less">LESS</option><option value="application/x-cypher-query">Cypher</option><option value="text/x-python">Python</option><option value="text/x-cython">Cython</option><option value="text/x-d">D</option><option value="text/x-django">Django</option><option value="text/x-diff">Diff</option><option value="application/xml-dtd">DTD</option><option value="text/x-dylan">Dylan</option><option value="text/x-ecl">ECL</option><option value="text/x-eiffel">Eiffel</option><option value="text/x-erlang">Erlang</option><option value="text/x-Fortran">Fortan</option><option value="text/x-ocaml">OCaml</option><option value="text/x-fsharp">F#</option><option value="text/x-gas">Gas</option><option value="text/x-feature">Gherkin</option><option value="text/x-go">Go</option><option value="text/x-groovy">Groovy</option><option value="text/x-haml">HAML</option><option value="text/x-haskell">Haskell</option><option value="text/x-haxe">Haxe</option><option value="application/x-jsp">JSP</option><option value="application/x-ejs">EJS</option><option value="application/x-aspx">ASP.NET</option><option value="text/html">HTML</option><option value="message/http">HTTP</option><option value="text/x-jade">Jade</option><option value="application/json">JSON</option><option value="ts|typescript|str">TypeScript</option><option value="text/x-julia">Julia</option><option value="text/x-livescript">LiveScript</option><option value="text/x-lua">Lua</option><option value="text/x-markdown">Markdown</option><option value="gfm">Github Markdown</option><option value="text/mirc">mIRC</option><option value="text/nginx">nginx</option><option value="text/n-triples">NTriples</option><option value="text/x-octave">Octave</option><option value="text/x-pascal">Pascal</option><option value="text/x-perl">Perl</option><option value="text/x-php">PHP</option><option value="application/x-httpd-php">PHP/HTML</option><option value="text/x-pig">Pig Latin</option><option value="text/x-properties">Properties</option><option value="text/x-puppet">Puppet</option><option value="text/x-q">Q</option><option value="text/x-rsrc">R</option><option value="text/x-ruby">Ruby</option><option value="text/x-rustsrc">Rust</option><option value="text/x-sass">Sass</option><option value="text/x-scala">Scala</option><option value="text/x-sh">Shell</option><option value="text/x-scheme">Scheme</option><option value="application/sieve">Sieve</option><option value="text/x-stsrc">Smalltalk</option><option value="text/x-smarty">Smarty</option><option value="text/x-solr">Solr</option><option value="text/x-sql">SQL</option><option value="text/x-mysql">mySQL</option><option value="text/x-stex">sText</option><option value="text/x-tcl">TCL</option><option value="text/x-stex">LaTex</option><option value="tiki">Tiki</option><option value="text/x-toml">Toml</option><option value="text/turtle">Turtle</option><option value="text/x-vb">VB.NET</option><option value="text/vbscript">VBScript</option><option value="text/velocity">Velocity</option><option value="text/x-verilog">Verilog</option><option value="text/html">XML</option><option value="application/xquery">XQuery</option><option value="swift">Swift</option>
+                
+                </select>
+              
+                <span id="select-close"><i class="fa fa-angle-down"></i></span>
+                <h4 id="title-elem" style="display:none">Title</h4>
+                <input class="paper-input" type="text" id="rename-input" value="title" onchange="okRename()">
+            
+            </div>
+            <div id="modal_side_color_div" style="display:none">
+              <div id="color-preview"></div>
+              
+            
+              <div center horizontal layout>
+                <div>R</div>
+                <paper-slider min="0" max="255" value="100" id="red"></paper-slider>
+              </div>
+
+              <div center horizontal layout>
+                <div>G</div>
+                <paper-slider min="0" max="255" value="100" id="green"></paper-slider>
+              </div>
+
+              <div center horizontal layout>
+                <div>B</div>
+                <paper-slider min="0" max="255" value="100" id="blue"></paper-slider>
+              </div>
+              <br/>
+              
+              <div class="chat-div">
+                <input class="paper-input" type="text" onchange="adjustColorHex()" value="#646464" placeholder="A hex color" id="color-hex">
+              </div>
+            </div>
+            <div id="modal_side_lorem_div" style="display:none">
+            
+            </div>
+            <div id="modal_side_preview_div" style="display:none">
+              <div class="blur"></div>
+              <iframe id="preview"></iframe>
+              
+            </div>
+            <div id="modal_side_colab_div" style="display:none">
+            
+            </div>
+            <div id="modal_side_share_div" style="display:none">
+              <div class="blur">
+              
+              </div>
+              
+              <div id="share-list">
+                
+              </div>
+              <div class="chat-div">
+                <input class="paper-input" type="text" id="share-input" placeholder="Email to add..." onchange="addP()" autocomplete="off">
+              </div>
+            </div>
+            <div id="modal_side_chat_div" style="display:none">
+              <div class="blur"></div>
+              <div id="chat-list" class="chat">
+              </div>
+              <div class="chat-div">
+                <textarea class="paper-input" id="chat-text" placeholder="Type something" onchange="sendChat()"></textarea>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="black-sheet-detect" style="display:none" id="open-sheet-detect"></div>
+          
+      <div class="black-sheet-detect" style="display:none" id="open-sheet-detect"></div>
 
-        <iframe src="https://codeyourcloud.com/mobile/mobile.html" id="iframe" style="display:none"></iframe>
+      <iframe src="https://codeyourcloud.com/mobile/mobile.html" id="iframe" style="display:none"></iframe>
 
-        <script src="codemirror/lib/codemirror.js"></script>
+      <script src="lib/sweet/sweet-alert.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="lib/sweet/sweet-alert.css">     
+          
+      <script src="codemirror/lib/codemirror.js"></script>
     		<link rel="stylesheet" href="codemirror/lib/codemirror.css">
     		<script src = 'codemirror/mode/css/css.js'></script>
     		<script src = "codemirror/mode/mode.js"></script>
     		<script src = "codemirror/mode/swift.js"></script>
     		<link rel='stylesheet' type='text/css' href='codemirror/theme/theme.css'>
     		<link rel='stylesheet' type='text/css' href='codemirror/theme/code-your-cloud.css'>
-        <link rel="stylesheet" href="codemirror/addon/dialog/dialog.css" >
+      <link rel="stylesheet" href="codemirror/addon/dialog/dialog.css" >
     		<script src="codemirror/addon/comment/comment.js" ></script>
     		<script src="codemirror/addon/dialog/dialog.js" ></script>
     		<script src="codemirror/addon/search/search.all.js" ></script>
@@ -438,6 +324,9 @@
     		<link rel='stylesheet' type='text/css' href="codemirror/addon/lint/lint.css">
 
       <script src="lib/lorem.js"></script>
+         
+      <script src="velocity/velocity.min.js"></script>
+      <script src="velocity/velocity.ui.min.js"></script>
           
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
@@ -448,6 +337,6 @@
         <script type="text/javascript" src="js/animate.js"></script>
         <script type="text/javascript" src="js/visual.js"></script>
         <script type="text/javascript" src="js/interact.js"></script>
-        
+        <script src="js/new.js"></script>
     </body>
 </html>

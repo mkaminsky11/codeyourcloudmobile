@@ -1,5 +1,5 @@
-body{
-  font-family: 'Roboto';
+ body{
+  font-family: 'Oxygen';
   position: fixed;
   top: -8px;
   left: -8px;
@@ -30,8 +30,9 @@ body{
   height: 60px;
   position:absolute;
   top: 0;
-  background-color:#00bcd4;
+  background-color:#E74C3C;
   z-index: 3;
+  border-bottom: none;
 }
 
 .file-header{
@@ -39,17 +40,11 @@ body{
   height: 60px;
   position:absolute;
   top: 0;
-  background-color:#00bcd4;
+  background-color:#E74C3C;
   z-index: 5;
+  border-bottom: none;
 }
 
-.open-header paper-icon-button{
-  color:white;
-}
-
-.file-header paper-icon-button{
-  color:white;
-}
 
 .open-header-container{
   width: calc(100%  - 10px);
@@ -93,9 +88,17 @@ body{
   position:absolute;
   left: 5px;
 }
-#open-menu{
+#logout-menu{
   position:absolute;
-  right: 35px;
+  right: 50px;
+}
+#share-menu{
+  position: absolute;
+  right: 90px;
+}
+#new-menu{
+  position: absolute;
+  right: 130px;
 }
 #file-back{
   position:absolute;
@@ -116,22 +119,29 @@ body{
 }
 
 #open-1{
-  background-color: white;
-  border: 1px solid #F2EDED;
+  background-color: #ECECEC;
+  border: 1px solid #ECECEC;
 }
 #open-2{
-  background-color:white;
-  border: 1px solid #F2EDED;
+  background-color: #ECECEC;
+  border: 1px solid #ECECEC;
 }
 
 .open-item{
-  font-family: "Roboto";
-  width: 100%;
-  height: 60px;
-  display: flex;
-  padding: 5px 0px 5px 5px;
-  border-bottom: 1px solid #F2EDED;
-  color: #18ffff;
+  font-family: "Oxygen";
+width: calc(100% - 25px);
+height: 60px;
+display: flex;
+padding: 5px 0px 5px 5px;
+border-bottom: /*1px solid #F2EDED;*/ none;
+color: gray;
+margin-top: 5px;
+margin-bottom: 10px;
+background-color: white;
+margin-left: 10px;
+margin-right:5px;
+box-shadow: 0 3px 2px -2px rgba(0,0,0,0.1);
+border-radius:1px
 }
 .open-item paper-ripple{
   width: 100%;
@@ -156,16 +166,22 @@ body{
 }
 .open-item h4{
   margin: 0px 0px 7px;
-  font-size: 18px;
+  font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #607D8B;
-  font-family: "Roboto-Light";
+  color: #5c5c5c;
+  font-family: "Oxygen-Light";
+  width:calc(100% - 10px);
 }
 .open-item h6{
   margin: 0px;
-  color: #808080;
+  color: #8E8E93;
+  font-family: "Oxygen-Light";
+  width:calc(100% - 10px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .bottom-sheet{
   left: 0;
@@ -179,8 +195,7 @@ body{
 }
 .black-sheet-detect{
   left: 0px;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgba(0,0,0,0.8);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -194,11 +209,11 @@ body{
   font-size: 15px;
   margin-top: -1px;
   padding: 10px;
-  border-bottom: solid thin #eeeeee;
+  border-bottom: solid thin #eee;
 }
 .sheet-item h4{
   margin: 5px 0px 0px 5px;
-  font-family: 'Roboto-Light';
+  font-family: 'Oxygen-Light';
   color: rgb(55, 71, 79);
   float: left;
 }
@@ -221,7 +236,7 @@ body{
   position:absolute;
   top: 0;
   left: 0;
-  background-color: #00acc1;
+  background-color: #2B2B2B;
   text-align: center;
   color: #FFF;
   z-index: 100;
@@ -229,10 +244,15 @@ body{
 .screen h1{
   padding-bottom: 0px;
   margin-bottom: 0px;
+  color:#E9E7E7;
+  font-family:'Oxygen-Black'
 }
 .screen h2{
   font-family: "Lobster";
   margin-top: 5px;
+}
+.screen h1, .screen h2, .screen h6{
+  color:#E9E7E7;; 
 }
 .screen paper-button{
   background-color: rgba(255,255,255,0.4);
@@ -264,7 +284,7 @@ body{
   text-align:center;
   text-transform: uppercase;
   font-size:20px;
-  font-family:'Roboto-Black';
+  font-family:'Oxygen-Black';
   color: #bdbdbd;
 }
 
@@ -295,7 +315,7 @@ body{
   z-index: 13 !important;
 }
 .side-item{
-  font-family: "Roboto";
+  font-family: "Oxygen";
   width: 100%;
   height: 35px;
   display: flex;
@@ -313,7 +333,7 @@ body{
   overflow: hidden;
   text-overflow: ellipsis;
   color: #eee;
-  font-family: "Roboto-Light";
+  font-family: "Oxygen-Light";
   position:absolute;
   left:60px;
   margin-top:-33px;
@@ -327,17 +347,12 @@ body{
   width: calc(100% - 10px);
 }
 .side-header paper-icon-button{
-  color: black;
   position: absolute;
   right: 10px;
   background-color: #5677fc;
   border-radius: 50%;
   top:10px
 }
-.side-header paper-icon-button core-icon{
-  color: black;
-}
-
 .side-header h4{
   position: absolute;
   left: 30px;
@@ -349,18 +364,6 @@ body{
   text-overflow: ellipsis;
 }
 
-#rename-input{
-  padding: 5px;
-  background-color: #F5F5F5;
-  width: calc(100% - 10px);
-  height: 40px;
-  outline: medium none !important;
-  font-size: 20px;
-  font-family: "Roboto-Thin";
-  border: medium none;
-  border-bottom: 1px solid #F2EDED;
-}
-
 .hide{
   display: none;
 }
@@ -369,7 +372,7 @@ body{
   float:right;
   margin-right:5px;
   border-radius:20px;
-  border:solid thin white;
+  border:none;
   margin-top: 7px;
 }
 
@@ -422,7 +425,7 @@ body{
 
 #close_side_button{
   position: absolute;
-  bottom: -50px;
-  right: -50px;
+  bottom: 10px;
+  right: 10px;
   z-index: 13;
 }

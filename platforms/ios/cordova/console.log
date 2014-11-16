@@ -1,219 +1,1346 @@
-2014-09-07 08:50:07.942 CodeYourCloud[4569:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-07 08:50:07.944 CodeYourCloud[4569:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-07 08:50:07.951 CodeYourCloud[4569:70b] Unlimited access to network resources
-2014-09-07 08:50:07.954 CodeYourCloud[4569:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-07 08:50:08.030 CodeYourCloud[4569:70b] Resetting plugins due to page load.
-2014-09-07 08:50:09.329 CodeYourCloud[4569:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-07 08:50:09.330 CodeYourCloud[4569:70b] Resetting plugins due to page load.
-2014-09-07 08:50:09.605 CodeYourCloud[4569:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-07 08:50:15.682 CodeYourCloud[4569:70b] Setting the WebView's frame to {{0, 0}, {320, 436}}
-2014-09-07 08:50:15.690 CodeYourCloud[4569:70b] THREAD WARNING: ['InAppBrowser'] took '39.737793' ms. Plugin should use a background thread.
-2014-09-07 14:59:59.319 CodeYourCloud[1833:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-07 14:59:59.321 CodeYourCloud[1833:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-07 14:59:59.337 CodeYourCloud[1833:70b] Unlimited access to network resources
-2014-09-07 14:59:59.340 CodeYourCloud[1833:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-07 14:59:59.721 CodeYourCloud[1833:70b] Resetting plugins due to page load.
-2014-09-07 15:00:00.457 CodeYourCloud[1833:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-07 15:00:00.458 CodeYourCloud[1833:70b] Resetting plugins due to page load.
-2014-09-07 15:00:00.742 CodeYourCloud[1833:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-07 15:22:52.375 CodeYourCloud[1833:70b] Setting the WebView's frame to {{0, 0}, {320, 436}}
-2014-09-07 15:22:52.383 CodeYourCloud[1833:70b] THREAD WARNING: ['InAppBrowser'] took '39.669922' ms. Plugin should use a background thread.
-2014-09-15 18:30:49.180 CodeYourCloud[6279:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-15 18:30:49.184 CodeYourCloud[6279:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-15 18:30:49.210 CodeYourCloud[6279:70b] Unlimited access to network resources
-2014-09-15 18:30:49.219 CodeYourCloud[6279:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-15 18:30:49.791 CodeYourCloud[6279:70b] Resetting plugins due to page load.
-2014-09-15 18:30:53.539 CodeYourCloud[6279:70b] THREAD WARNING: ['NetworkStatus'] took '21.792236' ms. Plugin should use a background thread.
-2014-09-15 18:30:53.545 CodeYourCloud[6279:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-15 18:30:53.546 CodeYourCloud[6279:70b] Resetting plugins due to page load.
-2014-09-15 18:30:54.004 CodeYourCloud[6279:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-15 18:34:49.518 CodeYourCloud[10834:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-15 18:34:49.520 CodeYourCloud[10834:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-15 18:34:49.524 CodeYourCloud[10834:70b] Unlimited access to network resources
-2014-09-15 18:34:49.527 CodeYourCloud[10834:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-15 18:34:49.641 CodeYourCloud[10834:70b] Resetting plugins due to page load.
-2014-09-15 18:34:50.496 CodeYourCloud[10834:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-15 18:34:50.497 CodeYourCloud[10834:70b] Resetting plugins due to page load.
-2014-09-15 18:34:52.361 CodeYourCloud[10834:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-16 17:37:11.906 CodeYourCloud[16507:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-16 17:37:11.910 CodeYourCloud[16507:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-16 17:37:11.938 CodeYourCloud[16507:70b] Unlimited access to network resources
-2014-09-16 17:37:11.948 CodeYourCloud[16507:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-16 17:37:12.322 CodeYourCloud[16507:70b] Resetting plugins due to page load.
-2014-09-16 17:37:14.527 CodeYourCloud[16507:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-16 17:37:14.528 CodeYourCloud[16507:70b] Resetting plugins due to page load.
-2014-09-16 17:37:17.766 CodeYourCloud[16507:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 18:35:46.466 CodeYourCloud[22805:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 18:35:46.471 CodeYourCloud[22805:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 18:35:46.498 CodeYourCloud[22805:70b] Unlimited access to network resources
-2014-09-17 18:35:46.506 CodeYourCloud[22805:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 18:35:46.872 CodeYourCloud[22805:70b] Resetting plugins due to page load.
-2014-09-17 18:35:47.676 CodeYourCloud[22805:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 18:35:47.677 CodeYourCloud[22805:70b] Resetting plugins due to page load.
-2014-09-17 18:35:49.184 CodeYourCloud[22805:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 18:46:38.395 CodeYourCloud[27383:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 18:46:38.397 CodeYourCloud[27383:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 18:46:38.401 CodeYourCloud[27383:70b] Unlimited access to network resources
-2014-09-17 18:46:38.404 CodeYourCloud[27383:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 18:46:38.541 CodeYourCloud[27383:70b] Resetting plugins due to page load.
-2014-09-17 18:46:39.670 CodeYourCloud[27383:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 18:46:39.670 CodeYourCloud[27383:70b] Resetting plugins due to page load.
-2014-09-17 18:46:40.136 CodeYourCloud[27383:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 18:55:12.723 CodeYourCloud[31961:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 18:55:12.725 CodeYourCloud[31961:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 18:55:12.735 CodeYourCloud[31961:70b] Unlimited access to network resources
-2014-09-17 18:55:12.739 CodeYourCloud[31961:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 18:55:12.893 CodeYourCloud[31961:70b] Resetting plugins due to page load.
-2014-09-17 18:55:13.627 CodeYourCloud[31961:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 18:55:13.628 CodeYourCloud[31961:70b] Resetting plugins due to page load.
-2014-09-17 18:55:15.368 CodeYourCloud[31961:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 19:02:33.740 CodeYourCloud[36530:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 19:02:33.741 CodeYourCloud[36530:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 19:02:33.746 CodeYourCloud[36530:70b] Unlimited access to network resources
-2014-09-17 19:02:33.749 CodeYourCloud[36530:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 19:02:33.901 CodeYourCloud[36530:70b] Resetting plugins due to page load.
-2014-09-17 19:02:34.779 CodeYourCloud[36530:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 19:02:34.780 CodeYourCloud[36530:70b] Resetting plugins due to page load.
-2014-09-17 19:02:36.548 CodeYourCloud[36530:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 19:17:01.064 CodeYourCloud[41123:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 19:17:01.071 CodeYourCloud[41123:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 19:17:01.090 CodeYourCloud[41123:70b] Unlimited access to network resources
-2014-09-17 19:17:01.095 CodeYourCloud[41123:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 19:17:01.319 CodeYourCloud[41123:70b] Resetting plugins due to page load.
-2014-09-17 19:17:02.311 CodeYourCloud[41123:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 19:17:02.312 CodeYourCloud[41123:70b] Resetting plugins due to page load.
-2014-09-17 19:17:02.602 CodeYourCloud[41123:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 19:20:53.328 CodeYourCloud[45670:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 19:20:53.330 CodeYourCloud[45670:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 19:20:53.335 CodeYourCloud[45670:70b] Unlimited access to network resources
-2014-09-17 19:20:53.337 CodeYourCloud[45670:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 19:20:53.437 CodeYourCloud[45670:70b] Resetting plugins due to page load.
-2014-09-17 19:20:54.129 CodeYourCloud[45670:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 19:20:54.129 CodeYourCloud[45670:70b] Resetting plugins due to page load.
-2014-09-17 19:20:55.737 CodeYourCloud[45670:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-17 19:23:26.217 CodeYourCloud[53041:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-17 19:23:26.219 CodeYourCloud[53041:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-17 19:23:26.233 CodeYourCloud[53041:70b] Unlimited access to network resources
-2014-09-17 19:23:26.237 CodeYourCloud[53041:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-17 19:23:26.456 CodeYourCloud[53041:70b] Resetting plugins due to page load.
-2014-09-17 19:23:27.062 CodeYourCloud[53041:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-17 19:23:27.062 CodeYourCloud[53041:70b] Resetting plugins due to page load.
-2014-09-17 19:23:28.499 CodeYourCloud[53041:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-18 20:44:29.755 CodeYourCloud[95879:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-18 20:44:29.757 CodeYourCloud[95879:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-18 20:44:29.773 CodeYourCloud[95879:70b] Unlimited access to network resources
-2014-09-18 20:44:29.776 CodeYourCloud[95879:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-18 20:44:30.025 CodeYourCloud[95879:70b] Resetting plugins due to page load.
-2014-09-18 20:44:30.796 CodeYourCloud[95879:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-18 20:44:30.796 CodeYourCloud[95879:70b] Resetting plugins due to page load.
-2014-09-18 20:44:33.234 CodeYourCloud[95879:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-18 20:55:26.468 CodeYourCloud[3361:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-18 20:55:26.470 CodeYourCloud[3361:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-18 20:55:26.478 CodeYourCloud[3361:70b] Unlimited access to network resources
-2014-09-18 20:55:26.480 CodeYourCloud[3361:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-18 20:55:26.674 CodeYourCloud[3361:70b] Resetting plugins due to page load.
-2014-09-18 20:55:27.950 CodeYourCloud[3361:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-18 20:55:27.951 CodeYourCloud[3361:70b] Resetting plugins due to page load.
-2014-09-18 20:55:29.767 CodeYourCloud[3361:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-18 21:02:56.669 CodeYourCloud[10763:70b] Apache Cordova native platform version 3.6.0 is starting.
-2014-09-18 21:02:56.692 CodeYourCloud[10763:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-18 21:02:56.742 CodeYourCloud[10763:70b] Unlimited access to network resources
-2014-09-18 21:02:56.748 CodeYourCloud[10763:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might be rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines" at:
-https://developer.apple.com/icloud/documentation/data-storage/
-
-2014-09-18 21:02:57.015 CodeYourCloud[10763:70b] Resetting plugins due to page load.
-2014-09-18 21:02:58.206 CodeYourCloud[10763:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-18 21:02:58.206 CodeYourCloud[10763:70b] Resetting plugins due to page load.
-2014-09-18 21:03:01.172 CodeYourCloud[10763:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
-2014-09-18 21:03:33.627 CodeYourCloud[10763:70b] Resetting plugins due to page load.
-2014-09-18 21:03:36.549 CodeYourCloud[10763:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
-2014-09-18 21:03:36.549 CodeYourCloud[10763:70b] Resetting plugins due to page load.
-2014-09-18 21:03:36.743 CodeYourCloud[10763:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-04 16:25:35.980 CodeYourCloud[7249:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-04 16:25:35.982 CodeYourCloud[7249:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-04 16:25:35.998 CodeYourCloud[7249:70b] Unlimited access to network resources
+2014-10-04 16:25:36.280 CodeYourCloud[7249:70b] Resetting plugins due to page load.
+2014-10-04 16:25:36.968 CodeYourCloud[7249:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-04 16:25:36.971 CodeYourCloud[7249:70b] Resetting plugins due to page load.
+2014-10-04 16:25:39.486 CodeYourCloud[7249:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-05 19:40:59.735 CodeYourCloud[6211:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-05 19:40:59.736 CodeYourCloud[6211:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-05 19:40:59.753 CodeYourCloud[6211:70b] Unlimited access to network resources
+2014-10-05 19:41:00.140 CodeYourCloud[6211:70b] Resetting plugins due to page load.
+2014-10-05 19:41:00.829 CodeYourCloud[6211:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-05 19:41:00.831 CodeYourCloud[6211:70b] Resetting plugins due to page load.
+2014-10-05 19:41:02.346 CodeYourCloud[6211:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-09 14:59:44.687 CodeYourCloud[7650:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-09 14:59:44.689 CodeYourCloud[7650:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-09 14:59:44.704 CodeYourCloud[7650:70b] Unlimited access to network resources
+2014-10-09 14:59:44.945 CodeYourCloud[7650:70b] Resetting plugins due to page load.
+2014-10-09 14:59:45.568 CodeYourCloud[7650:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-09 14:59:45.569 CodeYourCloud[7650:70b] Resetting plugins due to page load.
+2014-10-09 14:59:46.747 CodeYourCloud[7650:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-09 16:45:34.620 CodeYourCloud[12063:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-09 16:45:34.622 CodeYourCloud[12063:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-09 16:45:34.638 CodeYourCloud[12063:70b] Unlimited access to network resources
+2014-10-09 16:45:34.859 CodeYourCloud[12063:70b] Resetting plugins due to page load.
+2014-10-09 16:45:35.523 CodeYourCloud[12063:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-09 16:45:35.523 CodeYourCloud[12063:70b] Resetting plugins due to page load.
+2014-10-09 16:45:37.560 CodeYourCloud[12063:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-09 20:40:44.617 CodeYourCloud[16467:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-09 20:40:44.655 CodeYourCloud[16467:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-09 20:40:44.670 CodeYourCloud[16467:70b] Unlimited access to network resources
+2014-10-09 20:40:44.978 CodeYourCloud[16467:70b] Resetting plugins due to page load.
+2014-10-09 20:40:45.679 CodeYourCloud[16467:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-09 20:40:45.680 CodeYourCloud[16467:70b] Resetting plugins due to page load.
+2014-10-09 20:40:47.303 CodeYourCloud[16467:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-10 16:04:42.359 CodeYourCloud[4848:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-10 16:04:42.361 CodeYourCloud[4848:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-10 16:04:42.378 CodeYourCloud[4848:70b] Unlimited access to network resources
+2014-10-10 16:04:42.650 CodeYourCloud[4848:70b] Resetting plugins due to page load.
+2014-10-10 16:04:43.234 CodeYourCloud[4848:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-10 16:04:43.246 CodeYourCloud[4848:70b] Resetting plugins due to page load.
+2014-10-10 20:19:24.442 CodeYourCloud[9137:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-10 20:19:24.444 CodeYourCloud[9137:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-10 20:19:24.462 CodeYourCloud[9137:70b] Unlimited access to network resources
+2014-10-10 20:19:24.785 CodeYourCloud[9137:70b] Resetting plugins due to page load.
+2014-10-10 20:19:25.518 CodeYourCloud[9137:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-10 20:19:25.519 CodeYourCloud[9137:70b] Resetting plugins due to page load.
+2014-10-10 20:19:26.782 CodeYourCloud[9137:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-16 14:24:39.714 CodeYourCloud[4621:70b] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-16 14:24:39.716 CodeYourCloud[4621:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-16 14:24:39.731 CodeYourCloud[4621:70b] Unlimited access to network resources
+2014-10-16 14:24:40.027 CodeYourCloud[4621:70b] Resetting plugins due to page load.
+2014-10-16 14:24:40.744 CodeYourCloud[4621:70b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-16 14:24:40.746 CodeYourCloud[4621:70b] Resetting plugins due to page load.
+2014-10-16 14:24:41.131 CodeYourCloud[4621:4c07] CFNetwork SSLHandshake failed (-9806)
+2014-10-16 14:24:47.545 CodeYourCloud[4621:70b] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/72CB69F5-63E4-45F8-87EE-F1FDABD88D9F/data/Applications/90488D88-6789-4C82-866B-E31B05D31D70/CodeYourCloud.app/www/index.html
+2014-10-16 14:25:36.858 CodeYourCloud[4621:4c07] CFNetwork SSLHandshake failed (-9806)
+2014-10-16 14:25:45.454 CodeYourCloud[4621:4c07] CFNetwork SSLHandshake failed (-9806)
+2014-10-18 15:54:00.010 CodeYourCloud[6014:87610] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 15:54:00.011 CodeYourCloud[6014:87610] Multi-tasking -> Device: YES, App: YES
+2014-10-18 15:54:00.041 CodeYourCloud[6014:87610] Unlimited access to network resources
+2014-10-18 15:54:00.642 CodeYourCloud[6014:87610] Resetting plugins due to page load.
+2014-10-18 15:54:01.571 CodeYourCloud[6014:87610] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 15:54:01.575 CodeYourCloud[6014:87610] Resetting plugins due to page load.
+2014-10-18 15:54:02.632 CodeYourCloud[6014:87610] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/56D113D3-5446-493A-8321-8B6FDE89F980/CodeYourCloud.app/www/index.html
+2014-10-18 15:54:07.066 CodeYourCloud[6014:87610] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-10-18 15:54:07.072 CodeYourCloud[6014:87610] THREAD WARNING: ['InAppBrowser'] took '152.379150' ms. Plugin should use a background thread.
+2014-10-18 15:54:21.416 CodeYourCloud[6014:87610] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-10-18 15:54:21.419 CodeYourCloud[6014:87610] THREAD WARNING: ['InAppBrowser'] took '108.572021' ms. Plugin should use a background thread.
+2014-10-18 15:58:26.197 CodeYourCloud[6014:87610] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-10-18 15:58:26.203 CodeYourCloud[6014:87610] THREAD WARNING: ['InAppBrowser'] took '111.362061' ms. Plugin should use a background thread.
+2014-10-18 16:04:05.282 CodeYourCloud[10005:95956] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 16:04:05.284 CodeYourCloud[10005:95956] Multi-tasking -> Device: YES, App: YES
+2014-10-18 16:04:05.289 CodeYourCloud[10005:95956] Unlimited access to network resources
+2014-10-18 16:04:05.522 CodeYourCloud[10005:95956] Resetting plugins due to page load.
+2014-10-18 16:04:06.105 CodeYourCloud[10005:95956] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 16:04:06.107 CodeYourCloud[10005:95956] Resetting plugins due to page load.
+2014-10-18 16:04:06.268 CodeYourCloud[10005:95956] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/CE8A0148-7EC8-4767-8E58-230B3591BB75/CodeYourCloud.app/www/index.html
+2014-10-18 16:44:35.936 CodeYourCloud[18036:113945] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 16:44:35.937 CodeYourCloud[18036:113945] Multi-tasking -> Device: YES, App: YES
+2014-10-18 16:44:35.955 CodeYourCloud[18036:113945] Unlimited access to network resources
+2014-10-18 16:44:36.518 CodeYourCloud[18036:113945] Resetting plugins due to page load.
+2014-10-18 16:44:37.457 CodeYourCloud[18036:113945] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 16:44:37.458 CodeYourCloud[18036:113945] Resetting plugins due to page load.
+2014-10-18 16:44:38.808 CodeYourCloud[18036:113945] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/51D5BBCE-31C8-478A-AA23-D33C81189B44/CodeYourCloud.app/www/index.html
+2014-10-18 16:45:04.569 CodeYourCloud[18036:113945] Resetting plugins due to page load.
+2014-10-18 16:45:08.525 CodeYourCloud[18036:113945] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 16:45:08.526 CodeYourCloud[18036:113945] Resetting plugins due to page load.
+2014-10-18 16:45:08.863 CodeYourCloud[18036:113945] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/51D5BBCE-31C8-478A-AA23-D33C81189B44/CodeYourCloud.app/www/index.html
+2014-10-18 16:45:20.035 CodeYourCloud[18036:113945] Resetting plugins due to page load.
+2014-10-18 16:45:21.406 CodeYourCloud[18036:113945] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/51D5BBCE-31C8-478A-AA23-D33C81189B44/CodeYourCloud.app/www/index.html
+2014-10-18 16:46:48.578 CodeYourCloud[22008:119648] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 16:46:48.579 CodeYourCloud[22008:119648] Multi-tasking -> Device: YES, App: YES
+2014-10-18 16:46:48.586 CodeYourCloud[22008:119648] Unlimited access to network resources
+2014-10-18 16:46:48.848 CodeYourCloud[22008:119648] Resetting plugins due to page load.
+2014-10-18 16:46:49.528 CodeYourCloud[22008:119648] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 16:46:49.528 CodeYourCloud[22008:119648] Resetting plugins due to page load.
+2014-10-18 16:46:49.647 CodeYourCloud[22008:119648] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/8781ED37-092D-45C2-B9E6-7B92F7BBC0DE/CodeYourCloud.app/www/index.html
+2014-10-18 17:00:21.760 CodeYourCloud[26008:129020] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:00:21.761 CodeYourCloud[26008:129020] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:00:21.765 CodeYourCloud[26008:129020] Unlimited access to network resources
+2014-10-18 17:00:22.161 CodeYourCloud[26008:129020] Resetting plugins due to page load.
+2014-10-18 17:00:22.785 CodeYourCloud[26008:129020] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:00:22.787 CodeYourCloud[26008:129020] Resetting plugins due to page load.
+2014-10-18 17:00:22.951 CodeYourCloud[26008:129020] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/E5C7122C-C9DC-4EB6-961A-E9B97D78D0CE/CodeYourCloud.app/www/index.html
+2014-10-18 17:01:43.086 CodeYourCloud[26008:129020] Resetting plugins due to page load.
+2014-10-18 17:01:47.725 CodeYourCloud[26008:129020] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:01:47.726 CodeYourCloud[26008:129020] Resetting plugins due to page load.
+2014-10-18 17:01:48.060 CodeYourCloud[26008:129020] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/E5C7122C-C9DC-4EB6-961A-E9B97D78D0CE/CodeYourCloud.app/www/index.html
+2014-10-18 17:03:06.695 CodeYourCloud[29934:134466] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:03:06.697 CodeYourCloud[29934:134466] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:03:06.701 CodeYourCloud[29934:134466] Unlimited access to network resources
+2014-10-18 17:03:07.061 CodeYourCloud[29934:134466] Resetting plugins due to page load.
+2014-10-18 17:03:08.017 CodeYourCloud[29934:134466] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:03:08.018 CodeYourCloud[29934:134466] Resetting plugins due to page load.
+2014-10-18 17:03:08.057 CodeYourCloud[29934:134466] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/C86DDC81-D62B-4AE2-8946-F26E43AC9C74/CodeYourCloud.app/www/index.html
+2014-10-18 17:19:10.428 CodeYourCloud[33919:144188] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:19:10.429 CodeYourCloud[33919:144188] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:19:10.435 CodeYourCloud[33919:144188] Unlimited access to network resources
+2014-10-18 17:19:11.050 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:11.911 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:11.912 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:12.229 CodeYourCloud[33919:144188] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/D76633D2-1AC7-4CEF-8114-51D911704480/CodeYourCloud.app/www/index.html
+2014-10-18 17:19:32.803 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:37.949 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:37.950 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:38.370 CodeYourCloud[33919:144188] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/D76633D2-1AC7-4CEF-8114-51D911704480/CodeYourCloud.app/www/index.html
+2014-10-18 17:19:51.707 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:51.713 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:51.714 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:51.715 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:51.716 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:51.718 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:51.718 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:53.723 CodeYourCloud[33919:144188] CDVWebViewDelegate: Detected redirect when loadCount=2
+2014-10-18 17:19:53.723 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:53.724 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:53.746 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:54.861 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:19:58.518 CodeYourCloud[33919:144188] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:19:58.518 CodeYourCloud[33919:144188] Resetting plugins due to page load.
+2014-10-18 17:21:04.658 CodeYourCloud[37877:149655] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:21:04.660 CodeYourCloud[37877:149655] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:21:04.677 CodeYourCloud[37877:149655] Unlimited access to network resources
+2014-10-18 17:21:04.965 CodeYourCloud[37877:149655] Resetting plugins due to page load.
+2014-10-18 17:21:05.886 CodeYourCloud[37877:149655] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:21:05.887 CodeYourCloud[37877:149655] Resetting plugins due to page load.
+2014-10-18 17:21:06.105 CodeYourCloud[37877:149655] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/31459260-A0AC-40B7-8814-37ECAC3B18AA/CodeYourCloud.app/www/index.html
+2014-10-18 17:22:49.517 CodeYourCloud[41797:154656] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:22:49.518 CodeYourCloud[41797:154656] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:22:49.525 CodeYourCloud[41797:154656] Unlimited access to network resources
+2014-10-18 17:22:49.817 CodeYourCloud[41797:154656] Resetting plugins due to page load.
+2014-10-18 17:22:50.968 CodeYourCloud[41797:154656] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:22:50.969 CodeYourCloud[41797:154656] Resetting plugins due to page load.
+2014-10-18 17:22:52.515 CodeYourCloud[41797:154656] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/B38E0BF4-E620-4F9C-BB8B-EC54AEEF3CFD/CodeYourCloud.app/www/index.html
+2014-10-18 17:24:13.231 CodeYourCloud[45713:159385] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:24:13.233 CodeYourCloud[45713:159385] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:24:13.240 CodeYourCloud[45713:159385] Unlimited access to network resources
+2014-10-18 17:24:13.540 CodeYourCloud[45713:159385] Resetting plugins due to page load.
+2014-10-18 17:24:14.864 CodeYourCloud[45713:159385] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:24:14.865 CodeYourCloud[45713:159385] Resetting plugins due to page load.
+2014-10-18 17:24:16.490 CodeYourCloud[45713:159385] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/118DCF8D-A71C-4E0F-8728-AC9F20826DBF/CodeYourCloud.app/www/index.html
+2014-10-18 17:24:50.995 CodeYourCloud[45713:159385] Resetting plugins due to page load.
+2014-10-18 17:24:55.449 CodeYourCloud[45713:159385] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:24:55.449 CodeYourCloud[45713:159385] Resetting plugins due to page load.
+2014-10-18 17:24:55.888 CodeYourCloud[45713:159385] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/118DCF8D-A71C-4E0F-8728-AC9F20826DBF/CodeYourCloud.app/www/index.html
+2014-10-18 17:25:45.478 CodeYourCloud[49637:164594] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:25:45.479 CodeYourCloud[49637:164594] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:25:45.485 CodeYourCloud[49637:164594] Unlimited access to network resources
+2014-10-18 17:25:45.865 CodeYourCloud[49637:164594] Resetting plugins due to page load.
+2014-10-18 17:25:46.748 CodeYourCloud[49637:164594] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:25:46.749 CodeYourCloud[49637:164594] Resetting plugins due to page load.
+2014-10-18 17:25:48.035 CodeYourCloud[49637:164594] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/BB35C7C5-9D24-456E-AA52-D33FE294D060/CodeYourCloud.app/www/index.html
+2014-10-18 17:29:14.647 CodeYourCloud[53563:170064] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:29:14.648 CodeYourCloud[53563:170064] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:29:14.658 CodeYourCloud[53563:170064] Unlimited access to network resources
+2014-10-18 17:29:15.150 CodeYourCloud[53563:170064] Resetting plugins due to page load.
+2014-10-18 17:29:16.284 CodeYourCloud[53563:170064] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:29:16.286 CodeYourCloud[53563:170064] Resetting plugins due to page load.
+2014-10-18 17:29:18.427 CodeYourCloud[53563:170064] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/6000CB81-A38F-4747-B61A-8763C373F089/CodeYourCloud.app/www/index.html
+2014-10-18 17:31:29.961 CodeYourCloud[57484:175281] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-18 17:31:29.963 CodeYourCloud[57484:175281] Multi-tasking -> Device: YES, App: YES
+2014-10-18 17:31:29.967 CodeYourCloud[57484:175281] Unlimited access to network resources
+2014-10-18 17:31:30.272 CodeYourCloud[57484:175281] Resetting plugins due to page load.
+2014-10-18 17:31:31.175 CodeYourCloud[57484:175281] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-18 17:31:31.177 CodeYourCloud[57484:175281] Resetting plugins due to page load.
+2014-10-18 17:31:32.387 CodeYourCloud[57484:175281] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/7287BBCF-44D7-466F-990B-3F92618DA1BC/CodeYourCloud.app/www/index.html
+2014-10-18 17:34:09.217 CodeYourCloud[57484:176486] Terminating since there is no system app.
+2014-10-19 09:28:55.597 CodeYourCloud[61685:200000] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 09:28:55.598 CodeYourCloud[61685:200000] Multi-tasking -> Device: YES, App: YES
+2014-10-19 09:28:55.633 CodeYourCloud[61685:200000] Unlimited access to network resources
+2014-10-19 09:28:56.387 CodeYourCloud[61685:200000] Resetting plugins due to page load.
+2014-10-19 09:28:57.532 CodeYourCloud[61685:200000] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 09:28:57.534 CodeYourCloud[61685:200000] Resetting plugins due to page load.
+2014-10-19 09:28:59.165 CodeYourCloud[61685:200000] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/2F913ED9-5665-42A6-A809-F21E1412CB43/CodeYourCloud.app/www/index.html
+2014-10-19 10:08:40.481 CodeYourCloud[77581:233833] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 10:08:40.482 CodeYourCloud[77581:233833] Multi-tasking -> Device: YES, App: YES
+2014-10-19 10:08:40.517 CodeYourCloud[77581:233833] Unlimited access to network resources
+2014-10-19 10:08:41.129 CodeYourCloud[77581:233833] Resetting plugins due to page load.
+2014-10-19 10:08:42.295 CodeYourCloud[77581:233833] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:08:42.297 CodeYourCloud[77581:233833] Resetting plugins due to page load.
+2014-10-19 10:08:43.480 CodeYourCloud[77581:233833] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/45DC253B-4D64-4E04-AEBE-4485E639A888/CodeYourCloud.app/www/index.html
+2014-10-19 10:09:12.237 CodeYourCloud[77581:233833] Resetting plugins due to page load.
+2014-10-19 10:09:16.325 CodeYourCloud[77581:233833] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:09:16.325 CodeYourCloud[77581:233833] Resetting plugins due to page load.
+2014-10-19 10:09:16.685 CodeYourCloud[77581:233833] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/45DC253B-4D64-4E04-AEBE-4485E639A888/CodeYourCloud.app/www/index.html
+2014-10-19 10:10:01.420 CodeYourCloud[81550:239423] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 10:10:01.421 CodeYourCloud[81550:239423] Multi-tasking -> Device: YES, App: YES
+2014-10-19 10:10:01.428 CodeYourCloud[81550:239423] Unlimited access to network resources
+2014-10-19 10:10:01.718 CodeYourCloud[81550:239423] Resetting plugins due to page load.
+2014-10-19 10:10:02.413 CodeYourCloud[81550:239423] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:10:02.414 CodeYourCloud[81550:239423] Resetting plugins due to page load.
+2014-10-19 10:10:02.621 CodeYourCloud[81550:239423] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/ADEF7DB0-72B8-4544-9826-AFD7CC2C5D20/CodeYourCloud.app/www/index.html
+2014-10-19 10:14:17.039 CodeYourCloud[85524:245596] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 10:14:17.041 CodeYourCloud[85524:245596] Multi-tasking -> Device: YES, App: YES
+2014-10-19 10:14:17.048 CodeYourCloud[85524:245596] Unlimited access to network resources
+2014-10-19 10:14:17.325 CodeYourCloud[85524:245596] Resetting plugins due to page load.
+2014-10-19 10:14:17.950 CodeYourCloud[85524:245596] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:14:17.951 CodeYourCloud[85524:245596] Resetting plugins due to page load.
+2014-10-19 10:14:18.956 CodeYourCloud[85524:245596] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/B75A45C9-6121-4269-98F5-F2E80972DF59/CodeYourCloud.app/www/index.html
+2014-10-19 10:25:12.234 CodeYourCloud[89559:256870] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 10:25:12.236 CodeYourCloud[89559:256870] Multi-tasking -> Device: YES, App: YES
+2014-10-19 10:25:12.244 CodeYourCloud[89559:256870] Unlimited access to network resources
+2014-10-19 10:25:12.551 CodeYourCloud[89559:256870] Resetting plugins due to page load.
+2014-10-19 10:25:13.138 CodeYourCloud[89559:256870] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:25:13.166 CodeYourCloud[89559:256870] Resetting plugins due to page load.
+2014-10-19 10:25:14.542 CodeYourCloud[89559:256870] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/1979AC8B-AB68-487F-A31A-CE5A488437A9/CodeYourCloud.app/www/index.html
+2014-10-19 10:28:24.961 CodeYourCloud[93525:262594] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 10:28:24.965 CodeYourCloud[93525:262594] Multi-tasking -> Device: YES, App: YES
+2014-10-19 10:28:24.972 CodeYourCloud[93525:262594] Unlimited access to network resources
+2014-10-19 10:28:25.256 CodeYourCloud[93525:262594] Resetting plugins due to page load.
+2014-10-19 10:28:25.888 CodeYourCloud[93525:262594] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 10:28:25.889 CodeYourCloud[93525:262594] Resetting plugins due to page load.
+2014-10-19 10:28:27.257 CodeYourCloud[93525:262594] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/BCD41912-A992-4E5B-BB22-A21DAA5C98C0/CodeYourCloud.app/www/index.html
+2014-10-19 12:59:24.514 CodeYourCloud[4354:10128] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 12:59:24.516 CodeYourCloud[4354:10128] Multi-tasking -> Device: YES, App: YES
+2014-10-19 12:59:24.542 CodeYourCloud[4354:10128] Unlimited access to network resources
+2014-10-19 12:59:24.983 CodeYourCloud[4354:10128] Resetting plugins due to page load.
+2014-10-19 12:59:25.814 CodeYourCloud[4354:10128] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 12:59:25.815 CodeYourCloud[4354:10128] Resetting plugins due to page load.
+2014-10-19 12:59:26.890 CodeYourCloud[4354:10128] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/DCE41660-63AF-4BAF-9A5A-5B0825927787/CodeYourCloud.app/www/index.html
+2014-10-19 13:01:21.918 CodeYourCloud[4354:10128] Resetting plugins due to page load.
+2014-10-19 13:01:26.178 CodeYourCloud[4354:10128] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 13:01:26.178 CodeYourCloud[4354:10128] Resetting plugins due to page load.
+2014-10-19 13:01:26.538 CodeYourCloud[4354:10128] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/DCE41660-63AF-4BAF-9A5A-5B0825927787/CodeYourCloud.app/www/index.html
+2014-10-19 13:01:38.227 CodeYourCloud[4354:11326] Terminating since there is no system app.
+2014-10-19 13:02:46.498 CodeYourCloud[8336:16168] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 13:02:46.500 CodeYourCloud[8336:16168] Multi-tasking -> Device: YES, App: YES
+2014-10-19 13:02:46.507 CodeYourCloud[8336:16168] Unlimited access to network resources
+2014-10-19 13:02:46.726 CodeYourCloud[8336:16168] Resetting plugins due to page load.
+2014-10-19 13:02:47.536 CodeYourCloud[8336:16168] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 13:02:47.536 CodeYourCloud[8336:16168] Resetting plugins due to page load.
+2014-10-19 13:02:48.705 CodeYourCloud[8336:16168] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/B5CD10B5-DDA2-4272-A8D2-EF379E565A0F/CodeYourCloud.app/www/index.html
+2014-10-19 13:09:36.077 CodeYourCloud[12328:23333] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 13:09:36.078 CodeYourCloud[12328:23333] Multi-tasking -> Device: YES, App: YES
+2014-10-19 13:09:36.089 CodeYourCloud[12328:23333] Unlimited access to network resources
+2014-10-19 13:09:36.385 CodeYourCloud[12328:23333] Resetting plugins due to page load.
+2014-10-19 13:09:37.658 CodeYourCloud[12328:23333] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 13:09:37.658 CodeYourCloud[12328:23333] Resetting plugins due to page load.
+2014-10-19 13:09:37.855 CodeYourCloud[12328:23333] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/6EBAB43F-EC63-430F-9C8E-DFD2A9943C5E/CodeYourCloud.app/www/index.html
+2014-10-19 13:11:31.940 CodeYourCloud[16290:28669] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 13:11:31.941 CodeYourCloud[16290:28669] Multi-tasking -> Device: YES, App: YES
+2014-10-19 13:11:31.946 CodeYourCloud[16290:28669] Unlimited access to network resources
+2014-10-19 13:11:32.147 CodeYourCloud[16290:28669] Resetting plugins due to page load.
+2014-10-19 13:11:34.036 CodeYourCloud[16290:28669] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 13:11:34.037 CodeYourCloud[16290:28669] Resetting plugins due to page load.
+2014-10-19 13:11:34.367 CodeYourCloud[16290:28669] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/BA6F0675-FEC5-49CA-9DDE-D07DBA628ED9/CodeYourCloud.app/www/index.html
+2014-10-19 13:12:42.378 CodeYourCloud[16290:29283] Terminating since there is no system app.
+2014-10-19 13:13:26.071 CodeYourCloud[20256:34039] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 13:13:26.072 CodeYourCloud[20256:34039] Multi-tasking -> Device: YES, App: YES
+2014-10-19 13:13:26.076 CodeYourCloud[20256:34039] Unlimited access to network resources
+2014-10-19 13:13:26.296 CodeYourCloud[20256:34039] Resetting plugins due to page load.
+2014-10-19 13:13:27.508 CodeYourCloud[20256:34039] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 13:13:27.509 CodeYourCloud[20256:34039] Resetting plugins due to page load.
+2014-10-19 13:13:27.730 CodeYourCloud[20256:34039] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/7041F35B-A019-4699-8456-187E792115B5/CodeYourCloud.app/www/index.html
+2014-10-19 15:18:10.380 CodeYourCloud[24398:52303] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 15:18:10.381 CodeYourCloud[24398:52303] Multi-tasking -> Device: YES, App: YES
+2014-10-19 15:18:10.389 CodeYourCloud[24398:52303] Unlimited access to network resources
+2014-10-19 15:18:10.639 CodeYourCloud[24398:52303] Resetting plugins due to page load.
+2014-10-19 15:18:11.340 CodeYourCloud[24398:52303] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 15:18:11.340 CodeYourCloud[24398:52303] Resetting plugins due to page load.
+2014-10-19 15:18:12.322 CodeYourCloud[24398:52303] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/B041A830-AE3C-4E36-A300-BEF9E5792815/CodeYourCloud.app/www/index.html
+2014-10-19 15:26:41.362 CodeYourCloud[28407:59438] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 15:26:41.363 CodeYourCloud[28407:59438] Multi-tasking -> Device: YES, App: YES
+2014-10-19 15:26:41.370 CodeYourCloud[28407:59438] Unlimited access to network resources
+2014-10-19 15:26:41.545 CodeYourCloud[28407:59438] Resetting plugins due to page load.
+2014-10-19 15:26:42.276 CodeYourCloud[28407:59438] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 15:26:42.277 CodeYourCloud[28407:59438] Resetting plugins due to page load.
+2014-10-19 15:26:43.379 CodeYourCloud[28407:59438] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/1E695963-60EE-4629-A9F8-DA7DD1A58335/CodeYourCloud.app/www/index.html
+2014-10-19 15:40:35.100 CodeYourCloud[32479:70686] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 15:40:35.102 CodeYourCloud[32479:70686] Multi-tasking -> Device: YES, App: YES
+2014-10-19 15:40:35.109 CodeYourCloud[32479:70686] Unlimited access to network resources
+2014-10-19 15:40:35.323 CodeYourCloud[32479:70686] Resetting plugins due to page load.
+2014-10-19 15:40:36.192 CodeYourCloud[32479:70686] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 15:40:36.195 CodeYourCloud[32479:70686] Resetting plugins due to page load.
+2014-10-19 15:40:46.611 CodeYourCloud[32479:70686] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-10-19 15:40:46.620 CodeYourCloud[32479:70686] THREAD WARNING: ['InAppBrowser'] took '135.830811' ms. Plugin should use a background thread.
+2014-10-19 15:44:13.860 CodeYourCloud[36468:77601] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 15:44:13.861 CodeYourCloud[36468:77601] Multi-tasking -> Device: YES, App: YES
+2014-10-19 15:44:13.872 CodeYourCloud[36468:77601] Unlimited access to network resources
+2014-10-19 15:44:14.098 CodeYourCloud[36468:77601] Resetting plugins due to page load.
+2014-10-19 15:44:14.780 CodeYourCloud[36468:77601] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-19 15:44:14.782 CodeYourCloud[36468:77601] Resetting plugins due to page load.
+2014-10-19 15:44:37.632 CodeYourCloud[36468:77612] CFNetwork SSLHandshake failed (-9806)
+2014-10-20 15:34:18.193 CodeYourCloud[4449:14246] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 15:34:18.195 CodeYourCloud[4449:14246] Multi-tasking -> Device: YES, App: YES
+2014-10-20 15:34:18.208 CodeYourCloud[4449:14246] Unlimited access to network resources
+2014-10-20 15:34:18.793 CodeYourCloud[4449:14246] Resetting plugins due to page load.
+2014-10-20 15:34:20.185 CodeYourCloud[4449:14246] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-20 15:34:20.186 CodeYourCloud[4449:14246] Resetting plugins due to page load.
+2014-10-20 15:34:21.687 CodeYourCloud[4449:14246] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/25A5997A-13D2-475C-A0AF-9164C922C5B2/CodeYourCloud.app/www/index.html
+2014-10-20 18:55:05.801 CodeYourCloud[8623:40256] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 18:55:05.803 CodeYourCloud[8623:40256] Multi-tasking -> Device: YES, App: YES
+2014-10-20 18:55:05.833 CodeYourCloud[8623:40256] Unlimited access to network resources
+2014-10-20 18:55:06.304 CodeYourCloud[8623:40256] Resetting plugins due to page load.
+2014-10-20 18:55:07.315 CodeYourCloud[8623:40256] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-20 18:55:07.316 CodeYourCloud[8623:40256] Resetting plugins due to page load.
+2014-10-20 18:55:08.612 CodeYourCloud[8623:40256] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/FDF2AB9C-504D-45EA-A0A9-006BC98B4E3A/CodeYourCloud.app/www/index.html
+2014-10-22 18:45:11.675 CodeYourCloud[7424:59031] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-22 18:45:11.676 CodeYourCloud[7424:59031] Multi-tasking -> Device: YES, App: YES
+2014-10-22 18:45:11.699 CodeYourCloud[7424:59031] Unlimited access to network resources
+2014-10-22 18:45:12.428 CodeYourCloud[7424:59031] Resetting plugins due to page load.
+2014-10-22 18:45:13.725 CodeYourCloud[7424:59031] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-22 18:45:13.726 CodeYourCloud[7424:59031] Resetting plugins due to page load.
+2014-10-22 18:45:15.085 CodeYourCloud[7424:59031] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/53AC179D-C416-4023-B57F-9CA4A0373FFD/CodeYourCloud.app/www/index.html
+2014-10-22 18:46:57.718 CodeYourCloud[11348:63964] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-22 18:46:57.719 CodeYourCloud[11348:63964] Multi-tasking -> Device: YES, App: YES
+2014-10-22 18:46:57.724 CodeYourCloud[11348:63964] Unlimited access to network resources
+2014-10-22 18:46:58.027 CodeYourCloud[11348:63964] Resetting plugins due to page load.
+2014-10-22 18:46:58.618 CodeYourCloud[11348:63964] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-22 18:46:58.620 CodeYourCloud[11348:63964] Resetting plugins due to page load.
+2014-10-22 18:46:59.656 CodeYourCloud[11348:63964] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/BEA5F3CC-A1B5-41C0-9561-3C155162D37C/CodeYourCloud.app/www/index.html
+2014-10-22 18:50:53.889 CodeYourCloud[11348:65873] Terminating since there is no system app.
+2014-10-23 15:22:19.117 CodeYourCloud[20112:142513] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-23 15:22:19.119 CodeYourCloud[20112:142513] Multi-tasking -> Device: YES, App: YES
+2014-10-23 15:22:19.145 CodeYourCloud[20112:142513] Unlimited access to network resources
+2014-10-23 15:22:19.730 CodeYourCloud[20112:142513] Resetting plugins due to page load.
+2014-10-23 15:22:20.505 CodeYourCloud[20112:142524] CFNetwork SSLHandshake failed (-9806)
+2014-10-23 15:22:20.580 CodeYourCloud[20112:142513] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-23 15:22:20.607 CodeYourCloud[20112:142513] Resetting plugins due to page load.
+2014-10-23 15:22:21.738 CodeYourCloud[20112:142513] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/39D01FA2-B270-4FEB-AA4E-3D4DC39D324B/CodeYourCloud.app/www/index.html
+2014-10-23 15:23:13.258 CodeYourCloud[20112:142524] CFNetwork SSLHandshake failed (-9806)
+2014-10-30 11:42:24.892 CodeYourCloud[8695:164364] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 11:42:24.893 CodeYourCloud[8695:164364] Multi-tasking -> Device: YES, App: YES
+2014-10-30 11:42:24.902 CodeYourCloud[8695:164364] Unlimited access to network resources
+2014-10-30 11:42:25.389 CodeYourCloud[8695:164364] Resetting plugins due to page load.
+2014-10-30 11:42:26.310 CodeYourCloud[8695:164364] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 11:42:26.311 CodeYourCloud[8695:164364] Resetting plugins due to page load.
+2014-10-30 11:42:26.498 CodeYourCloud[8695:164364] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/1160B143-F1F0-44E1-AB87-302B3C68BBFC/CodeYourCloud.app/www/index.html
+2014-10-30 11:45:14.851 CodeYourCloud[12630:170106] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 11:45:14.852 CodeYourCloud[12630:170106] Multi-tasking -> Device: YES, App: YES
+2014-10-30 11:45:14.856 CodeYourCloud[12630:170106] Unlimited access to network resources
+2014-10-30 11:45:15.066 CodeYourCloud[12630:170106] Resetting plugins due to page load.
+2014-10-30 11:45:15.697 CodeYourCloud[12630:170106] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 11:45:15.697 CodeYourCloud[12630:170106] Resetting plugins due to page load.
+2014-10-30 11:45:15.745 CodeYourCloud[12630:170106] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/C98ABAA7-D542-4AE4-BB0E-A200669BA817/CodeYourCloud.app/www/index.html
+2014-10-30 11:49:12.675 CodeYourCloud[16546:176016] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 11:49:12.675 CodeYourCloud[16546:176016] Multi-tasking -> Device: YES, App: YES
+2014-10-30 11:49:12.680 CodeYourCloud[16546:176016] Unlimited access to network resources
+2014-10-30 11:49:12.920 CodeYourCloud[16546:176016] Resetting plugins due to page load.
+2014-10-30 11:49:13.488 CodeYourCloud[16546:176016] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 11:49:13.490 CodeYourCloud[16546:176016] Resetting plugins due to page load.
+2014-10-30 11:49:13.609 CodeYourCloud[16546:176016] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/7D5DEC68-3FE5-422E-AD61-AAC8968518C5/CodeYourCloud.app/www/index.html
+2014-10-30 11:56:38.922 CodeYourCloud[20464:182733] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 11:56:38.923 CodeYourCloud[20464:182733] Multi-tasking -> Device: YES, App: YES
+2014-10-30 11:56:38.928 CodeYourCloud[20464:182733] Unlimited access to network resources
+2014-10-30 11:56:39.164 CodeYourCloud[20464:182733] Resetting plugins due to page load.
+2014-10-30 11:56:39.796 CodeYourCloud[20464:182733] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 11:56:39.796 CodeYourCloud[20464:182733] Resetting plugins due to page load.
+2014-10-30 11:56:39.845 CodeYourCloud[20464:182733] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/0E98DEFE-3DEB-4234-8491-841B51A0D714/CodeYourCloud.app/www/index.html
+2014-10-30 12:03:30.722 CodeYourCloud[24377:188973] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:03:30.723 CodeYourCloud[24377:188973] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:03:30.728 CodeYourCloud[24377:188973] Unlimited access to network resources
+2014-10-30 12:03:30.917 CodeYourCloud[24377:188973] Resetting plugins due to page load.
+2014-10-30 12:03:31.559 CodeYourCloud[24377:188973] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/7938A439-C3CE-449F-BDC6-2F606EFB84C2/CodeYourCloud.app/www/index.html
+2014-10-30 12:08:59.777 CodeYourCloud[28300:195865] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:08:59.778 CodeYourCloud[28300:195865] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:08:59.782 CodeYourCloud[28300:195865] Unlimited access to network resources
+2014-10-30 12:09:00.047 CodeYourCloud[28300:195865] Resetting plugins due to page load.
+2014-10-30 12:09:00.535 CodeYourCloud[28300:195865] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:09:00.535 CodeYourCloud[28300:195865] Resetting plugins due to page load.
+2014-10-30 12:09:00.623 CodeYourCloud[28300:195865] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/A269625E-59F5-414B-B7F7-6615502A8653/CodeYourCloud.app/www/index.html
+2014-10-30 12:11:32.400 CodeYourCloud[32260:201403] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:11:32.401 CodeYourCloud[32260:201403] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:11:32.409 CodeYourCloud[32260:201403] Unlimited access to network resources
+2014-10-30 12:11:32.618 CodeYourCloud[32260:201403] Resetting plugins due to page load.
+2014-10-30 12:11:33.216 CodeYourCloud[32260:201403] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:11:33.218 CodeYourCloud[32260:201403] Resetting plugins due to page load.
+2014-10-30 12:11:33.362 CodeYourCloud[32260:201403] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/026B5554-613E-4361-9E0A-200F520F2DCF/CodeYourCloud.app/www/index.html
+2014-10-30 12:16:47.149 CodeYourCloud[36197:207514] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:16:47.150 CodeYourCloud[36197:207514] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:16:47.155 CodeYourCloud[36197:207514] Unlimited access to network resources
+2014-10-30 12:16:47.356 CodeYourCloud[36197:207514] Resetting plugins due to page load.
+2014-10-30 12:16:47.873 CodeYourCloud[36197:207514] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:16:47.874 CodeYourCloud[36197:207514] Resetting plugins due to page load.
+2014-10-30 12:16:48.021 CodeYourCloud[36197:207514] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/E42CFE26-1C5D-426E-A69A-E6743EE4638E/CodeYourCloud.app/www/index.html
+2014-10-30 12:18:46.218 CodeYourCloud[36197:207514] Resetting plugins due to page load.
+2014-10-30 12:18:50.249 CodeYourCloud[36197:207514] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:18:50.260 CodeYourCloud[36197:207514] Resetting plugins due to page load.
+2014-10-30 12:18:52.879 CodeYourCloud[36197:207514] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:18:52.879 CodeYourCloud[36197:207514] Resetting plugins due to page load.
+2014-10-30 12:18:53.228 CodeYourCloud[36197:207514] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/E42CFE26-1C5D-426E-A69A-E6743EE4638E/CodeYourCloud.app/www/index.html
+2014-10-30 12:20:25.997 CodeYourCloud[40123:213520] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:20:25.998 CodeYourCloud[40123:213520] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:20:26.003 CodeYourCloud[40123:213520] Unlimited access to network resources
+2014-10-30 12:20:26.264 CodeYourCloud[40123:213520] Resetting plugins due to page load.
+2014-10-30 12:20:26.866 CodeYourCloud[40123:213520] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:20:26.866 CodeYourCloud[40123:213520] Resetting plugins due to page load.
+2014-10-30 12:20:26.957 CodeYourCloud[40123:213520] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/BF910953-DB29-4DA0-AD62-ED8E3ACCA44C/CodeYourCloud.app/www/index.html
+2014-10-30 12:21:38.980 CodeYourCloud[44031:218207] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:21:38.981 CodeYourCloud[44031:218207] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:21:38.986 CodeYourCloud[44031:218207] Unlimited access to network resources
+2014-10-30 12:21:39.127 CodeYourCloud[44031:218207] Resetting plugins due to page load.
+2014-10-30 12:21:39.725 CodeYourCloud[44031:218207] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:21:39.725 CodeYourCloud[44031:218207] Resetting plugins due to page load.
+2014-10-30 12:21:39.814 CodeYourCloud[44031:218207] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/5C7991BB-D631-43EA-9F25-E17AECAADF99/CodeYourCloud.app/www/index.html
+2014-10-30 12:24:00.563 CodeYourCloud[47945:223422] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 12:24:00.564 CodeYourCloud[47945:223422] Multi-tasking -> Device: YES, App: YES
+2014-10-30 12:24:00.568 CodeYourCloud[47945:223422] Unlimited access to network resources
+2014-10-30 12:24:00.777 CodeYourCloud[47945:223422] Resetting plugins due to page load.
+2014-10-30 12:24:01.342 CodeYourCloud[47945:223422] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-10-30 12:24:01.342 CodeYourCloud[47945:223422] Resetting plugins due to page load.
+2014-10-30 12:24:02.902 CodeYourCloud[47945:223422] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/96465A5A-C0D1-4E09-B7C0-EEDFD9D7ED0E/data/Containers/Bundle/Application/27FE6E4A-74B0-4987-99D2-5EAF04F35AB0/CodeYourCloud.app/www/index.html
+2014-10-30 12:31:57.526 CodeYourCloud[47945:226499] Terminating since there is no system app.
+2014-11-04 19:04:17.097 CodeYourCloud[5938:163508] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Data/Application/86758673-05A6-4B07-B2AF-46B4BB243730/Library/Cookies/Cookies.binarycookies
+2014-11-04 19:04:17.199 CodeYourCloud[5938:163508] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 19:04:17.199 CodeYourCloud[5938:163508] Multi-tasking -> Device: YES, App: YES
+2014-11-04 19:04:17.207 CodeYourCloud[5938:163508] Unlimited access to network resources
+2014-11-04 19:04:18.686 CodeYourCloud[5938:163508] Resetting plugins due to page load.
+2014-11-04 19:04:19.455 CodeYourCloud[5938:163508] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 19:04:19.457 CodeYourCloud[5938:163508] Resetting plugins due to page load.
+2014-11-04 19:04:20.442 CodeYourCloud[5938:163508] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/7D402DB1-ED90-447D-81C9-F7E707AC3E72/CodeYourCloud.app/www/index.html
+2014-11-04 19:04:34.361 CodeYourCloud[5938:163508] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-11-04 19:04:34.366 CodeYourCloud[5938:163508] THREAD WARNING: ['InAppBrowser'] took '172.802002' ms. Plugin should use a background thread.
+2014-11-04 19:10:38.661 CodeYourCloud[9914:170873] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 19:10:38.662 CodeYourCloud[9914:170873] Multi-tasking -> Device: YES, App: YES
+2014-11-04 19:10:38.667 CodeYourCloud[9914:170873] Unlimited access to network resources
+2014-11-04 19:10:39.048 CodeYourCloud[9914:170873] Resetting plugins due to page load.
+2014-11-04 19:10:39.673 CodeYourCloud[9914:170873] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 19:10:39.674 CodeYourCloud[9914:170873] Resetting plugins due to page load.
+2014-11-04 19:10:39.704 CodeYourCloud[9914:170873] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/6F1DC94B-2C88-4A3D-A062-15E379B6388E/CodeYourCloud.app/www/index.html
+2014-11-04 19:12:17.398 CodeYourCloud[13841:175965] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 19:12:17.399 CodeYourCloud[13841:175965] Multi-tasking -> Device: YES, App: YES
+2014-11-04 19:12:17.404 CodeYourCloud[13841:175965] Unlimited access to network resources
+2014-11-04 19:12:17.714 CodeYourCloud[13841:175965] Resetting plugins due to page load.
+2014-11-04 19:12:18.260 CodeYourCloud[13841:175965] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 19:12:18.262 CodeYourCloud[13841:175965] Resetting plugins due to page load.
+2014-11-04 19:12:18.309 CodeYourCloud[13841:175965] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4A8BF2D7-D965-448E-83A4-8B4B13E29461/CodeYourCloud.app/www/index.html
+2014-11-04 19:56:49.315 CodeYourCloud[17831:192959] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 19:56:49.316 CodeYourCloud[17831:192959] Multi-tasking -> Device: YES, App: YES
+2014-11-04 19:56:49.337 CodeYourCloud[17831:192959] Unlimited access to network resources
+2014-11-04 19:56:50.015 CodeYourCloud[17831:192959] Resetting plugins due to page load.
+2014-11-04 19:56:50.721 CodeYourCloud[17831:192959] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 19:56:50.722 CodeYourCloud[17831:192959] Resetting plugins due to page load.
+2014-11-04 19:56:51.464 CodeYourCloud[17831:192959] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/7DA7F0D7-BF43-4854-A784-705B11F5F534/CodeYourCloud.app/www/index.html
+2014-11-04 19:59:29.588 CodeYourCloud[21752:198021] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 19:59:29.589 CodeYourCloud[21752:198021] Multi-tasking -> Device: YES, App: YES
+2014-11-04 19:59:29.595 CodeYourCloud[21752:198021] Unlimited access to network resources
+2014-11-04 19:59:29.833 CodeYourCloud[21752:198021] Resetting plugins due to page load.
+2014-11-04 19:59:30.508 CodeYourCloud[21752:198021] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 19:59:30.508 CodeYourCloud[21752:198021] Resetting plugins due to page load.
+2014-11-04 19:59:30.555 CodeYourCloud[21752:198021] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/06C9655D-F19F-4811-AED9-633E902AA60A/CodeYourCloud.app/www/index.html
+2014-11-04 20:00:57.695 CodeYourCloud[21752:198841] Terminating since there is no system app.
+2014-11-04 20:02:39.453 CodeYourCloud[33595:212914] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:02:39.454 CodeYourCloud[33595:212914] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:02:39.476 CodeYourCloud[33595:212914] Unlimited access to network resources
+2014-11-04 20:02:40.002 CodeYourCloud[33595:212914] Resetting plugins due to page load.
+2014-11-04 20:02:40.731 CodeYourCloud[33595:212914] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:02:40.732 CodeYourCloud[33595:212914] Resetting plugins due to page load.
+2014-11-04 20:02:40.761 CodeYourCloud[33595:212914] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/533A6C9A-0914-4009-B5C5-40F21118B30A/CodeYourCloud.app/www/index.html
+2014-11-04 20:07:04.279 CodeYourCloud[37524:218633] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:07:04.282 CodeYourCloud[37524:218633] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:07:04.287 CodeYourCloud[37524:218633] Unlimited access to network resources
+2014-11-04 20:07:04.749 CodeYourCloud[37524:218633] Resetting plugins due to page load.
+2014-11-04 20:07:05.486 CodeYourCloud[37524:218633] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:07:05.488 CodeYourCloud[37524:218633] Resetting plugins due to page load.
+2014-11-04 20:07:05.616 CodeYourCloud[37524:218633] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/5A1132D8-120E-43BD-8A80-506D32F99B40/CodeYourCloud.app/www/index.html
+2014-11-04 20:10:37.372 CodeYourCloud[41437:223833] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:10:37.373 CodeYourCloud[41437:223833] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:10:37.378 CodeYourCloud[41437:223833] Unlimited access to network resources
+2014-11-04 20:10:37.710 CodeYourCloud[41437:223833] Resetting plugins due to page load.
+2014-11-04 20:10:38.275 CodeYourCloud[41437:223833] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:10:38.275 CodeYourCloud[41437:223833] Resetting plugins due to page load.
+2014-11-04 20:10:38.299 CodeYourCloud[41437:223833] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/103BA788-4DD8-4215-B125-A513010384C8/CodeYourCloud.app/www/index.html
+2014-11-04 20:16:28.001 CodeYourCloud[45367:229699] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:16:28.002 CodeYourCloud[45367:229699] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:16:28.006 CodeYourCloud[45367:229699] Unlimited access to network resources
+2014-11-04 20:16:28.355 CodeYourCloud[45367:229699] Resetting plugins due to page load.
+2014-11-04 20:16:28.894 CodeYourCloud[45367:229699] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:16:28.895 CodeYourCloud[45367:229699] Resetting plugins due to page load.
+2014-11-04 20:16:28.931 CodeYourCloud[45367:229699] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/C4843F99-8041-4D95-BDC8-B16205D71271/CodeYourCloud.app/www/index.html
+2014-11-04 20:18:20.470 CodeYourCloud[49284:234531] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:18:20.471 CodeYourCloud[49284:234531] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:18:20.475 CodeYourCloud[49284:234531] Unlimited access to network resources
+2014-11-04 20:18:20.764 CodeYourCloud[49284:234531] Resetting plugins due to page load.
+2014-11-04 20:18:21.247 CodeYourCloud[49284:234531] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:18:21.248 CodeYourCloud[49284:234531] Resetting plugins due to page load.
+2014-11-04 20:18:21.337 CodeYourCloud[49284:234531] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A496E189-733B-4DF2-AFF3-53137D9828C8/CodeYourCloud.app/www/index.html
+2014-11-04 20:22:55.503 CodeYourCloud[53200:239779] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:22:55.505 CodeYourCloud[53200:239779] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:22:55.511 CodeYourCloud[53200:239779] Unlimited access to network resources
+2014-11-04 20:22:55.867 CodeYourCloud[53200:239779] Resetting plugins due to page load.
+2014-11-04 20:22:56.371 CodeYourCloud[53200:239779] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:22:56.373 CodeYourCloud[53200:239779] Resetting plugins due to page load.
+2014-11-04 20:22:56.457 CodeYourCloud[53200:239779] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/00C01765-3629-472E-A6C0-773620F9EB80/CodeYourCloud.app/www/index.html
+2014-11-04 20:27:50.315 CodeYourCloud[57116:245342] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:27:50.316 CodeYourCloud[57116:245342] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:27:50.320 CodeYourCloud[57116:245342] Unlimited access to network resources
+2014-11-04 20:27:50.658 CodeYourCloud[57116:245342] Resetting plugins due to page load.
+2014-11-04 20:27:51.197 CodeYourCloud[57116:245342] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:27:51.197 CodeYourCloud[57116:245342] Resetting plugins due to page load.
+2014-11-04 20:27:51.886 CodeYourCloud[57116:245342] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/99911934-82CB-41A0-B8BF-22ADFBF3B3A6/CodeYourCloud.app/www/index.html
+2014-11-04 20:33:35.318 CodeYourCloud[61034:251321] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:33:35.320 CodeYourCloud[61034:251321] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:33:35.349 CodeYourCloud[61034:251321] Unlimited access to network resources
+2014-11-04 20:33:36.040 CodeYourCloud[61034:251321] Resetting plugins due to page load.
+2014-11-04 20:33:36.786 CodeYourCloud[61034:251321] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:33:36.787 CodeYourCloud[61034:251321] Resetting plugins due to page load.
+2014-11-04 20:33:37.608 CodeYourCloud[61034:251321] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B062A89D-DC79-4CF5-AEBA-5A1CF85D4A08/CodeYourCloud.app/www/index.html
+2014-11-04 20:36:31.851 CodeYourCloud[64950:256369] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:36:31.853 CodeYourCloud[64950:256369] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:36:31.859 CodeYourCloud[64950:256369] Unlimited access to network resources
+2014-11-04 20:36:32.228 CodeYourCloud[64950:256369] Resetting plugins due to page load.
+2014-11-04 20:36:32.793 CodeYourCloud[64950:256369] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:36:32.793 CodeYourCloud[64950:256369] Resetting plugins due to page load.
+2014-11-04 20:36:33.615 CodeYourCloud[64950:256369] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4D55025C-27E8-4CE5-93D5-3F1DFBD6E860/CodeYourCloud.app/www/index.html
+2014-11-04 20:41:13.811 CodeYourCloud[68872:261965] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 20:41:13.812 CodeYourCloud[68872:261965] Multi-tasking -> Device: YES, App: YES
+2014-11-04 20:41:13.816 CodeYourCloud[68872:261965] Unlimited access to network resources
+2014-11-04 20:41:14.142 CodeYourCloud[68872:261965] Resetting plugins due to page load.
+2014-11-04 20:41:14.595 CodeYourCloud[68872:261965] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 20:41:14.597 CodeYourCloud[68872:261965] Resetting plugins due to page load.
+2014-11-04 20:41:15.365 CodeYourCloud[68872:261965] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F83DF925-391C-493D-9492-9CA50054ACB8/CodeYourCloud.app/www/index.html
+2014-11-04 21:00:21.561 CodeYourCloud[72803:270061] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:00:21.563 CodeYourCloud[72803:270061] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:00:21.567 CodeYourCloud[72803:270061] Unlimited access to network resources
+2014-11-04 21:00:21.939 CodeYourCloud[72803:270061] Resetting plugins due to page load.
+2014-11-04 21:00:22.460 CodeYourCloud[72803:270061] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:00:22.462 CodeYourCloud[72803:270061] Resetting plugins due to page load.
+2014-11-04 21:00:23.256 CodeYourCloud[72803:270061] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/68E1FEA5-9FC7-4A9B-9923-F9B4DA52250E/CodeYourCloud.app/www/index.html
+2014-11-04 21:20:21.022 CodeYourCloud[76732:278421] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:20:21.023 CodeYourCloud[76732:278421] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:20:21.029 CodeYourCloud[76732:278421] Unlimited access to network resources
+2014-11-04 21:20:21.440 CodeYourCloud[76732:278421] Resetting plugins due to page load.
+2014-11-04 21:20:22.094 CodeYourCloud[76732:278421] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:20:22.095 CodeYourCloud[76732:278421] Resetting plugins due to page load.
+2014-11-04 21:20:22.816 CodeYourCloud[76732:278421] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/DD77980D-429B-4449-929E-40D89338E07A/CodeYourCloud.app/www/index.html
+2014-11-04 21:24:49.320 CodeYourCloud[80650:284027] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:24:49.322 CodeYourCloud[80650:284027] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:24:49.330 CodeYourCloud[80650:284027] Unlimited access to network resources
+2014-11-04 21:24:49.991 CodeYourCloud[80650:284027] Resetting plugins due to page load.
+2014-11-04 21:24:50.592 CodeYourCloud[80650:284027] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:24:50.593 CodeYourCloud[80650:284027] Resetting plugins due to page load.
+2014-11-04 21:24:50.909 CodeYourCloud[80650:284027] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E498A50A-5F21-41D3-8970-9488F51F76D4/CodeYourCloud.app/www/index.html
+2014-11-04 21:29:53.403 CodeYourCloud[84569:289596] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:29:53.404 CodeYourCloud[84569:289596] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:29:53.411 CodeYourCloud[84569:289596] Unlimited access to network resources
+2014-11-04 21:29:53.757 CodeYourCloud[84569:289596] Resetting plugins due to page load.
+2014-11-04 21:29:54.277 CodeYourCloud[84569:289596] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:29:54.277 CodeYourCloud[84569:289596] Resetting plugins due to page load.
+2014-11-04 21:29:54.945 CodeYourCloud[84569:289596] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/5AFA6965-C531-4DBA-B647-41E5DF755747/CodeYourCloud.app/www/index.html
+2014-11-04 21:30:51.204 CodeYourCloud[88482:294073] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:30:51.205 CodeYourCloud[88482:294073] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:30:51.210 CodeYourCloud[88482:294073] Unlimited access to network resources
+2014-11-04 21:30:51.549 CodeYourCloud[88482:294073] Resetting plugins due to page load.
+2014-11-04 21:30:52.211 CodeYourCloud[88482:294073] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:30:52.213 CodeYourCloud[88482:294073] Resetting plugins due to page load.
+2014-11-04 21:30:53.236 CodeYourCloud[88482:294073] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/582969E7-D260-462C-A612-04BC77BD0FFA/CodeYourCloud.app/www/index.html
+2014-11-04 21:32:36.596 CodeYourCloud[92397:298852] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:32:36.597 CodeYourCloud[92397:298852] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:32:36.602 CodeYourCloud[92397:298852] Unlimited access to network resources
+2014-11-04 21:32:37.208 CodeYourCloud[92397:298852] Resetting plugins due to page load.
+2014-11-04 21:32:38.300 CodeYourCloud[92397:298852] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:32:38.300 CodeYourCloud[92397:298852] Resetting plugins due to page load.
+2014-11-04 21:32:39.453 CodeYourCloud[92397:298852] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/32D31467-3711-4F06-BF0E-8CCDF642FD3C/CodeYourCloud.app/www/index.html
+2014-11-04 21:38:06.981 CodeYourCloud[96317:304791] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-04 21:38:06.982 CodeYourCloud[96317:304791] Multi-tasking -> Device: YES, App: YES
+2014-11-04 21:38:06.986 CodeYourCloud[96317:304791] Unlimited access to network resources
+2014-11-04 21:38:07.325 CodeYourCloud[96317:304791] Resetting plugins due to page load.
+2014-11-04 21:38:08.024 CodeYourCloud[96317:304791] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-04 21:38:08.024 CodeYourCloud[96317:304791] Resetting plugins due to page load.
+2014-11-04 21:38:08.243 CodeYourCloud[96317:304791] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1B91A459-00F2-4CB3-97E0-846EE2284AE0/CodeYourCloud.app/www/index.html
+2014-11-05 15:29:13.450 CodeYourCloud[7193:50564] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 15:29:13.452 CodeYourCloud[7193:50564] Multi-tasking -> Device: YES, App: YES
+2014-11-05 15:29:13.464 CodeYourCloud[7193:50564] Unlimited access to network resources
+2014-11-05 15:29:14.147 CodeYourCloud[7193:50564] Resetting plugins due to page load.
+2014-11-05 15:29:15.221 CodeYourCloud[7193:50564] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 15:29:15.222 CodeYourCloud[7193:50564] Resetting plugins due to page load.
+2014-11-05 15:29:15.524 CodeYourCloud[7193:50564] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F4A1A110-1CD8-4745-800A-2BF7FA99E18F/CodeYourCloud.app/www/index.html
+2014-11-05 15:35:52.985 CodeYourCloud[11137:57253] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 15:35:52.986 CodeYourCloud[11137:57253] Multi-tasking -> Device: YES, App: YES
+2014-11-05 15:35:52.992 CodeYourCloud[11137:57253] Unlimited access to network resources
+2014-11-05 15:35:53.267 CodeYourCloud[11137:57253] Resetting plugins due to page load.
+2014-11-05 15:35:53.805 CodeYourCloud[11137:57253] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 15:35:53.805 CodeYourCloud[11137:57253] Resetting plugins due to page load.
+2014-11-05 15:35:53.839 CodeYourCloud[11137:57253] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/385A287A-D3DB-4F53-8115-A6F18F5AEB52/CodeYourCloud.app/www/index.html
+2014-11-05 15:51:47.110 CodeYourCloud[15137:63970] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 15:51:47.112 CodeYourCloud[15137:63970] Multi-tasking -> Device: YES, App: YES
+2014-11-05 15:51:47.118 CodeYourCloud[15137:63970] Unlimited access to network resources
+2014-11-05 15:51:47.411 CodeYourCloud[15137:63970] Resetting plugins due to page load.
+2014-11-05 15:51:47.941 CodeYourCloud[15137:63970] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 15:51:47.941 CodeYourCloud[15137:63970] Resetting plugins due to page load.
+2014-11-05 15:51:48.006 CodeYourCloud[15137:63970] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/BD31C411-3BE2-45A2-8278-F813979A0AB5/CodeYourCloud.app/www/index.html
+2014-11-05 15:59:33.568 CodeYourCloud[19056:69822] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 15:59:33.570 CodeYourCloud[19056:69822] Multi-tasking -> Device: YES, App: YES
+2014-11-05 15:59:33.580 CodeYourCloud[19056:69822] Unlimited access to network resources
+2014-11-05 15:59:33.816 CodeYourCloud[19056:69822] Resetting plugins due to page load.
+2014-11-05 15:59:34.357 CodeYourCloud[19056:69822] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 15:59:34.359 CodeYourCloud[19056:69822] Resetting plugins due to page load.
+2014-11-05 15:59:35.279 CodeYourCloud[19056:69822] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/41039717-CB3F-41E3-AA15-D49311EA4BF0/CodeYourCloud.app/www/index.html
+2014-11-05 16:02:52.261 CodeYourCloud[22971:74973] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 16:02:52.262 CodeYourCloud[22971:74973] Multi-tasking -> Device: YES, App: YES
+2014-11-05 16:02:52.267 CodeYourCloud[22971:74973] Unlimited access to network resources
+2014-11-05 16:02:52.528 CodeYourCloud[22971:74973] Resetting plugins due to page load.
+2014-11-05 16:02:53.144 CodeYourCloud[22971:74973] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 16:02:53.145 CodeYourCloud[22971:74973] Resetting plugins due to page load.
+2014-11-05 16:02:53.935 CodeYourCloud[22971:74973] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/113320E9-C8A9-463F-B977-94BFD6A118DB/CodeYourCloud.app/www/index.html
+2014-11-05 16:06:56.974 CodeYourCloud[26888:80252] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 16:06:56.975 CodeYourCloud[26888:80252] Multi-tasking -> Device: YES, App: YES
+2014-11-05 16:06:56.981 CodeYourCloud[26888:80252] Unlimited access to network resources
+2014-11-05 16:06:57.256 CodeYourCloud[26888:80252] Resetting plugins due to page load.
+2014-11-05 16:06:57.830 CodeYourCloud[26888:80252] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 16:06:57.830 CodeYourCloud[26888:80252] Resetting plugins due to page load.
+2014-11-05 16:06:58.662 CodeYourCloud[26888:80252] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/89DA34C3-C8A9-4970-B0EF-271FF38A16C6/CodeYourCloud.app/www/index.html
+2014-11-05 16:07:33.662 CodeYourCloud[30800:84605] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 16:07:33.664 CodeYourCloud[30800:84605] Multi-tasking -> Device: YES, App: YES
+2014-11-05 16:07:33.668 CodeYourCloud[30800:84605] Unlimited access to network resources
+2014-11-05 16:07:33.911 CodeYourCloud[30800:84605] Resetting plugins due to page load.
+2014-11-05 16:07:34.379 CodeYourCloud[30800:84605] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 16:07:34.380 CodeYourCloud[30800:84605] Resetting plugins due to page load.
+2014-11-05 16:07:35.070 CodeYourCloud[30800:84605] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3B714DB0-C1EB-4277-B60A-E9B8400C26F6/CodeYourCloud.app/www/index.html
+2014-11-05 16:19:33.822 CodeYourCloud[30800:87648] Terminating since there is no system app.
+2014-11-05 17:03:51.606 CodeYourCloud[34858:101610] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 17:03:51.608 CodeYourCloud[34858:101610] Multi-tasking -> Device: YES, App: YES
+2014-11-05 17:03:51.625 CodeYourCloud[34858:101610] Unlimited access to network resources
+2014-11-05 17:03:51.995 CodeYourCloud[34858:101610] Resetting plugins due to page load.
+2014-11-05 17:03:52.686 CodeYourCloud[34858:101610] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 17:03:52.686 CodeYourCloud[34858:101610] Resetting plugins due to page load.
+2014-11-05 17:03:53.429 CodeYourCloud[34858:101610] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/16932D9E-B3B6-4AE7-8D69-45DD8BE4D607/CodeYourCloud.app/www/index.html
+2014-11-05 17:08:53.328 CodeYourCloud[38789:107952] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 17:08:53.329 CodeYourCloud[38789:107952] Multi-tasking -> Device: YES, App: YES
+2014-11-05 17:08:53.333 CodeYourCloud[38789:107952] Unlimited access to network resources
+2014-11-05 17:08:53.600 CodeYourCloud[38789:107952] Resetting plugins due to page load.
+2014-11-05 17:08:54.118 CodeYourCloud[38789:107952] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 17:08:54.118 CodeYourCloud[38789:107952] Resetting plugins due to page load.
+2014-11-05 17:08:54.792 CodeYourCloud[38789:107952] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B250F666-24CE-4EE5-A208-8C45F5A62C33/CodeYourCloud.app/www/index.html
+2014-11-05 17:18:54.942 CodeYourCloud[42720:115326] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 17:18:54.943 CodeYourCloud[42720:115326] Multi-tasking -> Device: YES, App: YES
+2014-11-05 17:18:54.947 CodeYourCloud[42720:115326] Unlimited access to network resources
+2014-11-05 17:18:55.196 CodeYourCloud[42720:115326] Resetting plugins due to page load.
+2014-11-05 17:18:55.711 CodeYourCloud[42720:115326] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 17:18:55.711 CodeYourCloud[42720:115326] Resetting plugins due to page load.
+2014-11-05 17:18:56.340 CodeYourCloud[42720:115326] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/51E38616-AF35-4215-ADB6-4FF9A05A7C2C/CodeYourCloud.app/www/index.html
+2014-11-05 17:29:31.869 CodeYourCloud[49132:127235] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 17:29:31.870 CodeYourCloud[49132:127235] Multi-tasking -> Device: YES, App: YES
+2014-11-05 17:29:31.878 CodeYourCloud[49132:127235] Unlimited access to network resources
+2014-11-05 17:29:32.157 CodeYourCloud[49132:127235] Resetting plugins due to page load.
+2014-11-05 17:29:32.752 CodeYourCloud[49132:127235] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 17:29:32.752 CodeYourCloud[49132:127235] Resetting plugins due to page load.
+2014-11-05 17:29:33.503 CodeYourCloud[49132:127235] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/786012E6-F225-42D3-AA47-1798BD8450AF/CodeYourCloud.app/www/index.html
+2014-11-05 17:39:40.914 CodeYourCloud[53097:135526] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 17:39:40.915 CodeYourCloud[53097:135526] Multi-tasking -> Device: YES, App: YES
+2014-11-05 17:39:40.919 CodeYourCloud[53097:135526] Unlimited access to network resources
+2014-11-05 17:39:41.300 CodeYourCloud[53097:135526] Resetting plugins due to page load.
+2014-11-05 17:39:41.960 CodeYourCloud[53097:135526] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 17:39:41.961 CodeYourCloud[53097:135526] Resetting plugins due to page load.
+2014-11-05 17:39:42.157 CodeYourCloud[53097:135526] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/ED815454-6A8C-4A05-A462-CC424A0652F0/CodeYourCloud.app/www/index.html
+2014-11-05 18:32:21.569 CodeYourCloud[53097:139248] Terminating since there is no system app.
+2014-11-05 18:32:54.880 CodeYourCloud[57096:144016] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 18:32:54.881 CodeYourCloud[57096:144016] Multi-tasking -> Device: YES, App: YES
+2014-11-05 18:32:54.889 CodeYourCloud[57096:144016] Unlimited access to network resources
+2014-11-05 18:32:55.188 CodeYourCloud[57096:144016] Resetting plugins due to page load.
+2014-11-05 18:32:55.747 CodeYourCloud[57096:144016] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 18:32:55.748 CodeYourCloud[57096:144016] Resetting plugins due to page load.
+2014-11-05 18:32:56.735 CodeYourCloud[57096:144016] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/BA9222D7-E341-4E3C-B0CC-C28F4578714A/CodeYourCloud.app/www/index.html
+2014-11-05 18:47:53.462 CodeYourCloud[61018:152008] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 18:47:53.463 CodeYourCloud[61018:152008] Multi-tasking -> Device: YES, App: YES
+2014-11-05 18:47:53.471 CodeYourCloud[61018:152008] Unlimited access to network resources
+2014-11-05 18:47:53.891 CodeYourCloud[61018:152008] Resetting plugins due to page load.
+2014-11-05 18:47:54.410 CodeYourCloud[61018:152008] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 18:47:54.412 CodeYourCloud[61018:152008] Resetting plugins due to page load.
+2014-11-05 18:47:55.118 CodeYourCloud[61018:152008] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E0EC4FD4-67FB-44F2-8EF1-38B8EC9AB721/CodeYourCloud.app/www/index.html
+2014-11-05 19:03:49.529 CodeYourCloud[64984:161632] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:03:49.530 CodeYourCloud[64984:161632] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:03:49.534 CodeYourCloud[64984:161632] Unlimited access to network resources
+2014-11-05 19:03:50.002 CodeYourCloud[64984:161632] Resetting plugins due to page load.
+2014-11-05 19:03:50.677 CodeYourCloud[64984:161632] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:03:50.681 CodeYourCloud[64984:161632] Resetting plugins due to page load.
+2014-11-05 19:03:51.591 CodeYourCloud[64984:161632] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E7F33D65-522A-4C14-A231-9D29DB10046A/CodeYourCloud.app/www/index.html
+2014-11-05 19:06:02.093 CodeYourCloud[68902:166891] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:06:02.094 CodeYourCloud[68902:166891] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:06:02.101 CodeYourCloud[68902:166891] Unlimited access to network resources
+2014-11-05 19:06:02.506 CodeYourCloud[68902:166891] Resetting plugins due to page load.
+2014-11-05 19:06:03.566 CodeYourCloud[68902:166891] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:06:03.566 CodeYourCloud[68902:166891] Resetting plugins due to page load.
+2014-11-05 19:06:03.917 CodeYourCloud[68902:166891] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/D738923D-9A6D-4126-8222-7C178AF2F775/CodeYourCloud.app/www/index.html
+2014-11-05 19:08:33.423 CodeYourCloud[72820:171736] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:08:33.424 CodeYourCloud[72820:171736] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:08:33.429 CodeYourCloud[72820:171736] Unlimited access to network resources
+2014-11-05 19:08:33.665 CodeYourCloud[72820:171736] Resetting plugins due to page load.
+2014-11-05 19:08:34.130 CodeYourCloud[72820:171736] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:08:34.131 CodeYourCloud[72820:171736] Resetting plugins due to page load.
+2014-11-05 19:08:34.401 CodeYourCloud[72820:171736] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/11FE465B-9046-46B5-8C02-B1A150CE5D58/CodeYourCloud.app/www/index.html
+2014-11-05 19:14:42.992 CodeYourCloud[76746:177852] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:14:42.993 CodeYourCloud[76746:177852] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:14:42.998 CodeYourCloud[76746:177852] Unlimited access to network resources
+2014-11-05 19:14:43.288 CodeYourCloud[76746:177852] Resetting plugins due to page load.
+2014-11-05 19:14:43.898 CodeYourCloud[76746:177852] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:14:43.898 CodeYourCloud[76746:177852] Resetting plugins due to page load.
+2014-11-05 19:14:44.609 CodeYourCloud[76746:177852] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/CA35D8B3-DA4F-40A9-9E6D-677F2817920E/CodeYourCloud.app/www/index.html
+2014-11-05 19:21:21.267 CodeYourCloud[80673:183901] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:21:21.268 CodeYourCloud[80673:183901] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:21:21.272 CodeYourCloud[80673:183901] Unlimited access to network resources
+2014-11-05 19:21:21.536 CodeYourCloud[80673:183901] Resetting plugins due to page load.
+2014-11-05 19:21:22.138 CodeYourCloud[80673:183901] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:21:22.139 CodeYourCloud[80673:183901] Resetting plugins due to page load.
+2014-11-05 19:21:22.757 CodeYourCloud[80673:183901] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/FA49169E-9512-4516-A415-C335E31FA038/CodeYourCloud.app/www/index.html
+2014-11-05 19:59:37.436 CodeYourCloud[84598:191407] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 19:59:37.437 CodeYourCloud[84598:191407] Multi-tasking -> Device: YES, App: YES
+2014-11-05 19:59:37.441 CodeYourCloud[84598:191407] Unlimited access to network resources
+2014-11-05 19:59:37.782 CodeYourCloud[84598:191407] Resetting plugins due to page load.
+2014-11-05 19:59:38.347 CodeYourCloud[84598:191407] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 19:59:38.347 CodeYourCloud[84598:191407] Resetting plugins due to page load.
+2014-11-05 19:59:38.915 CodeYourCloud[84598:191407] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/DFE528D7-C007-4F5C-96CA-E22F6B2222E3/CodeYourCloud.app/www/index.html
+2014-11-05 20:00:17.920 CodeYourCloud[88519:196287] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:00:17.921 CodeYourCloud[88519:196287] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:00:17.928 CodeYourCloud[88519:196287] Unlimited access to network resources
+2014-11-05 20:00:18.288 CodeYourCloud[88519:196287] Resetting plugins due to page load.
+2014-11-05 20:00:18.972 CodeYourCloud[88519:196287] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:00:18.972 CodeYourCloud[88519:196287] Resetting plugins due to page load.
+2014-11-05 20:00:19.005 CodeYourCloud[88519:196287] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/63EC9B6D-58B1-4804-A3A1-CF5E1929EC3A/CodeYourCloud.app/www/index.html
+2014-11-05 20:00:54.814 CodeYourCloud[92441:200751] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:00:54.815 CodeYourCloud[92441:200751] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:00:54.820 CodeYourCloud[92441:200751] Unlimited access to network resources
+2014-11-05 20:00:55.062 CodeYourCloud[92441:200751] Resetting plugins due to page load.
+2014-11-05 20:00:55.778 CodeYourCloud[92441:200751] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:00:55.778 CodeYourCloud[92441:200751] Resetting plugins due to page load.
+2014-11-05 20:00:55.806 CodeYourCloud[92441:200751] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/17EF0E2F-7746-484E-BCFA-65CDFA2AEDA2/CodeYourCloud.app/www/index.html
+2014-11-05 20:04:51.039 CodeYourCloud[96362:206108] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:04:51.041 CodeYourCloud[96362:206108] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:04:51.066 CodeYourCloud[96362:206108] Unlimited access to network resources
+2014-11-05 20:04:51.514 CodeYourCloud[96362:206108] Resetting plugins due to page load.
+2014-11-05 20:04:52.351 CodeYourCloud[96362:206108] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:04:52.352 CodeYourCloud[96362:206108] Resetting plugins due to page load.
+2014-11-05 20:04:52.387 CodeYourCloud[96362:206108] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/61C7672E-722A-46B0-A438-C304B310CC63/CodeYourCloud.app/www/index.html
+2014-11-05 20:06:47.415 CodeYourCloud[494:211008] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:06:47.417 CodeYourCloud[494:211008] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:06:47.424 CodeYourCloud[494:211008] Unlimited access to network resources
+2014-11-05 20:06:47.728 CodeYourCloud[494:211008] Resetting plugins due to page load.
+2014-11-05 20:06:48.331 CodeYourCloud[494:211008] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:06:48.332 CodeYourCloud[494:211008] Resetting plugins due to page load.
+2014-11-05 20:06:48.422 CodeYourCloud[494:211008] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/EE8D12E6-36A3-470D-B20D-592025B71EF7/CodeYourCloud.app/www/index.html
+2014-11-05 20:13:26.513 CodeYourCloud[4444:216993] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:13:26.514 CodeYourCloud[4444:216993] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:13:26.521 CodeYourCloud[4444:216993] Unlimited access to network resources
+2014-11-05 20:13:26.890 CodeYourCloud[4444:216993] Resetting plugins due to page load.
+2014-11-05 20:13:27.459 CodeYourCloud[4444:216993] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:13:27.460 CodeYourCloud[4444:216993] Resetting plugins due to page load.
+2014-11-05 20:13:27.497 CodeYourCloud[4444:216993] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/AB1E5FD7-4E6F-439B-9090-72DB7464512A/CodeYourCloud.app/www/index.html
+2014-11-05 20:30:02.744 CodeYourCloud[8383:227116] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:30:02.745 CodeYourCloud[8383:227116] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:30:02.749 CodeYourCloud[8383:227116] Unlimited access to network resources
+2014-11-05 20:30:03.071 CodeYourCloud[8383:227116] Resetting plugins due to page load.
+2014-11-05 20:30:03.614 CodeYourCloud[8383:227116] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:30:03.614 CodeYourCloud[8383:227116] Resetting plugins due to page load.
+2014-11-05 20:30:04.204 CodeYourCloud[8383:227116] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4F344207-0C19-4CF4-8B68-E974870089FC/CodeYourCloud.app/www/index.html
+2014-11-05 20:31:59.013 CodeYourCloud[12309:232105] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:31:59.014 CodeYourCloud[12309:232105] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:31:59.021 CodeYourCloud[12309:232105] Unlimited access to network resources
+2014-11-05 20:31:59.265 CodeYourCloud[12309:232105] Resetting plugins due to page load.
+2014-11-05 20:31:59.835 CodeYourCloud[12309:232105] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:31:59.837 CodeYourCloud[12309:232105] Resetting plugins due to page load.
+2014-11-05 20:32:00.594 CodeYourCloud[12309:232105] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/92A35B94-D73A-4CF2-BBD0-731FD879A3A8/CodeYourCloud.app/www/index.html
+2014-11-05 20:39:35.811 CodeYourCloud[16251:239399] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:39:35.813 CodeYourCloud[16251:239399] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:39:35.817 CodeYourCloud[16251:239399] Unlimited access to network resources
+2014-11-05 20:39:36.172 CodeYourCloud[16251:239399] Resetting plugins due to page load.
+2014-11-05 20:39:36.738 CodeYourCloud[16251:239399] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:39:36.739 CodeYourCloud[16251:239399] Resetting plugins due to page load.
+2014-11-05 20:39:37.399 CodeYourCloud[16251:239399] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F80AC101-1510-4D3F-A8DB-6DA0FD3925BC/CodeYourCloud.app/www/index.html
+2014-11-05 20:42:50.330 CodeYourCloud[20179:245059] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:42:50.331 CodeYourCloud[20179:245059] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:42:50.336 CodeYourCloud[20179:245059] Unlimited access to network resources
+2014-11-05 20:42:50.669 CodeYourCloud[20179:245059] Resetting plugins due to page load.
+2014-11-05 20:42:51.252 CodeYourCloud[20179:245059] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:42:51.253 CodeYourCloud[20179:245059] Resetting plugins due to page load.
+2014-11-05 20:42:51.848 CodeYourCloud[20179:245059] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/C5D8D1CE-AB4B-4BFA-8B53-3D7DD5DA2FDA/CodeYourCloud.app/www/index.html
+2014-11-05 20:43:52.300 CodeYourCloud[24095:249571] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-05 20:43:52.301 CodeYourCloud[24095:249571] Multi-tasking -> Device: YES, App: YES
+2014-11-05 20:43:52.307 CodeYourCloud[24095:249571] Unlimited access to network resources
+2014-11-05 20:43:52.560 CodeYourCloud[24095:249571] Resetting plugins due to page load.
+2014-11-05 20:43:53.097 CodeYourCloud[24095:249571] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-05 20:43:53.097 CodeYourCloud[24095:249571] Resetting plugins due to page load.
+2014-11-05 20:43:53.171 CodeYourCloud[24095:249571] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/96291DDC-96CB-4F3B-80BC-05A01D63A1CC/CodeYourCloud.app/www/index.html
+2014-11-05 21:43:16.420 CodeYourCloud[24095:267717] Terminating since there is no system app.
+2014-11-06 20:20:15.982 CodeYourCloud[4408:10996] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:20:15.983 CodeYourCloud[4408:10996] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:20:16.004 CodeYourCloud[4408:10996] Unlimited access to network resources
+2014-11-06 20:20:16.568 CodeYourCloud[4408:10996] Resetting plugins due to page load.
+2014-11-06 20:20:17.275 CodeYourCloud[4408:10996] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:20:17.281 CodeYourCloud[4408:10996] Resetting plugins due to page load.
+2014-11-06 20:20:18.325 CodeYourCloud[4408:10996] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/25D1617A-2C3E-4900-B2D4-498C92F97E7E/CodeYourCloud.app/www/index.html
+2014-11-06 20:21:50.438 CodeYourCloud[8344:16296] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:21:50.440 CodeYourCloud[8344:16296] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:21:50.448 CodeYourCloud[8344:16296] Unlimited access to network resources
+2014-11-06 20:21:50.741 CodeYourCloud[8344:16296] Resetting plugins due to page load.
+2014-11-06 20:21:51.407 CodeYourCloud[8344:16296] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:21:51.407 CodeYourCloud[8344:16296] Resetting plugins due to page load.
+2014-11-06 20:21:51.448 CodeYourCloud[8344:16296] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/10FA94A1-FEBE-4780-912E-B16ECE5E8FEB/CodeYourCloud.app/www/index.html
+2014-11-06 20:24:37.543 CodeYourCloud[12267:21473] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:24:37.544 CodeYourCloud[12267:21473] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:24:37.551 CodeYourCloud[12267:21473] Unlimited access to network resources
+2014-11-06 20:24:37.882 CodeYourCloud[12267:21473] Resetting plugins due to page load.
+2014-11-06 20:24:38.331 CodeYourCloud[12267:21473] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:24:38.332 CodeYourCloud[12267:21473] Resetting plugins due to page load.
+2014-11-06 20:24:38.417 CodeYourCloud[12267:21473] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/93DAB2D1-4D39-4060-A7AF-9E439E96202C/CodeYourCloud.app/www/index.html
+2014-11-06 20:41:38.879 CodeYourCloud[16216:30448] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:41:38.880 CodeYourCloud[16216:30448] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:41:38.884 CodeYourCloud[16216:30448] Unlimited access to network resources
+2014-11-06 20:41:39.270 CodeYourCloud[16216:30448] Resetting plugins due to page load.
+2014-11-06 20:41:40.059 CodeYourCloud[16216:30448] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:41:40.060 CodeYourCloud[16216:30448] Resetting plugins due to page load.
+2014-11-06 20:41:40.087 CodeYourCloud[16216:30448] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/D76D0E11-E99C-44FF-9222-473A0B43347C/CodeYourCloud.app/www/index.html
+2014-11-06 20:48:40.239 CodeYourCloud[20135:36165] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:48:40.240 CodeYourCloud[20135:36165] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:48:40.246 CodeYourCloud[20135:36165] Unlimited access to network resources
+2014-11-06 20:48:40.521 CodeYourCloud[20135:36165] Resetting plugins due to page load.
+2014-11-06 20:48:41.080 CodeYourCloud[20135:36165] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:48:41.081 CodeYourCloud[20135:36165] Resetting plugins due to page load.
+2014-11-06 20:48:41.107 CodeYourCloud[20135:36165] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B3909428-1716-4367-93F2-5EAF5B0EC82B/CodeYourCloud.app/www/index.html
+2014-11-06 20:51:31.060 CodeYourCloud[24054:41102] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:51:31.061 CodeYourCloud[24054:41102] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:51:31.067 CodeYourCloud[24054:41102] Unlimited access to network resources
+2014-11-06 20:51:31.351 CodeYourCloud[24054:41102] Resetting plugins due to page load.
+2014-11-06 20:51:31.844 CodeYourCloud[24054:41102] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:51:31.844 CodeYourCloud[24054:41102] Resetting plugins due to page load.
+2014-11-06 20:51:32.474 CodeYourCloud[24054:41102] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A6EA63E3-1DED-4CCF-A2E2-84446C5870BA/CodeYourCloud.app/www/index.html
+2014-11-06 20:53:05.454 CodeYourCloud[27969:45663] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:53:05.456 CodeYourCloud[27969:45663] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:53:05.463 CodeYourCloud[27969:45663] Unlimited access to network resources
+2014-11-06 20:53:05.739 CodeYourCloud[27969:45663] Resetting plugins due to page load.
+2014-11-06 20:53:06.356 CodeYourCloud[27969:45663] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:53:06.356 CodeYourCloud[27969:45663] Resetting plugins due to page load.
+2014-11-06 20:53:07.012 CodeYourCloud[27969:45663] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/59E1A489-787F-4ED6-B913-ACDD685D17F2/CodeYourCloud.app/www/index.html
+2014-11-06 20:55:34.195 CodeYourCloud[31890:50683] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:55:34.196 CodeYourCloud[31890:50683] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:55:34.202 CodeYourCloud[31890:50683] Unlimited access to network resources
+2014-11-06 20:55:34.428 CodeYourCloud[31890:50683] Resetting plugins due to page load.
+2014-11-06 20:55:34.979 CodeYourCloud[31890:50683] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-06 20:55:34.979 CodeYourCloud[31890:50683] Resetting plugins due to page load.
+2014-11-06 20:55:35.583 CodeYourCloud[31890:50683] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/8452B04B-0B05-4171-893B-45CC2B350CB5/CodeYourCloud.app/www/index.html
+2014-11-06 20:58:11.892 CodeYourCloud[31890:51677] Terminating since there is no system app.
+2014-11-07 06:10:25.318 CodeYourCloud[35911:60977] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 06:10:25.319 CodeYourCloud[35911:60977] Multi-tasking -> Device: YES, App: YES
+2014-11-07 06:10:25.332 CodeYourCloud[35911:60977] Unlimited access to network resources
+2014-11-07 06:10:25.794 CodeYourCloud[35911:60977] Resetting plugins due to page load.
+2014-11-07 06:10:26.386 CodeYourCloud[35911:60977] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 06:10:26.415 CodeYourCloud[35911:60977] Resetting plugins due to page load.
+2014-11-07 06:10:27.042 CodeYourCloud[35911:60977] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/7583C66A-DD2A-4F41-A54F-8069E7FC3FF3/CodeYourCloud.app/www/index.html
+2014-11-07 15:14:54.624 CodeYourCloud[40104:78802] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 15:14:54.626 CodeYourCloud[40104:78802] Multi-tasking -> Device: YES, App: YES
+2014-11-07 15:14:54.647 CodeYourCloud[40104:78802] Unlimited access to network resources
+2014-11-07 15:14:55.134 CodeYourCloud[40104:78802] Resetting plugins due to page load.
+2014-11-07 15:14:55.768 CodeYourCloud[40104:78802] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 15:14:55.769 CodeYourCloud[40104:78802] Resetting plugins due to page load.
+2014-11-07 15:14:56.420 CodeYourCloud[40104:78802] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1138214A-ED9B-4A35-B63A-49EB183A3CFD/CodeYourCloud.app/www/index.html
+2014-11-07 15:23:58.498 CodeYourCloud[40104:83405] Terminating since there is no system app.
+2014-11-07 19:25:31.224 CodeYourCloud[44366:106135] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 19:25:31.225 CodeYourCloud[44366:106135] Multi-tasking -> Device: YES, App: YES
+2014-11-07 19:25:31.246 CodeYourCloud[44366:106135] Unlimited access to network resources
+2014-11-07 19:25:32.023 CodeYourCloud[44366:106135] Resetting plugins due to page load.
+2014-11-07 19:25:32.820 CodeYourCloud[44366:106135] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 19:25:32.825 CodeYourCloud[44366:106135] Resetting plugins due to page load.
+2014-11-07 19:25:33.658 CodeYourCloud[44366:106135] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E6F663DA-EB2F-44EE-9A2A-1A4E07B4B578/CodeYourCloud.app/www/index.html
+2014-11-07 19:29:33.511 CodeYourCloud[48286:111397] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 19:29:33.512 CodeYourCloud[48286:111397] Multi-tasking -> Device: YES, App: YES
+2014-11-07 19:29:33.519 CodeYourCloud[48286:111397] Unlimited access to network resources
+2014-11-07 19:29:33.766 CodeYourCloud[48286:111397] Resetting plugins due to page load.
+2014-11-07 19:29:34.296 CodeYourCloud[48286:111397] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 19:29:34.298 CodeYourCloud[48286:111397] Resetting plugins due to page load.
+2014-11-07 19:29:35.033 CodeYourCloud[48286:111397] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/BFB4880D-49AA-4B86-80A9-112107D210B1/CodeYourCloud.app/www/index.html
+2014-11-07 19:36:34.092 CodeYourCloud[52216:117473] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 19:36:34.093 CodeYourCloud[52216:117473] Multi-tasking -> Device: YES, App: YES
+2014-11-07 19:36:34.099 CodeYourCloud[52216:117473] Unlimited access to network resources
+2014-11-07 19:36:34.346 CodeYourCloud[52216:117473] Resetting plugins due to page load.
+2014-11-07 19:36:34.991 CodeYourCloud[52216:117473] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 19:36:34.991 CodeYourCloud[52216:117473] Resetting plugins due to page load.
+2014-11-07 19:36:35.719 CodeYourCloud[52216:117473] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1ACCBF28-2614-4C80-9E9A-EE30428C280A/CodeYourCloud.app/www/index.html
+2014-11-07 19:41:02.494 CodeYourCloud[56129:122698] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 19:41:02.496 CodeYourCloud[56129:122698] Multi-tasking -> Device: YES, App: YES
+2014-11-07 19:41:02.502 CodeYourCloud[56129:122698] Unlimited access to network resources
+2014-11-07 19:41:02.766 CodeYourCloud[56129:122698] Resetting plugins due to page load.
+2014-11-07 19:41:03.350 CodeYourCloud[56129:122698] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 19:41:03.351 CodeYourCloud[56129:122698] Resetting plugins due to page load.
+2014-11-07 19:41:04.008 CodeYourCloud[56129:122698] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/2C76CEE1-1334-40CB-9BCD-809F263B01CA/CodeYourCloud.app/www/index.html
+2014-11-07 19:42:59.979 CodeYourCloud[60047:127782] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-07 19:42:59.980 CodeYourCloud[60047:127782] Multi-tasking -> Device: YES, App: YES
+2014-11-07 19:42:59.985 CodeYourCloud[60047:127782] Unlimited access to network resources
+2014-11-07 19:43:00.386 CodeYourCloud[60047:127782] Resetting plugins due to page load.
+2014-11-07 19:43:01.257 CodeYourCloud[60047:127782] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-07 19:43:01.258 CodeYourCloud[60047:127782] Resetting plugins due to page load.
+2014-11-07 19:43:01.604 CodeYourCloud[60047:127782] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B7BDC058-D525-475F-81BE-C840DC47BC22/CodeYourCloud.app/www/index.html
+2014-11-08 09:01:57.740 CodeYourCloud[4444:14334] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:01:57.742 CodeYourCloud[4444:14334] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:01:57.762 CodeYourCloud[4444:14334] Unlimited access to network resources
+2014-11-08 09:01:58.283 CodeYourCloud[4444:14334] Resetting plugins due to page load.
+2014-11-08 09:01:58.949 CodeYourCloud[4444:14334] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:01:58.949 CodeYourCloud[4444:14334] Resetting plugins due to page load.
+2014-11-08 09:01:59.571 CodeYourCloud[4444:14334] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/723279C3-BE48-49C9-9D49-DAAB6BEFC49E/CodeYourCloud.app/www/index.html
+2014-11-08 09:13:51.199 CodeYourCloud[8386:20556] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:13:51.200 CodeYourCloud[8386:20556] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:13:51.206 CodeYourCloud[8386:20556] Unlimited access to network resources
+2014-11-08 09:13:51.519 CodeYourCloud[8386:20556] Resetting plugins due to page load.
+2014-11-08 09:13:52.266 CodeYourCloud[8386:20556] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:13:52.266 CodeYourCloud[8386:20556] Resetting plugins due to page load.
+2014-11-08 09:13:53.055 CodeYourCloud[8386:20556] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/496877CE-8EA5-42A5-A33E-97310C2E8D86/CodeYourCloud.app/www/index.html
+2014-11-08 09:25:44.995 CodeYourCloud[12360:28871] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:25:44.996 CodeYourCloud[12360:28871] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:25:45.001 CodeYourCloud[12360:28871] Unlimited access to network resources
+2014-11-08 09:25:45.246 CodeYourCloud[12360:28871] Resetting plugins due to page load.
+2014-11-08 09:25:45.803 CodeYourCloud[12360:28871] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:25:45.803 CodeYourCloud[12360:28871] Resetting plugins due to page load.
+2014-11-08 09:25:46.516 CodeYourCloud[12360:28871] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/72510D6E-6441-49E7-92CB-CDAF19E9551D/CodeYourCloud.app/www/index.html
+2014-11-08 09:30:04.617 CodeYourCloud[16301:34942] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:30:04.618 CodeYourCloud[16301:34942] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:30:04.624 CodeYourCloud[16301:34942] Unlimited access to network resources
+2014-11-08 09:30:04.910 CodeYourCloud[16301:34942] Resetting plugins due to page load.
+2014-11-08 09:30:05.490 CodeYourCloud[16301:34942] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:30:05.490 CodeYourCloud[16301:34942] Resetting plugins due to page load.
+2014-11-08 09:30:06.109 CodeYourCloud[16301:34942] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1984E123-956F-4840-A5F5-66246A4B0F59/CodeYourCloud.app/www/index.html
+2014-11-08 09:32:25.797 CodeYourCloud[20243:40073] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:32:25.798 CodeYourCloud[20243:40073] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:32:25.802 CodeYourCloud[20243:40073] Unlimited access to network resources
+2014-11-08 09:32:26.030 CodeYourCloud[20243:40073] Resetting plugins due to page load.
+2014-11-08 09:32:26.828 CodeYourCloud[20243:40073] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:32:26.828 CodeYourCloud[20243:40073] Resetting plugins due to page load.
+2014-11-08 09:32:27.496 CodeYourCloud[20243:40073] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3FBDE897-82A0-455D-A047-0CE15EBB949C/CodeYourCloud.app/www/index.html
+2014-11-08 09:34:11.704 CodeYourCloud[24208:45146] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:34:11.705 CodeYourCloud[24208:45146] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:34:11.710 CodeYourCloud[24208:45146] Unlimited access to network resources
+2014-11-08 09:34:11.951 CodeYourCloud[24208:45146] Resetting plugins due to page load.
+2014-11-08 09:34:12.369 CodeYourCloud[24208:45146] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:34:12.377 CodeYourCloud[24208:45146] Resetting plugins due to page load.
+2014-11-08 09:34:13.557 CodeYourCloud[24208:45146] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/2279146E-7E22-44B0-9418-0E87C347E327/CodeYourCloud.app/www/index.html
+2014-11-08 09:35:32.210 CodeYourCloud[28174:52247] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:35:32.212 CodeYourCloud[28174:52247] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:35:32.219 CodeYourCloud[28174:52247] Unlimited access to network resources
+2014-11-08 09:35:32.617 CodeYourCloud[28174:52247] Resetting plugins due to page load.
+2014-11-08 09:35:33.241 CodeYourCloud[28174:52247] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:35:33.242 CodeYourCloud[28174:52247] Resetting plugins due to page load.
+2014-11-08 09:35:33.902 CodeYourCloud[28174:52247] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/DC48709D-0894-44BA-9D9E-89C3BEDF3425/CodeYourCloud.app/www/index.html
+2014-11-08 09:38:46.512 CodeYourCloud[32132:57970] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:38:46.513 CodeYourCloud[32132:57970] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:38:46.518 CodeYourCloud[32132:57970] Unlimited access to network resources
+2014-11-08 09:38:46.841 CodeYourCloud[32132:57970] Resetting plugins due to page load.
+2014-11-08 09:38:47.634 CodeYourCloud[32132:57970] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:38:47.635 CodeYourCloud[32132:57970] Resetting plugins due to page load.
+2014-11-08 09:38:48.399 CodeYourCloud[32132:57970] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/5DD86B73-3A88-43C3-9655-7BAB68C769D3/CodeYourCloud.app/www/index.html
+2014-11-08 09:41:47.931 CodeYourCloud[36071:63325] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:41:47.932 CodeYourCloud[36071:63325] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:41:47.938 CodeYourCloud[36071:63325] Unlimited access to network resources
+2014-11-08 09:41:48.296 CodeYourCloud[36071:63325] Resetting plugins due to page load.
+2014-11-08 09:41:49.059 CodeYourCloud[36071:63325] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:41:49.059 CodeYourCloud[36071:63325] Resetting plugins due to page load.
+2014-11-08 09:41:49.992 CodeYourCloud[36071:63325] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/9660C58B-5907-4555-8D77-731D658FCE8A/CodeYourCloud.app/www/index.html
+2014-11-08 09:45:11.893 CodeYourCloud[40007:68634] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:45:11.894 CodeYourCloud[40007:68634] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:45:11.899 CodeYourCloud[40007:68634] Unlimited access to network resources
+2014-11-08 09:45:12.271 CodeYourCloud[40007:68634] Resetting plugins due to page load.
+2014-11-08 09:45:12.993 CodeYourCloud[40007:68634] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:45:12.994 CodeYourCloud[40007:68634] Resetting plugins due to page load.
+2014-11-08 09:45:13.730 CodeYourCloud[40007:68634] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/87D67808-0191-4258-83F5-9E7B0A5332BC/CodeYourCloud.app/www/index.html
+2014-11-08 09:46:59.074 CodeYourCloud[43943:73539] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:46:59.075 CodeYourCloud[43943:73539] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:46:59.080 CodeYourCloud[43943:73539] Unlimited access to network resources
+2014-11-08 09:46:59.463 CodeYourCloud[43943:73539] Resetting plugins due to page load.
+2014-11-08 09:47:00.172 CodeYourCloud[43943:73539] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:47:00.172 CodeYourCloud[43943:73539] Resetting plugins due to page load.
+2014-11-08 09:47:00.922 CodeYourCloud[43943:73539] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3B8CA635-16A0-406C-AB1C-CA2CC862CC20/CodeYourCloud.app/www/index.html
+2014-11-08 09:47:34.855 CodeYourCloud[43943:73539] Resetting plugins due to page load.
+2014-11-08 09:47:38.276 CodeYourCloud[43943:73539] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:47:38.276 CodeYourCloud[43943:73539] Resetting plugins due to page load.
+2014-11-08 09:47:38.725 CodeYourCloud[43943:73539] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3B8CA635-16A0-406C-AB1C-CA2CC862CC20/CodeYourCloud.app/www/index.html
+2014-11-08 09:48:37.532 CodeYourCloud[47880:78354] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:48:37.533 CodeYourCloud[47880:78354] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:48:37.538 CodeYourCloud[47880:78354] Unlimited access to network resources
+2014-11-08 09:48:37.931 CodeYourCloud[47880:78354] Resetting plugins due to page load.
+2014-11-08 09:48:38.668 CodeYourCloud[47880:78354] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:48:38.668 CodeYourCloud[47880:78354] Resetting plugins due to page load.
+2014-11-08 09:48:39.415 CodeYourCloud[47880:78354] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E665076A-F816-411F-A573-9B22BFF2B5C7/CodeYourCloud.app/www/index.html
+2014-11-08 09:57:49.226 CodeYourCloud[51824:85041] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:57:49.228 CodeYourCloud[51824:85041] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:57:49.233 CodeYourCloud[51824:85041] Unlimited access to network resources
+2014-11-08 09:57:49.625 CodeYourCloud[51824:85041] Resetting plugins due to page load.
+2014-11-08 09:57:50.350 CodeYourCloud[51824:85041] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:57:50.351 CodeYourCloud[51824:85041] Resetting plugins due to page load.
+2014-11-08 09:57:51.149 CodeYourCloud[51824:85041] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A18AD505-4D0D-4382-8A03-FC8F09F0D7B0/CodeYourCloud.app/www/index.html
+2014-11-08 09:59:33.463 CodeYourCloud[55759:89823] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 09:59:33.464 CodeYourCloud[55759:89823] Multi-tasking -> Device: YES, App: YES
+2014-11-08 09:59:33.469 CodeYourCloud[55759:89823] Unlimited access to network resources
+2014-11-08 09:59:33.767 CodeYourCloud[55759:89823] Resetting plugins due to page load.
+2014-11-08 09:59:34.492 CodeYourCloud[55759:89823] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 09:59:34.493 CodeYourCloud[55759:89823] Resetting plugins due to page load.
+2014-11-08 09:59:35.237 CodeYourCloud[55759:89823] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/35C0D403-BE7F-40CB-93AB-86D7ABB6DC0F/CodeYourCloud.app/www/index.html
+2014-11-08 10:01:50.115 CodeYourCloud[59694:94768] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:01:50.116 CodeYourCloud[59694:94768] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:01:50.122 CodeYourCloud[59694:94768] Unlimited access to network resources
+2014-11-08 10:01:50.465 CodeYourCloud[59694:94768] Resetting plugins due to page load.
+2014-11-08 10:01:51.220 CodeYourCloud[59694:94768] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:01:51.220 CodeYourCloud[59694:94768] Resetting plugins due to page load.
+2014-11-08 10:01:51.983 CodeYourCloud[59694:94768] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/C9B1D669-0A03-4B5B-AAF3-5D6453DC4B35/CodeYourCloud.app/www/index.html
+2014-11-08 10:05:40.253 CodeYourCloud[63641:100399] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:05:40.254 CodeYourCloud[63641:100399] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:05:40.261 CodeYourCloud[63641:100399] Unlimited access to network resources
+2014-11-08 10:05:40.792 CodeYourCloud[63641:100399] Resetting plugins due to page load.
+2014-11-08 10:05:41.678 CodeYourCloud[63641:100399] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:05:41.678 CodeYourCloud[63641:100399] Resetting plugins due to page load.
+2014-11-08 10:05:42.675 CodeYourCloud[63641:100399] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/895EC91E-5558-4063-A1F6-EF7C34C85298/CodeYourCloud.app/www/index.html
+2014-11-08 10:07:05.621 CodeYourCloud[67578:105196] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:07:05.622 CodeYourCloud[67578:105196] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:07:05.630 CodeYourCloud[67578:105196] Unlimited access to network resources
+2014-11-08 10:07:06.028 CodeYourCloud[67578:105196] Resetting plugins due to page load.
+2014-11-08 10:07:06.705 CodeYourCloud[67578:105196] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:07:06.705 CodeYourCloud[67578:105196] Resetting plugins due to page load.
+2014-11-08 10:07:07.608 CodeYourCloud[67578:105196] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A3D58DF6-86EB-4DFF-B34B-C65116F53928/CodeYourCloud.app/www/index.html
+2014-11-08 10:10:47.575 CodeYourCloud[71528:110731] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:10:47.576 CodeYourCloud[71528:110731] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:10:47.580 CodeYourCloud[71528:110731] Unlimited access to network resources
+2014-11-08 10:10:47.866 CodeYourCloud[71528:110731] Resetting plugins due to page load.
+2014-11-08 10:10:48.461 CodeYourCloud[71528:110731] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:10:48.461 CodeYourCloud[71528:110731] Resetting plugins due to page load.
+2014-11-08 10:10:49.074 CodeYourCloud[71528:110731] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1387106C-07F4-490C-8657-72444A414950/CodeYourCloud.app/www/index.html
+2014-11-08 10:14:21.656 CodeYourCloud[75471:116103] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:14:21.657 CodeYourCloud[75471:116103] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:14:21.662 CodeYourCloud[75471:116103] Unlimited access to network resources
+2014-11-08 10:14:21.963 CodeYourCloud[75471:116103] Resetting plugins due to page load.
+2014-11-08 10:14:22.890 CodeYourCloud[75471:116103] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:14:22.891 CodeYourCloud[75471:116103] Resetting plugins due to page load.
+2014-11-08 10:14:23.827 CodeYourCloud[75471:116103] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/98E0C6AD-8776-432A-A371-6FAA49A7E780/CodeYourCloud.app/www/index.html
+2014-11-08 10:17:17.798 CodeYourCloud[79406:121124] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:17:17.799 CodeYourCloud[79406:121124] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:17:17.805 CodeYourCloud[79406:121124] Unlimited access to network resources
+2014-11-08 10:17:18.049 CodeYourCloud[79406:121124] Resetting plugins due to page load.
+2014-11-08 10:17:18.650 CodeYourCloud[79406:121124] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:17:18.651 CodeYourCloud[79406:121124] Resetting plugins due to page load.
+2014-11-08 10:17:19.263 CodeYourCloud[79406:121124] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4B65EFCF-6E49-4DE4-8831-2E5C1A8D0DC2/CodeYourCloud.app/www/index.html
+2014-11-08 10:21:58.175 CodeYourCloud[83345:126547] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:21:58.176 CodeYourCloud[83345:126547] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:21:58.180 CodeYourCloud[83345:126547] Unlimited access to network resources
+2014-11-08 10:21:58.478 CodeYourCloud[83345:126547] Resetting plugins due to page load.
+2014-11-08 10:21:59.089 CodeYourCloud[83345:126547] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:21:59.089 CodeYourCloud[83345:126547] Resetting plugins due to page load.
+2014-11-08 10:21:59.728 CodeYourCloud[83345:126547] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/DFE6D85A-733C-4B29-8AC7-B86D9918EB78/CodeYourCloud.app/www/index.html
+2014-11-08 10:23:28.980 CodeYourCloud[87283:131388] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:23:28.981 CodeYourCloud[87283:131388] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:23:28.986 CodeYourCloud[87283:131388] Unlimited access to network resources
+2014-11-08 10:23:29.253 CodeYourCloud[87283:131388] Resetting plugins due to page load.
+2014-11-08 10:23:29.864 CodeYourCloud[87283:131388] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:23:29.864 CodeYourCloud[87283:131388] Resetting plugins due to page load.
+2014-11-08 10:23:30.516 CodeYourCloud[87283:131388] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F3CA5BAA-13A3-41C0-AD82-843690F7AF5E/CodeYourCloud.app/www/index.html
+2014-11-08 10:26:08.361 CodeYourCloud[91218:136403] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:26:08.362 CodeYourCloud[91218:136403] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:26:08.367 CodeYourCloud[91218:136403] Unlimited access to network resources
+2014-11-08 10:26:08.674 CodeYourCloud[91218:136403] Resetting plugins due to page load.
+2014-11-08 10:26:09.210 CodeYourCloud[91218:136403] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:26:09.211 CodeYourCloud[91218:136403] Resetting plugins due to page load.
+2014-11-08 10:26:09.944 CodeYourCloud[91218:136403] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B8DE0BA5-9E7B-4A8B-B393-E21E00780BB2/CodeYourCloud.app/www/index.html
+2014-11-08 10:28:31.745 CodeYourCloud[95162:141788] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:28:31.746 CodeYourCloud[95162:141788] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:28:31.750 CodeYourCloud[95162:141788] Unlimited access to network resources
+2014-11-08 10:28:32.088 CodeYourCloud[95162:141788] Resetting plugins due to page load.
+2014-11-08 10:28:32.681 CodeYourCloud[95162:141788] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:28:32.681 CodeYourCloud[95162:141788] Resetting plugins due to page load.
+2014-11-08 10:28:33.346 CodeYourCloud[95162:141788] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/E094BEB7-15D7-4805-87CC-6FA0925481AD/CodeYourCloud.app/www/index.html
+2014-11-08 10:31:59.935 CodeYourCloud[99098:147033] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-08 10:31:59.935 CodeYourCloud[99098:147033] Multi-tasking -> Device: YES, App: YES
+2014-11-08 10:31:59.940 CodeYourCloud[99098:147033] Unlimited access to network resources
+2014-11-08 10:32:00.262 CodeYourCloud[99098:147033] Resetting plugins due to page load.
+2014-11-08 10:32:00.885 CodeYourCloud[99098:147033] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-08 10:32:00.885 CodeYourCloud[99098:147033] Resetting plugins due to page load.
+2014-11-08 10:32:01.883 CodeYourCloud[99098:147033] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/754947DC-7DB4-42D2-A2F2-A130E6DA34F9/CodeYourCloud.app/www/index.html
+2014-11-11 20:06:37.021 CodeYourCloud[6352:70382] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-11 20:06:37.022 CodeYourCloud[6352:70382] Multi-tasking -> Device: YES, App: YES
+2014-11-11 20:06:37.044 CodeYourCloud[6352:70382] Unlimited access to network resources
+2014-11-11 20:06:37.578 CodeYourCloud[6352:70382] Resetting plugins due to page load.
+2014-11-11 20:06:38.252 CodeYourCloud[6352:70382] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-11 20:06:38.252 CodeYourCloud[6352:70382] Resetting plugins due to page load.
+2014-11-11 20:06:38.990 CodeYourCloud[6352:70382] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4390E63C-4533-4406-AAD1-B0F035D7DCF0/CodeYourCloud.app/www/index.html
+2014-11-13 18:03:12.676 CodeYourCloud[10871:145935] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:03:12.677 CodeYourCloud[10871:145935] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:03:12.705 CodeYourCloud[10871:145935] Unlimited access to network resources
+2014-11-13 18:03:13.251 CodeYourCloud[10871:145935] Resetting plugins due to page load.
+2014-11-13 18:03:13.923 CodeYourCloud[10871:145935] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:03:13.924 CodeYourCloud[10871:145935] Resetting plugins due to page load.
+2014-11-13 18:03:14.632 CodeYourCloud[10871:145935] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/33877433-B9EC-43C0-8296-DADD48B9752A/CodeYourCloud.app/www/index.html
+2014-11-13 18:10:26.293 CodeYourCloud[14835:155095] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:10:26.294 CodeYourCloud[14835:155095] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:10:26.298 CodeYourCloud[14835:155095] Unlimited access to network resources
+2014-11-13 18:10:26.617 CodeYourCloud[14835:155095] Resetting plugins due to page load.
+2014-11-13 18:10:27.269 CodeYourCloud[14835:155095] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:10:27.269 CodeYourCloud[14835:155095] Resetting plugins due to page load.
+2014-11-13 18:10:27.296 CodeYourCloud[14835:155095] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/DACC8581-C51E-40A4-A6F0-930F1E26359D/CodeYourCloud.app/www/index.html
+2014-11-13 18:18:19.905 CodeYourCloud[18803:162671] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:18:19.908 CodeYourCloud[18803:162671] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:18:19.913 CodeYourCloud[18803:162671] Unlimited access to network resources
+2014-11-13 18:18:20.209 CodeYourCloud[18803:162671] Resetting plugins due to page load.
+2014-11-13 18:18:20.808 CodeYourCloud[18803:162671] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:18:20.808 CodeYourCloud[18803:162671] Resetting plugins due to page load.
+2014-11-13 18:18:20.836 CodeYourCloud[18803:162671] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/8CFCE1E5-8498-4A39-8DD9-A221CA65F6E6/CodeYourCloud.app/www/index.html
+2014-11-13 18:20:56.756 CodeYourCloud[22717:167811] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:20:56.757 CodeYourCloud[22717:167811] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:20:56.761 CodeYourCloud[22717:167811] Unlimited access to network resources
+2014-11-13 18:20:57.023 CodeYourCloud[22717:167811] Resetting plugins due to page load.
+2014-11-13 18:20:57.601 CodeYourCloud[22717:167811] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:20:57.601 CodeYourCloud[22717:167811] Resetting plugins due to page load.
+2014-11-13 18:20:57.624 CodeYourCloud[22717:167811] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/CC219B8D-E88F-437E-BFE9-85BF024777BE/CodeYourCloud.app/www/index.html
+2014-11-13 18:25:13.758 CodeYourCloud[26647:173616] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:25:13.761 CodeYourCloud[26647:173616] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:25:13.766 CodeYourCloud[26647:173616] Unlimited access to network resources
+2014-11-13 18:25:14.015 CodeYourCloud[26647:173616] Resetting plugins due to page load.
+2014-11-13 18:25:14.667 CodeYourCloud[26647:173616] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:25:14.667 CodeYourCloud[26647:173616] Resetting plugins due to page load.
+2014-11-13 18:25:14.738 CodeYourCloud[26647:173616] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/69962066-F1C8-438C-9F0C-F7D5B683AA7F/CodeYourCloud.app/www/index.html
+2014-11-13 18:33:04.848 CodeYourCloud[30609:180372] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:33:04.849 CodeYourCloud[30609:180372] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:33:04.854 CodeYourCloud[30609:180372] Unlimited access to network resources
+2014-11-13 18:33:05.133 CodeYourCloud[30609:180372] Resetting plugins due to page load.
+2014-11-13 18:33:05.781 CodeYourCloud[30609:180372] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:33:05.781 CodeYourCloud[30609:180372] Resetting plugins due to page load.
+2014-11-13 18:33:05.808 CodeYourCloud[30609:180372] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/6E5A034C-C8C9-4BE7-B2A0-C0F7CC660B51/CodeYourCloud.app/www/index.html
+2014-11-13 18:34:55.351 CodeYourCloud[34514:185131] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:34:55.353 CodeYourCloud[34514:185131] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:34:55.357 CodeYourCloud[34514:185131] Unlimited access to network resources
+2014-11-13 18:34:55.719 CodeYourCloud[34514:185131] Resetting plugins due to page load.
+2014-11-13 18:34:56.342 CodeYourCloud[34514:185131] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:34:56.343 CodeYourCloud[34514:185131] Resetting plugins due to page load.
+2014-11-13 18:34:57.190 CodeYourCloud[34514:185131] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/BEFDF630-800E-4A80-AF32-BA01B6314A16/CodeYourCloud.app/www/index.html
+2014-11-13 18:39:17.953 CodeYourCloud[38441:190718] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:39:17.955 CodeYourCloud[38441:190718] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:39:17.961 CodeYourCloud[38441:190718] Unlimited access to network resources
+2014-11-13 18:39:18.257 CodeYourCloud[38441:190718] Resetting plugins due to page load.
+2014-11-13 18:39:18.874 CodeYourCloud[38441:190718] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:39:18.875 CodeYourCloud[38441:190718] Resetting plugins due to page load.
+2014-11-13 18:39:19.646 CodeYourCloud[38441:190718] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F0F3BEE7-676D-46BB-B0AF-9A5672FADA9C/CodeYourCloud.app/www/index.html
+2014-11-13 18:45:54.947 CodeYourCloud[42435:197587] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 18:45:54.949 CodeYourCloud[42435:197587] Multi-tasking -> Device: YES, App: YES
+2014-11-13 18:45:54.954 CodeYourCloud[42435:197587] Unlimited access to network resources
+2014-11-13 18:45:55.212 CodeYourCloud[42435:197587] Resetting plugins due to page load.
+2014-11-13 18:45:55.816 CodeYourCloud[42435:197587] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 18:45:55.816 CodeYourCloud[42435:197587] Resetting plugins due to page load.
+2014-11-13 18:45:56.373 CodeYourCloud[42435:197587] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/CF660060-8C4B-453C-AD38-D8297A8F9E12/CodeYourCloud.app/www/index.html
+2014-11-13 20:20:47.207 CodeYourCloud[47006:220904] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 20:20:47.208 CodeYourCloud[47006:220904] Multi-tasking -> Device: YES, App: YES
+2014-11-13 20:20:47.215 CodeYourCloud[47006:220904] Unlimited access to network resources
+2014-11-13 20:20:47.593 CodeYourCloud[47006:220904] Resetting plugins due to page load.
+2014-11-13 20:20:48.382 CodeYourCloud[47006:220904] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 20:20:48.382 CodeYourCloud[47006:220904] Resetting plugins due to page load.
+2014-11-13 20:20:48.948 CodeYourCloud[47006:220904] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/45ED02DA-FEDC-4A89-B94A-C43681DC5F5A/CodeYourCloud.app/www/index.html
+2014-11-13 20:23:28.842 CodeYourCloud[50919:225956] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 20:23:28.844 CodeYourCloud[50919:225956] Multi-tasking -> Device: YES, App: YES
+2014-11-13 20:23:28.849 CodeYourCloud[50919:225956] Unlimited access to network resources
+2014-11-13 20:23:29.079 CodeYourCloud[50919:225956] Resetting plugins due to page load.
+2014-11-13 20:23:29.598 CodeYourCloud[50919:225956] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 20:23:29.598 CodeYourCloud[50919:225956] Resetting plugins due to page load.
+2014-11-13 20:23:30.204 CodeYourCloud[50919:225956] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F7550CB1-675B-4764-8418-AFA1E844BAB1/CodeYourCloud.app/www/index.html
+2014-11-13 20:28:15.689 CodeYourCloud[54851:231507] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 20:28:15.690 CodeYourCloud[54851:231507] Multi-tasking -> Device: YES, App: YES
+2014-11-13 20:28:15.695 CodeYourCloud[54851:231507] Unlimited access to network resources
+2014-11-13 20:28:15.906 CodeYourCloud[54851:231507] Resetting plugins due to page load.
+2014-11-13 20:28:16.470 CodeYourCloud[54851:231507] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 20:28:16.470 CodeYourCloud[54851:231507] Resetting plugins due to page load.
+2014-11-13 20:28:17.029 CodeYourCloud[54851:231507] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3333B831-B225-4FAB-B54A-6D5D1967F722/CodeYourCloud.app/www/index.html
+2014-11-13 20:37:49.791 CodeYourCloud[58823:238839] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 20:37:49.792 CodeYourCloud[58823:238839] Multi-tasking -> Device: YES, App: YES
+2014-11-13 20:37:49.798 CodeYourCloud[58823:238839] Unlimited access to network resources
+2014-11-13 20:37:50.005 CodeYourCloud[58823:238839] Resetting plugins due to page load.
+2014-11-13 20:37:50.522 CodeYourCloud[58823:238839] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 20:37:50.523 CodeYourCloud[58823:238839] Resetting plugins due to page load.
+2014-11-13 20:37:51.125 CodeYourCloud[58823:238839] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/B2838D99-E697-43F1-BF38-CECE571C68C2/CodeYourCloud.app/www/index.html
+2014-11-13 20:41:09.565 CodeYourCloud[62751:244471] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 20:41:09.566 CodeYourCloud[62751:244471] Multi-tasking -> Device: YES, App: YES
+2014-11-13 20:41:09.570 CodeYourCloud[62751:244471] Unlimited access to network resources
+2014-11-13 20:41:09.795 CodeYourCloud[62751:244471] Resetting plugins due to page load.
+2014-11-13 20:41:10.322 CodeYourCloud[62751:244471] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 20:41:10.323 CodeYourCloud[62751:244471] Resetting plugins due to page load.
+2014-11-13 20:41:10.510 CodeYourCloud[62751:244471] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/6AFA43F6-0D12-4D01-997E-B88F268B0443/CodeYourCloud.app/www/index.html
+2014-11-13 21:25:07.391 CodeYourCloud[66993:260688] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 21:25:07.392 CodeYourCloud[66993:260688] Multi-tasking -> Device: YES, App: YES
+2014-11-13 21:25:07.397 CodeYourCloud[66993:260688] Unlimited access to network resources
+2014-11-13 21:25:07.626 CodeYourCloud[66993:260688] Resetting plugins due to page load.
+2014-11-13 21:25:08.189 CodeYourCloud[66993:260688] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 21:25:08.189 CodeYourCloud[66993:260688] Resetting plugins due to page load.
+2014-11-13 21:25:08.744 CodeYourCloud[66993:260688] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/5EF9BA70-252B-4C98-B7D8-C1AEE90B0217/CodeYourCloud.app/www/index.html
+2014-11-13 21:28:00.551 CodeYourCloud[70928:266466] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 21:28:00.552 CodeYourCloud[70928:266466] Multi-tasking -> Device: YES, App: YES
+2014-11-13 21:28:00.556 CodeYourCloud[70928:266466] Unlimited access to network resources
+2014-11-13 21:28:00.824 CodeYourCloud[70928:266466] Resetting plugins due to page load.
+2014-11-13 21:28:12.012 CodeYourCloud[70928:266466] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-11-13 21:28:12.019 CodeYourCloud[70928:266466] THREAD WARNING: ['InAppBrowser'] took '172.978027' ms. Plugin should use a background thread.
+2014-11-13 21:28:26.096 CodeYourCloud[70928:266466] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-11-13 21:28:26.099 CodeYourCloud[70928:266466] THREAD WARNING: ['InAppBrowser'] took '112.745850' ms. Plugin should use a background thread.
+2014-11-13 21:28:40.637 CodeYourCloud[70928:266466] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-11-13 21:28:40.640 CodeYourCloud[70928:266466] THREAD WARNING: ['InAppBrowser'] took '109.112061' ms. Plugin should use a background thread.
+2014-11-13 21:28:46.062 CodeYourCloud[70928:267809] Terminating since there is no system app.
+2014-11-13 21:29:11.837 CodeYourCloud[74904:272541] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-13 21:29:11.838 CodeYourCloud[74904:272541] Multi-tasking -> Device: YES, App: YES
+2014-11-13 21:29:11.845 CodeYourCloud[74904:272541] Unlimited access to network resources
+2014-11-13 21:29:12.128 CodeYourCloud[74904:272541] Resetting plugins due to page load.
+2014-11-13 21:29:12.614 CodeYourCloud[74904:272541] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-13 21:29:12.646 CodeYourCloud[74904:272541] Resetting plugins due to page load.
+2014-11-13 21:29:13.519 CodeYourCloud[74904:272541] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A89107EB-2789-4B55-B1B0-83F96A55328C/CodeYourCloud.app/www/index.html
+2014-11-14 06:07:16.988 CodeYourCloud[79163:292957] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 06:07:16.989 CodeYourCloud[79163:292957] Multi-tasking -> Device: YES, App: YES
+2014-11-14 06:07:16.998 CodeYourCloud[79163:292957] Unlimited access to network resources
+2014-11-14 06:07:17.277 CodeYourCloud[79163:292957] Resetting plugins due to page load.
+2014-11-14 06:07:17.831 CodeYourCloud[79163:292957] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 06:07:17.832 CodeYourCloud[79163:292957] Resetting plugins due to page load.
+2014-11-14 06:07:18.480 CodeYourCloud[79163:292957] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/3404DDF7-CDF5-4EE7-AE10-23F1510A5066/CodeYourCloud.app/www/index.html
+2014-11-14 15:07:03.721 CodeYourCloud[85324:358120] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 15:07:03.722 CodeYourCloud[85324:358120] Multi-tasking -> Device: YES, App: YES
+2014-11-14 15:07:03.745 CodeYourCloud[85324:358120] Unlimited access to network resources
+2014-11-14 15:07:04.209 CodeYourCloud[85324:358120] Resetting plugins due to page load.
+2014-11-14 15:07:04.840 CodeYourCloud[85324:358120] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 15:07:04.842 CodeYourCloud[85324:358120] Resetting plugins due to page load.
+2014-11-14 15:07:05.672 CodeYourCloud[85324:358120] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/8CC6A430-4CC7-4BD3-A005-2F7E029FF095/CodeYourCloud.app/www/index.html
+2014-11-14 19:04:53.786 CodeYourCloud[90178:394657] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 19:04:53.788 CodeYourCloud[90178:394657] Multi-tasking -> Device: YES, App: YES
+2014-11-14 19:04:53.793 CodeYourCloud[90178:394657] Unlimited access to network resources
+2014-11-14 19:04:54.140 CodeYourCloud[90178:394657] Resetting plugins due to page load.
+2014-11-14 19:04:54.824 CodeYourCloud[90178:394657] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 19:04:54.828 CodeYourCloud[90178:394657] Resetting plugins due to page load.
+2014-11-14 19:04:55.707 CodeYourCloud[90178:394657] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1F2B6C1C-2A8D-49DC-A0B6-77B5F1655A8A/CodeYourCloud.app/www/index.html
+2014-11-14 19:08:10.078 CodeYourCloud[94098:400029] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 19:08:10.079 CodeYourCloud[94098:400029] Multi-tasking -> Device: YES, App: YES
+2014-11-14 19:08:10.083 CodeYourCloud[94098:400029] Unlimited access to network resources
+2014-11-14 19:08:10.339 CodeYourCloud[94098:400029] Resetting plugins due to page load.
+2014-11-14 19:08:10.880 CodeYourCloud[94098:400029] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 19:08:10.880 CodeYourCloud[94098:400029] Resetting plugins due to page load.
+2014-11-14 19:08:11.487 CodeYourCloud[94098:400029] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/FA1AF96E-3DF4-4D3A-B620-16537D5F46FB/CodeYourCloud.app/www/index.html
+2014-11-14 19:08:57.464 CodeYourCloud[97997:404471] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 19:08:57.466 CodeYourCloud[97997:404471] Multi-tasking -> Device: YES, App: YES
+2014-11-14 19:08:57.471 CodeYourCloud[97997:404471] Unlimited access to network resources
+2014-11-14 19:08:57.749 CodeYourCloud[97997:404471] Resetting plugins due to page load.
+2014-11-14 19:08:58.342 CodeYourCloud[97997:404471] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 19:08:58.342 CodeYourCloud[97997:404471] Resetting plugins due to page load.
+2014-11-14 19:08:58.879 CodeYourCloud[97997:404471] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/045F5C0B-B8D1-4358-B9FA-16F7D0846022/CodeYourCloud.app/www/index.html
+2014-11-14 19:31:10.300 CodeYourCloud[2257:415617] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 19:31:10.301 CodeYourCloud[2257:415617] Multi-tasking -> Device: YES, App: YES
+2014-11-14 19:31:10.305 CodeYourCloud[2257:415617] Unlimited access to network resources
+2014-11-14 19:31:10.641 CodeYourCloud[2257:415617] Resetting plugins due to page load.
+2014-11-14 19:31:11.228 CodeYourCloud[2257:415617] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 19:31:11.228 CodeYourCloud[2257:415617] Resetting plugins due to page load.
+2014-11-14 19:31:11.826 CodeYourCloud[2257:415617] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/4C9E8610-0802-4C4B-985C-7FC60910C3DB/CodeYourCloud.app/www/index.html
+2014-11-14 20:22:11.952 CodeYourCloud[6607:433306] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 20:22:11.953 CodeYourCloud[6607:433306] Multi-tasking -> Device: YES, App: YES
+2014-11-14 20:22:11.958 CodeYourCloud[6607:433306] Unlimited access to network resources
+2014-11-14 20:22:12.351 CodeYourCloud[6607:433306] Resetting plugins due to page load.
+2014-11-14 20:22:13.048 CodeYourCloud[6607:433306] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 20:22:13.048 CodeYourCloud[6607:433306] Resetting plugins due to page load.
+2014-11-14 20:22:13.935 CodeYourCloud[6607:433306] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/BCEEAA5B-A5A3-4DC0-8654-BFFB65930DF4/CodeYourCloud.app/www/index.html
+2014-11-14 20:23:55.447 CodeYourCloud[10519:438163] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 20:23:55.449 CodeYourCloud[10519:438163] Multi-tasking -> Device: YES, App: YES
+2014-11-14 20:23:55.455 CodeYourCloud[10519:438163] Unlimited access to network resources
+2014-11-14 20:23:55.704 CodeYourCloud[10519:438163] Resetting plugins due to page load.
+2014-11-14 20:23:56.328 CodeYourCloud[10519:438163] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 20:23:56.328 CodeYourCloud[10519:438163] Resetting plugins due to page load.
+2014-11-14 20:23:56.958 CodeYourCloud[10519:438163] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/1EBAC6DF-B271-44E9-A806-0B95D1BEDB8E/CodeYourCloud.app/www/index.html
+2014-11-14 20:29:23.773 CodeYourCloud[14455:444322] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 20:29:23.774 CodeYourCloud[14455:444322] Multi-tasking -> Device: YES, App: YES
+2014-11-14 20:29:23.778 CodeYourCloud[14455:444322] Unlimited access to network resources
+2014-11-14 20:29:24.053 CodeYourCloud[14455:444322] Resetting plugins due to page load.
+2014-11-14 20:29:24.572 CodeYourCloud[14455:444322] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 20:29:24.574 CodeYourCloud[14455:444322] Resetting plugins due to page load.
+2014-11-14 20:29:25.260 CodeYourCloud[14455:444322] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/C6F6F687-BE7F-42C6-B25F-77AE5F217A1E/CodeYourCloud.app/www/index.html
+2014-11-14 20:46:08.242 CodeYourCloud[18501:454323] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 20:46:08.243 CodeYourCloud[18501:454323] Multi-tasking -> Device: YES, App: YES
+2014-11-14 20:46:08.248 CodeYourCloud[18501:454323] Unlimited access to network resources
+2014-11-14 20:46:08.574 CodeYourCloud[18501:454323] Resetting plugins due to page load.
+2014-11-14 20:46:09.175 CodeYourCloud[18501:454323] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 20:46:09.175 CodeYourCloud[18501:454323] Resetting plugins due to page load.
+2014-11-14 20:46:09.766 CodeYourCloud[18501:454323] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/6C570735-307E-4F45-8C93-BE20A92418A6/CodeYourCloud.app/www/index.html
+2014-11-14 20:47:47.888 CodeYourCloud[22408:459185] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 20:47:47.889 CodeYourCloud[22408:459185] Multi-tasking -> Device: YES, App: YES
+2014-11-14 20:47:47.896 CodeYourCloud[22408:459185] Unlimited access to network resources
+2014-11-14 20:47:48.158 CodeYourCloud[22408:459185] Resetting plugins due to page load.
+2014-11-14 20:47:48.694 CodeYourCloud[22408:459185] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 20:47:48.695 CodeYourCloud[22408:459185] Resetting plugins due to page load.
+2014-11-14 20:47:49.327 CodeYourCloud[22408:459185] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/A1E6852C-DDD9-4700-B502-873367C3803C/CodeYourCloud.app/www/index.html
+2014-11-14 21:03:42.992 CodeYourCloud[26428:469189] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:03:42.993 CodeYourCloud[26428:469189] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:03:42.997 CodeYourCloud[26428:469189] Unlimited access to network resources
+2014-11-14 21:03:43.327 CodeYourCloud[26428:469189] Resetting plugins due to page load.
+2014-11-14 21:03:43.888 CodeYourCloud[26428:469189] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:03:43.888 CodeYourCloud[26428:469189] Resetting plugins due to page load.
+2014-11-14 21:03:44.490 CodeYourCloud[26428:469189] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/D8083257-F8C5-41DF-9D4D-9C84B8AFFB56/CodeYourCloud.app/www/index.html
+2014-11-14 21:05:16.112 CodeYourCloud[30337:474133] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:05:16.113 CodeYourCloud[30337:474133] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:05:16.118 CodeYourCloud[30337:474133] Unlimited access to network resources
+2014-11-14 21:05:16.419 CodeYourCloud[30337:474133] Resetting plugins due to page load.
+2014-11-14 21:05:17.084 CodeYourCloud[30337:474133] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:05:17.084 CodeYourCloud[30337:474133] Resetting plugins due to page load.
+2014-11-14 21:05:17.702 CodeYourCloud[30337:474133] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/88F6E9A5-08B4-44E7-B3F3-E5210C5A8C2A/CodeYourCloud.app/www/index.html
+2014-11-14 21:07:43.475 CodeYourCloud[34248:479078] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:07:43.476 CodeYourCloud[34248:479078] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:07:43.482 CodeYourCloud[34248:479078] Unlimited access to network resources
+2014-11-14 21:07:43.745 CodeYourCloud[34248:479078] Resetting plugins due to page load.
+2014-11-14 21:07:44.327 CodeYourCloud[34248:479078] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:07:44.327 CodeYourCloud[34248:479078] Resetting plugins due to page load.
+2014-11-14 21:07:44.893 CodeYourCloud[34248:479078] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/24FFC97B-6766-497E-8FA2-FDFBDD1ABB06/CodeYourCloud.app/www/index.html
+2014-11-14 21:14:53.997 CodeYourCloud[38197:485837] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:14:53.998 CodeYourCloud[38197:485837] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:14:54.002 CodeYourCloud[38197:485837] Unlimited access to network resources
+2014-11-14 21:14:54.287 CodeYourCloud[38197:485837] Resetting plugins due to page load.
+2014-11-14 21:14:54.825 CodeYourCloud[38197:485837] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:14:54.826 CodeYourCloud[38197:485837] Resetting plugins due to page load.
+2014-11-14 21:14:55.453 CodeYourCloud[38197:485837] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/FBDF4191-1854-4F1A-8D82-69E4D403E2C9/CodeYourCloud.app/www/index.html
+2014-11-14 21:19:08.850 CodeYourCloud[42122:491269] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:19:08.851 CodeYourCloud[42122:491269] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:19:08.855 CodeYourCloud[42122:491269] Unlimited access to network resources
+2014-11-14 21:19:09.122 CodeYourCloud[42122:491269] Resetting plugins due to page load.
+2014-11-14 21:19:09.627 CodeYourCloud[42122:491269] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:19:09.628 CodeYourCloud[42122:491269] Resetting plugins due to page load.
+2014-11-14 21:19:10.235 CodeYourCloud[42122:491269] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/F4AE0FEE-BC8B-491C-8EE6-1E9BEDB85E3D/CodeYourCloud.app/www/index.html
+2014-11-14 21:21:00.128 CodeYourCloud[46035:496249] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:21:00.129 CodeYourCloud[46035:496249] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:21:00.133 CodeYourCloud[46035:496249] Unlimited access to network resources
+2014-11-14 21:21:00.419 CodeYourCloud[46035:496249] Resetting plugins due to page load.
+2014-11-14 21:21:00.995 CodeYourCloud[46035:496249] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:21:00.995 CodeYourCloud[46035:496249] Resetting plugins due to page load.
+2014-11-14 21:21:01.557 CodeYourCloud[46035:496249] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/EF30CB1E-7AA8-45E7-BD85-D92970CAB28A/CodeYourCloud.app/www/index.html
+2014-11-14 21:23:43.269 CodeYourCloud[49948:501187] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-14 21:23:43.271 CodeYourCloud[49948:501187] Multi-tasking -> Device: YES, App: YES
+2014-11-14 21:23:43.278 CodeYourCloud[49948:501187] Unlimited access to network resources
+2014-11-14 21:23:43.569 CodeYourCloud[49948:501187] Resetting plugins due to page load.
+2014-11-14 21:23:44.189 CodeYourCloud[49948:501187] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-14 21:23:44.189 CodeYourCloud[49948:501187] Resetting plugins due to page load.
+2014-11-14 21:23:44.755 CodeYourCloud[49948:501187] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/0DA98434-A988-4DE0-BE8E-8A6980D779E2/CodeYourCloud.app/www/index.html
+2014-11-14 21:33:20.245 CodeYourCloud[49948:504356] Terminating since there is no system app.
+2014-11-15 19:48:16.329 CodeYourCloud[4755:28672] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 19:48:16.331 CodeYourCloud[4755:28672] Multi-tasking -> Device: YES, App: YES
+2014-11-15 19:48:16.349 CodeYourCloud[4755:28672] Unlimited access to network resources
+2014-11-15 19:48:16.912 CodeYourCloud[4755:28672] Resetting plugins due to page load.
+2014-11-15 19:48:17.935 CodeYourCloud[4755:28672] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-11-15 19:48:17.935 CodeYourCloud[4755:28672] Resetting plugins due to page load.
+2014-11-15 19:48:18.230 CodeYourCloud[4755:28672] Finished load of: file:///Users/kaminsky/Library/Developer/CoreSimulator/Devices/CBDB7A7A-831F-4C1E-AE7F-5F82A4B1BE51/data/Containers/Bundle/Application/8C4ED641-E18E-4123-B971-B9E7D8F2E144/CodeYourCloud.app/www/index.html
+2014-11-15 19:54:45.747 CodeYourCloud[4755:30261] Terminating since there is no system app.

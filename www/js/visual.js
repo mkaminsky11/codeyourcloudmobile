@@ -1,3 +1,14 @@
+
+$("#chat-text").focus(function(){
+  
+});
+
+$("#chat-text").blur(function(){
+ 
+});
+
+  
+  
 function get_prefs(){
   
   var nums = "";
@@ -30,10 +41,9 @@ function get_prefs(){
   
   document.getElementById("wrap-toggle").checked = nums;
   editor.setOption("lineWrapping",document.getElementById("wrap-toggle").checked);
-
-  document.getElementById("font-slider").value = font;
-  $(".CodeMirror").css("fontSize", font +"px");
 }
+
+
 
 document.getElementById("num-toggle").addEventListener('change',function(){
   line_nums();
@@ -69,89 +79,11 @@ function line_wrap() {
 }
 
 function font_size(){
-  if(local_load_font){
-    
-    $(".CodeMirror").css("font-size", document.getElementById("font-slider").value + "px");
-    localStorage.setItem("font", document.getElementById("font-slider").value);
-  }
-  else{
-    local_load_font = true;
-  }
-}
-
-document.getElementById("font-slider").addEventListener('change',function(){
-  font_size();
-});
-
-
-
-for(var i = 0; i < modes.length; i++){
-  var name = modes[i][0];
-  var m = modes[i][1];
-  var push = "<paper-radio-button name=\""+name+"\" data-name=\""+name+"\" label=\""+name+"\" class=\"mode-item\" onclick=\"setMode('"+m+"')\"></paper-radio-button>";
-
-  $("#mode-list").html($("#mode-list").html() + push);
-}
-
-function checkModeSearch(){
-  var query = $("#mode-input").val().toLowerCase();
-  $(".mode-item").each(function(index){
-    var the_name = $(this).attr("data-name").toLowerCase();
-    if(query.indexOf(the_name) !== -1 || the_name.indexOf(query) !== -1){
-      $(this).removeClass("hide");
-    }
-    else{
-      $(this).addClass("hide");
-    }
-  });
-}
-
-function checkThemeSearch(){
-  var query = $("#theme-input").val().toLowerCase();
-  $(".theme-item").each(function(index){
-    var the_name = $(this).attr("data-name").toLowerCase();
-    if(query.indexOf(the_name) !== -1 || the_name.indexOf(query) !== -1){
-      $(this).removeClass("hide");
-    }
-    else{
-      $(this).addClass("hide");
-    }
-  });
-}
-
-
-$('#mode-input').keyup(function(e){
-	checkModeSearch();
-});
-
-$('#theme-input').keyup(function(e){
-	checkThemeSearch();
-});
-
-
-for(var j = 0; j < themes.length; j++){
-  var the_name = themes[j];
-	 var the_theme = the_name.split(" ").join("-").toLowerCase();
-  
-  var push = "<paper-radio-button name=\""+the_theme+"\" data-name=\""+the_name+"\" label=\""+the_name+"\" class=\"theme-item\" onclick=\"setTheme('"+the_theme+"')\"></paper-radio-button>";
-  
-  $("#theme-list").html($("#theme-list").html() + push);
 }
 
 function setTheme(theme){
   editor.setOption("theme",theme);
 }
-
-$("#chat-text").focus(function(){
- $("#chat-text").animate({
-    height: "150px"
-  },300);
-});
-$("#chat-text").blur(function(){
- $("#chat-text").animate({
-    height: "40px"
-  },300);
-});
 
 
 
@@ -269,8 +201,6 @@ function permissions(users){
   for(var i = 0; i < users.length; i++){
     addShareUser(users[i].name, users[i].emailAddress, users[i].photoLink,users[i].id);
   }
-  
-  show_modal('share');
 }
 
 
@@ -292,7 +222,7 @@ function addP(){
 }
 
 function deleteP(i){
-  $(".share-item[data-p='"+i+"']").remove();
+  $("[data-p='"+i+"']").remove();
   removeP(i);
 }
 
@@ -313,16 +243,53 @@ function addShareUser(name, email, photo,i){
     icon = "<paper-icon-button icon=\"remove\" class=\"remove-share\" onclick=\"deleteP('"+i+"')\"></paper-icon-button>";
   }
   
-  var message = "<div class=\"message-item\"><pre>" + email + "</pre></div>";
+  var message = email;
   if(typeof email === 'undefined'){
     message= "";
   }
   
-  var push = "<div class=\"share-item\" data-p=\""+i+"\"><paper-shadow z=\"1\"></paper-shadow>";
+  /*var push = "<div class=\"share-item\" data-p=\""+i+"\"><paper-shadow z=\"1\"></paper-shadow>";
   push = push + "<div class=\"header-item\">";
   push = push + "<img height=\"51px\" width=\"50px\" src=\""+ temp_p +"\">";
   push = push + "<h4>" + name + "</h4>"+icon+"</div>";
-  push = push + message + "</div>";
+  push = push + message + "</div>";*/
+  
+  var build = "<div data-p=\""+i+"\" class=\"share\"><div class=\"img-div\">";
+  var img = "<img height=\"40px\" width=\"40px\" src=\""+temp_p+"\" style=\"border-radius:50%\">";
+  build = build + img + "</div><div class=\"desc-div\"><h4>";
+  build = build + name + "</h4><h6>" + message + "</h6></div></div><div data-p=\""+i+"\" class='share-close' onclick=\"deleteP('"+i+"')\">&times</div>";
+  
 
-  $("#share-list").html($("#share-list").html() + push);
+  $("#share-list").html($("#share-list").html() + build);
+  
+  $(".share").on('swipeleft', function(e) {
+    console.log($(this).attr("data-p"));
+    if($(this).attr("data-p") !== my_user_id){
+      $(this).velocity({
+        marginLeft: "-80px"
+      },{
+        duration: 500
+      });
+      
+      $(".share-close[data-p='"+$(this).attr("data-p")+"']").velocity({
+        right: 0
+      },{
+        duration: 500
+      });
+    }
+  });
+  
+  $(".share").on('swiperight', function(e) {
+    $(this).velocity({
+      marginLeft: "0px"
+    },{
+      duration: 500
+    });
+    
+    $(".share-close[data-p='"+$(this).attr("data-p")+"']").velocity({
+        right: "-80px"
+      },{
+        duration: 500
+      });
+  });
 }

@@ -84,6 +84,7 @@ function receiveMessage(event){
       }
     }
     else if(json.type === "shared"){
+      
         waiting = false;
         current_folder_open = "shared";
         if(next_open === "still"){

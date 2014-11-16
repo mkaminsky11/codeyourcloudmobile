@@ -236,15 +236,25 @@ function signIn(){
 }
 
 function signOut(){
-  var ref = window.open("https://accounts.google.com/logout", '_blank', 'location=no');
-  ref.addEventListener('loadstart', function(event){
-    setTimeout(function(){
-      ref.close();
-      lower_screen();
-      slide_down("#open-sheet");
-      $("#on").attr("onclick","signIn()");
-      $("#profile_pic").attr("src","");
-    }, 1000);
+  swal({   
+    title: "Are you sure?",   
+    text: "Do you really want to sign out?",   
+    type: "warning",   
+    showCancelButton: true,   
+    confirmButtonColor: "#2ECC71",   
+    confirmButtonText: "Yes, I'm sure" 
+  },  
+    function(){   
+      var ref = window.open("https://accounts.google.com/logout", '_blank', 'location=no');
+      ref.addEventListener('loadstart', function(event){
+        setTimeout(function(){
+          ref.close();
+          lower_screen();
+          slide_down("#open-sheet");
+          $("#on").attr("onclick","signIn()");
+          $("#profile_pic").attr("src","");
+        }, 1000);
+      });
   });
 }
 
@@ -257,7 +267,7 @@ function reload_iframe(){
 
 function offline(){
   //if in online mode
-  if($(".screen").css("background-color") === "rgb(0, 172, 193)"){
+  if($(".screen").css("background-color") === "rgb(43, 43, 43)"){
     lower_screen();
     $("#on").attr("onclick","");
     $("#info").html("You Are Offline");
@@ -277,7 +287,7 @@ function offline(){
 
 function online(){
   if($(".screen").css("background-color","rgb(229, 28, 35)")){
-    $(".screen").css("background-color","rgb(0, 172, 193)");
+    $(".screen").css("background-color","rgb(43, 43, 43)");
     $("#on").attr("onclick","signIn()")
     $("#info").html("Version 1.0");
 
@@ -286,6 +296,7 @@ function online(){
 }
 
 function shared_change(){
+  
     waiting = true;
     $("#open-back").fadeOut();
     levels_above_root = 0;

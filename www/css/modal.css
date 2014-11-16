@@ -58,44 +58,55 @@
 
 
 .side-modal-close{
-  background-color: #eefd40;
-  color: black;
+  z-index: 1;
+  background-color: #f36c60;
+  color: white;
   position: absolute;
-  right: 5px;
-  border-radius: 50%;
-  top: 10px;
+  left: 0px;
+  border-radius: 0%;
+  border-top-right-radius: 100%;
+  bottom: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
-#option-modal .side-modal-content>div{
-  height: 40px;
+.option-modal-div{
+  height: 20px;
   padding: 5px;
-  border-bottom: 1px solid #F2EDED;
+  border: none;
+  width:calc(100% - 10px);
+  margin-left: 0px;
+  font-family:'Oxygen';
+  border: none;
 }
 
-#option-modal .side-modal-content>div h4{
-    float: left;
-    margin-top: 9px;
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Roboto-Thin';
+.option-modal-div h4{
+  float: left;
+  margin-top: 0px;
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Oxygen-Light';
+  margin-bottom:0;
+  color: #323232;
 }
-#option-modal .side-modal-content>div paper-toggle-button{
+.option-modal-div paper-toggle-button{
   float: right;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .header-input{
   height: 36px;
   margin-top: 10px;
-  width: calc(100% - 120px);
-  border-radius: 18px;
+  width: calc(100% - 20px);
+  border-radius: 0px;
   outline: medium none;
   border: medium none;
-  font-family: "Roboto-Thin";
+  font-family: "Oxygen-Light";
   padding-left: 10px;
   padding-right: 10px;
   font-size: 15px;
   background-color: #00acc1;
+  border-bottom: solid thin #eee;
   color: white;
 }
 
@@ -129,34 +140,15 @@
   text-align: left;
   padding-top: 10px;
   border-bottom: 1px solid #F2EDED;
-  font-family: "Roboto-Light";
-}
-#chat-list, #share-list{
-  width: 100%;
-  height: calc(100% - 80px);
-  position: absolute;
-  top: 0px;
-  overflow-y: scroll;
-  background-color: #EEE;
-  overflow-x: hidden;
-  left: 0;
-  padding-top:20px
+  font-family: "Oxygen-Light";
 }
 #chat-footer{
   width: 100%;
   position: absolute;
   bottom: 0px;
-  height: 60px;
+  height: 60px; /*to 137*/
   background-color: #00acc1;
   left: 0px;
-}
-.chat-item, .col-item, .share-item{
-  left: 25px;
-  margin-top: 7px;
-  background-color: #FFF;
-  width: calc(100% - 50px);
-  position: relative;
-  margin-bottom: 7px;
 }
 .header-item{
   height: 50px;
@@ -181,48 +173,8 @@
   word-wrap: break-word;
   width: calc(100% - 40px);
   white-space: pre-wrap;
-  font-family: "Roboto-Thin"; 
+  font-family: "Oxygen-Thin"; 
 }
-#chat-text{
-  width: calc(100% - 60px); 
-  margin-left: 5px; 
-  margin-top: 5px; 
-  border-radius: 1px; 
-  resize: none; 
-  padding: 2px; 
-  font-size: 15px; 
-  font-family: 'Roboto-Light';
-  position: absolute; 
-  bottom: 5px; 
-  border: solid thin #e0e0e0; 
-  height: 40px;
-  text-shadow: none;
-  outline: none;
-  -webkit-appearance: none;
-}
-#send-button{
-  position: absolute;
-  right: 5px;
-  color: black;
-  bottom: 9px;
-  background-color: #eefd40;
-  border-radius: 50%;
-}
-#col-list, #share-list{
-  width: 100%;
-  height: calc(100% - 20px);
-  position: absolute;
-  top: 20px;
-  overflow-y: scroll;
-  background-color: #EEE;
-  overflow-x: hidden;
-  left: 0;
-  padding-bottom:20px;
-  top:20px;
-  padding-top:20px;
-  height: calc(100% - 60px);
-}
-
 #col-list{
   height: 100%;
   top: 0px;
@@ -236,8 +188,9 @@
 
 #preview, #lorem{ 
   width: 100%;
-  height: 100%;
-  border: solid thin gray;
+  height: calc(100% - 40px);
+  margin-top: 20px;
+  border: none;
   background-color: white;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
@@ -248,6 +201,7 @@
   width: 100%;
   border: solid thin #eee;
   background-color: #646464;
+  margin-top: 20px;
 }
 
 #color-modal .side-modal-content>div{
@@ -271,24 +225,4 @@
 }
 #green #activeProgress{
   background-color: #42bd41 !important;
-}
-
-#color-hex{
-  width: calc(100% - 10px);
-  height: 40px;
-  -webkit-appearance: none;
-  border: thin solid #EEE;
-  padding: 5px;
-  font-size: 18px;
-  font-family: "Roboto-Light";
-  border-radius: 10px;
-  outline: none;
-}
-
-.remove-share{
-  position:absolute;
-  right:4px;
-  top:4px;
-  border-radius:50%;
-  color:#e84e40;
 }

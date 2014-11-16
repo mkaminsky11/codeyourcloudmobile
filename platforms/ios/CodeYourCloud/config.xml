@@ -19,11 +19,11 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
-    </feature>
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
     </feature>
     <name>CodeYourCloud</name>
     <description>
@@ -32,6 +32,7 @@
     <author email="mkaminsky11@gmail.com" href="https://mkaminsky11.github.io">
         Michael Kaminsky
     </author>
+    <preference name="BackupWebStorage" value="none" />
     <content src="index.html" />
     <access origin="*" />
 </widget>
